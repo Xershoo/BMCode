@@ -1,0 +1,499 @@
+@CHARSET "UTF-8";
+
+body {
+	text-align: center;
+	background:#f5f4f2;
+}
+
+#teacher_main {
+	width: 1200px;
+	height: 1200px;
+	margin: 15px auto;
+}
+
+/*-------------分割线----------------*/
+#right_data {
+	width: 963px;
+	height: 1200px;
+	float: left;
+	margin-left:15px;
+	border: 1px solid #f5f8fa;
+	background: #fff;
+}
+
+#right_data_menu {
+	width: 965px;
+	height: 45px;
+	float: left;
+	background:#f5f8fa;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.right_menu_word {
+	height: 43px;
+	line-height: 43px;
+	float: left;
+	margin-left: 5px;
+	margin-right: 40px;
+	font-family: '微软雅黑 Bold', '微软雅黑';
+	font-style: normal;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.four_word {
+	width: 110px;
+}
+
+.five_word {
+	width: 110px;
+}
+
+.teacher_common_style {
+	font-size:16px;
+	font-weight: 700;
+	margin-left:15px;
+	color:#718492;
+}
+
+
+.data_list {
+	width: 100%;
+	height: 600px;
+	float: left;
+}
+
+.data_table_head {
+	width: 963px;
+	height: 30px;
+	float: left;
+	background: #f5f4f2;
+	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	font-family: '微软雅黑 Bold', '微软雅黑';
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	font-size: 13px;
+	margin-top: 30px;
+}
+
+.head_word {
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	color:#7b7a7a;
+/* 	border-right: 1px solid #e4e4e4; */
+}
+
+#teacher_name {
+	width: 320px;
+}
+
+#school_name {
+	width: 155px;
+}
+
+#faculty_name {
+	width: 180px;
+}
+
+#subject_name {
+	width: 100px;
+}
+
+#teacher_num {
+	width: 90px;
+}
+
+#teacher_sex {
+	width: 80px;
+}
+
+#teacher_status {
+	width: 150px;
+}
+
+#teacher_opt1 {
+	width: 158px;
+	border: 0;
+}
+
+.data_info {
+	width: 100%;
+	height: 137px;
+	float: left;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.info_name {
+	width: 320px;
+	height: 136px;
+	float: left;
+}
+
+.basic_info {
+	width: 300px;
+	height: 136px;
+	float: left;
+}
+
+.b_info {
+	width: 300px;
+}
+
+.info_school {
+	width: 155px;
+	height: 82px;
+	float: left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+	padding-top: 55px;
+}
+
+.ter_reason {
+	width: 120px;
+	height: 136px;
+	float: left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+	padding-top: 50px;
+}
+
+.ter_time {
+	width: 120px;
+	height: 82px;
+	float: left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+	padding-top: 55px;
+}
+
+.charge_name {
+	width: 140px;
+	height: 82px;
+	padding-top: 55px;
+	float: left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+}
+
+.info_faculty {
+	width: 180px;
+	height: 82px;
+	padding-top: 55px;
+	float: left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+}
+
+.sign_time {
+	width: 150px;
+	height: 82px;
+	padding-top: 55px;
+	float: left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+}
+
+.info_subject {
+	width: 100px;
+	height: 136px;
+	line-height: 136px;
+	float: left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+}
+
+.info_num {
+	width: 90px;
+	height: 136px;
+	line-height: 136px;
+	float: left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+}
+
+.info_sex {
+	width: 80px;
+	height: 136px;
+	line-height: 136px;
+	float: left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+}
+
+.info_status {
+	width: 150px;
+	height: 82px;
+	float: left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+	padding-top: 55px;
+}
+
+.info_opt {
+	width: 158px;
+	height: 92px;
+	padding-top: 44px;
+	float: left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+}
+
+.teacher_logo {
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.teacher_logo img{
+	width:75px;
+	height:75px;
+	border-radius:90px;
+}
+.teacher_name_word {
+	width: 162px;
+	height: 30px;
+	line-height: 30px;
+	float: right;
+	font-family: '微软雅黑 Bold', '微软雅黑';
+	font-weight: 700;
+	font-style: normal;
+	text-align: left;
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+.nick_name {
+	float: left;
+	margin-left: 10px;
+	margin-top: 53px;
+}
+
+.word_img {
+	width: 24px;
+	height: 24px;
+	float: left;
+	margin-top: 3px;
+}
+
+.desc_word {
+	width: 53px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	margin-left: 2px;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+	text-align: left;
+}
+
+p {
+	color: #3299ff;
+	cursor: pointer;;
+}
+
+#menu2_data_list {
+	display: none;
+}
+
+#teacher_infor, .width_new {
+	width: 320px;
+}
+
+#sign_time, #info_time {
+	width: 180px;
+}
+
+#order_count, #student_count, #info_order, #info_student {
+	width: 180px;
+}
+
+#income, #assess_count, #info_income, #info_assess {
+	width: 111px;
+}
+
+#teacher_opt2 {
+	width: 105px;
+	border: 0;
+}
+
+#info_opt2 {
+	width: 156px;
+	border: 0;
+	color: blue;
+}
+
+.menu2_data_common {
+	height: 136px;
+	line-height: 136px;
+	float: left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+}
+
+.desc_width_new {
+	width: 255px;
+}
+
+#menu3_data_list {
+	display: none;
+}
+
+#teacher_infor2 {
+	width: 300px;
+}
+
+#register_time {
+	width: 140px;
+}
+
+#apply_time, #apply_status {
+	width: 150px;
+}
+
+#ter_reason {
+	width: 120px;
+}
+
+#apply_status, #apply_apply_status {
+	width: 120px;
+}
+
+#teacher_opt3 {
+	width: 116px;
+	border: 0px;
+}
+
+.desc_width_new2 {
+	width: 380px;
+}
+
+#info_opt3 {
+	width: 116px;
+	text-align: center;
+	color: blue;
+}
+
+#menu4_data_list {
+	display: none;
+}
+
+.go_all {
+	width: 100%;
+	height: 200px;
+	text-align: left;
+	padding-left: 50px;
+	padding-top: 50px;
+	cursor: pointer;
+}
+
+.apply_join {
+	height: 30px;
+	width: 108px;
+	margin-top: 7px;
+	border-radius: 5px;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	background-color: #72d0f3; border : 0 solid #ffffff;
+	color: white;
+	border: 0 solid #ffffff;
+}
+
+.ui-dialog-title {
+	font-size: 17px;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	font-weight: 700;
+}
+
+.ui-draggable .ui-dialog-titlebar {
+	background-color: rgba(102, 102, 102, 0.36);
+}
+
+.apply_content {
+	width: 100%;
+	height: 140px;
+	float: left;
+	margin-top: 14px;
+}
+
+.apply_tab {
+	width: 100%;
+	height: 60%;
+	float: left;
+	line-height: 20px;
+	border: 0px solid #fff;
+	float: left;
+	font-size: 15px;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	font-weight: 400;
+}
+
+.apply_tab th {
+	width: 75px;
+	height: 30px;
+	font-weight: 100;
+	text-align: center;
+	padding-left: 100px;
+}
+
+.apply_tab tr td {
+	width: 230px;
+	height: 30px;
+	text-align: left;
+}
+
+.r_oth {
+	padding-left: 118px;
+}
+
+.r_int {
+	border: 1px solid #eaeaea;
+}
+
+.ui-widget-content a:HOVER {
+	color: #3266ff;
+	cursor: pointer;
+}
+
+.ui-button-text-only .ui-button-text {
+	background-color: rgba(224, 219, 219, 0.88);
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	color: rgb(10, 111, 241);
+	width: 65px;
+	border: 0px solid #ffffff;
+	border-radius: 5px;
+}
+.no_data{
+	width:100%;
+	height:30px;
+	text-align:center;
+	padding-top:10px;
+}

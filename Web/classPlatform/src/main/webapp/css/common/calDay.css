@@ -1,0 +1,267 @@
+
+body{
+    
+    font-family: "微软雅黑";
+}
+
+.courseCalWrap .courseCalLeft .scroll .threeImg span{
+	cursor: pointer;
+}
+.courseCalWrap .courseCalLeft .scroll .threeImg .current{
+	color:#fff;
+    background:#28c445 url(../../images/calIcon.png) 12px -19px;
+}
+}
+.courseCalWrap .threeImgList{
+	width:100%;
+	height:100%;
+}
+.threeImgList .threeImgListLi{
+	display: none;
+	margin-left:242px;
+}
+.threeImgList .threeImgListLi.current1{
+	display: block;
+
+}
+
+.courseCalWrap .dayCourseCon,.courseCalWrap .weekCourseCon{
+	border:1px solid #c1d3df;
+	
+}
+
+.courseCalWrap .dayCourseCon .dayCourseTitle,.courseCalWrap .weekCourseCon .weekCourseTittle{
+	height:44px;
+	background:#1976d2;
+	text-align: center;
+	line-height: 44px;
+	color:#fff;
+	font-size:12px;
+	
+}
+.courseCalWrap .dayCourseCon .dayCourseTitle{
+	background:none;
+}
+.courseCalWrap .dayCourseMain .liDiv{
+	height:54px;
+	border-bottom:1px solid #c1d3df;
+	background:#fff;
+	position: relative;
+}
+
+.courseCalWrap .dayCourseMain .liDiv .olLeft{
+	width:31px;
+	height:54px;
+	border-right:1px solid #c1d3df;
+	border-bottom:1px solid #e7eaed;
+	text-align: center;
+	line-height: 45px;
+	float: left;
+	color:#063e6d;
+	background:#e7eaed;
+	position: absolute;
+	z-index:99;
+}
+.courseCalWrap .dayCourseMain .liDiv .olRight{
+	color:#063e6d;
+	/* float: right; */
+	height:48px;
+	position: relative;
+	width:98%;
+	top:0;
+	left:2%;
+	padding-top:6px;
+	
+	cursor: pointer;
+
+}
+.courseCalWrap .dayCourseMain .liDiv .olRight:hover{
+	background:#e5feea;
+	
+	height:48px;
+	padding-top:6px;
+
+}
+.courseCalWrap .dayCourseMain .liDiv .olRight span.courses{
+	margin-right:10px;
+}
+.courseCalWrap .dayCourseMain .liDiv .olRight .courseName,.courseCalWrap .dayCourseMain .liDiv .olRight .courseTime{
+	line-height: 16px;
+	padding-left:1px;
+	padding-left:20px;
+	color:#4f566b;
+}
+.courseCalWrap .dayCourseMain .liDiv .olRight .courseTime{
+	color:#28c445;
+	font-weight: bold;
+	font-family: "宋体";
+	padding-left:40px;
+	padding-top:6px;
+}
+.courseCalWrap .dayCourseMain .liDiv .olRight .courseName .courses{
+	padding-left:20px;
+}
+
+/************************日历周***********/
+/* .courseCalWrap .weekCourseCon{
+	height:587px;
+} */
+.courseCalWrap .weekCourseCon .weekCourseTittle{
+	position: relative;
+}
+.courseCalWrap .weekCourseCon .weekCourseTittle span{
+	float: left;
+	width:14%;
+
+}
+.courseCalWrap .weekCourseCon .weekCourseTittle .jieci{
+	width:32px;
+	height:44px;
+	line-height:22px;
+	/* overflow: hidden; */
+	position: absolute;
+	left:0;
+	z-index:99;
+	
+
+}
+
+.courseCalWrap .weekCourseCon .weekCourseTittle span{
+	background:url(../../images/line1.png) no-repeat 0 0 ;
+}
+.courseCalWrap .weekCourseCon .weekCourseTittle span.jieci{
+	display:block;
+	background:#1976d2 url(../../images/line1.png) no-repeat 31px 0;
+	
+}
+
+.courseCalWrap .weekCourseCon .weekCourseTittle .first_weekTitle{
+	margin-left:2%;
+}
+/* .courseCalWrap .weekDays{
+	overflow: hidden;
+} */
+.courseCalWrap .weekDays  ul{
+	float: left;
+}
+.courseCalWrap .weekDays .weekEveryCon{
+	width:14%;
+	border-bottom:1px solid #c1d3df;
+}
+.courseCalWrap .weekDays .first_weekEveryCon{
+	width:14%;
+	padding-left:2%;
+}
+.courseCalWrap .weekDays .weekEvery{
+	width: 32px;
+    border-top: 1px solid #c1d3df;
+    background: #e7eaed;
+    color: #4f566b;
+    position: absolute;
+    z-index: 999;
+    border-right: 1px solid #c1d3df;
+}
+.courseCalWrap .weekDays .weekEvery li{
+    line-height: 52px;
+	border-left:0;
+	border-bottom:1px solid #e7eaed;
+	text-align: center;
+
+}
+.courseCalWrap .weekDays .weekEveryCon li{
+	height:52px;
+	text-align: center;
+	border-left:1px solid #c1d3df;
+	border-top:1px solid #c1d3df;
+	position: relative;
+	background:#fff;
+}
+
+#lastWeekCon li{
+	border-right:1px solid #c1d3df;
+}
+/* .courseCalWrap .weekDays .weekEvery li{
+	border-left:1px solid #c1d3df;
+} */
+.courseCalWrap .weekDays .weekEveryCon li:hover{
+	background:#e5feea;
+	cursor: pointer;
+}
+.courseCalWrap  .weekDays .courseName,.courseCalWrap  .weekDays .courseTime{
+	line-height: 14px;
+	margin:6px 0 0 10px;
+	text-align: left;
+	padding-left:21px;
+	cursor: pointer;
+	color:#4f566b;
+}
+.courseCalWrap  .weekDays .courseTime{
+	color:#28c445;
+	padding-left:20px;
+	font-family: "宋体";
+	font-weight: bold;
+}
+.courseType{
+	width: 24px;
+	position: absolute;
+	left:0;
+	top:32px;
+	font-size:12px;
+	color:#fff;
+	text-align: center;
+	padding-top:4px;
+}
+.myCourse{
+	position: absolute;
+	height:695px;
+}
+
+.myCourseList{
+	position: relative;
+	/* overflow: hidden; */
+	height:90%;
+	overflow-y:auto;
+}
+.iconList{
+	/* width:16px;
+	height:100%;
+	position:absolute;
+	left:15px;
+	top:10px;
+	background:url(../../images/iconList.png)  repeat-y 0px 0; */
+	width: 16px;
+    height: 100%;
+    position: absolute;
+    left: 15px;
+    top: 43px;
+    background: url(../../images/iconList.png) repeat-y 0px -99px;
+}
+.dayCourseTitleWrap{
+	height:44px;
+	background:#1976d2;
+	line-height: 44px;
+	color:#fff;
+	font-size:12px;
+	position: relative;
+}
+.dayCourseTitleWrap span{
+	float:left;
+	height:40px;
+	width:33px;
+	line-height:20px;
+	padding-top:4px;
+	text-align: center;
+	position: absolute;
+	left:0;
+	z-index:99;
+	background:url(../../images/line1.png) no-repeat 31px 0;
+
+}
+.dayCourseTitleWrap .dayCourseTitle{
+	padding-left:2%;
+	width:98%;
+	padding-top:0;
+
+}
+
+

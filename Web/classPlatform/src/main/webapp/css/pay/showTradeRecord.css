@@ -1,0 +1,276 @@
+@CHARSET "UTF-8";
+
+#show_main{
+	width:1200px;
+	min-height:800px;
+	margin:0 auto;
+	margin-bottom:20px;
+	margin-top:15px;
+	height:auto;
+	overflow:hidden;
+}
+
+#right_data_show{
+	width:963px;
+	min-height:950px;
+	float:right;
+	border:1px solid #e4e4e4;
+	background:#fff;
+}
+
+#right_data_title{
+	width:100%;
+	height:45px;
+	float:left;
+	border-bottom:1px solid #e5e5e5;
+	background:#fff;
+}
+
+#trade_menu{
+	width:925px;
+	height:50px;
+	float:left;
+	margin-left:20px;
+	border-bottom:5px solid #e5e5e5;
+}
+
+.menu_common{
+	width:90px;
+	height:50px;
+	line-height:60px;
+	float:left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    cursor: pointer;
+    color:#3d3d3d;
+}
+
+.line{
+	width:1px;
+	height:18px;
+	float:left;
+	margin-top:23px;
+}
+
+#menuAll{
+	border-bottom:5px solid #51a4f6;
+	color:#51a4f6;
+}
+
+#trade_data_list{
+	width:100%;
+	height:auto;
+	float:left;
+	overflow:hidden;
+	padding-bottom:10px;
+}
+
+#trade_desc_word{
+	width:900px;
+	height:70px;
+	line-height:80px;
+	float:left;
+	text-align:left;
+	margin-left:40px;
+	font-family:'微软雅黑 Regular', '微软雅黑';
+	font-weight:400;
+	font-size:18px;
+	font-style: normal;
+    color: #999999;
+}
+
+#search_condition_div{
+	width:948px;
+	height:150px;
+	float:left;
+	margin-left:7px;
+	border-left:1px solid #e4e4e4; 
+	border-top:1px solid #e4e4e4;
+	border-right:1px solid #e4e4e4; 
+	margin-top:15px;
+}
+
+.search_condition{
+	width:100%;
+	height:30px;
+	float:left;
+	margin-top:15px;
+}
+
+.condition_desc{
+	width:120px;
+	height:30px;
+	line-height:30px;
+	float:left;
+	text-align:right;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+#trade_date,.menu_search_date{
+	width:350px;
+	height:30px;
+	line-height:30px;
+	float:left;
+	margin-left:10px;
+	text-align:left;
+}
+
+#trade_date input{
+	width:160px;
+	height:24px;
+}
+
+#search_trade_btn, .search_btn{
+	width:110px;
+	height:30px;
+	line-height:30px;
+	float:left;
+	margin-left:20px;
+	border-radius:5px;
+	cursor: pointer;
+	background:#51a4f6;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+#select_date_range, .menu_search_sel{
+	width:120px;
+	height:30px;
+	line-height:30px;
+	float:left;
+	text-align:left;
+	margin-left:20px;
+}
+
+.sel_date_range{
+	width:100px;
+	height:22px;
+}
+
+.condition_radio{
+	width:700px;
+	height:30px;
+	line-height:30px;
+	float:left;
+	margin-left:10px;
+	text-align:left;
+}
+
+.select_bg{
+	width:13px;
+	height:13px;
+	background:url(../../images/wealth/radio_bg.png) no-repeat;
+	float:left;
+	margin-top:8px;
+	cursor:pointer;
+}
+.selected{
+	background:url(../../images/wealth/radio_select_bg.png) no-repeat;
+}
+
+.select_word{
+	width:40px;
+	height:30px;
+	line-height:30px;
+	float:left;
+	margin-left:3px;
+}
+
+.condition_radio input{
+	margin-left:20px;
+}
+
+.table_common{
+	width:950px;
+	float:left;
+	margin-left:7px;
+}
+
+table{
+	width:950px;
+	float:left;
+	border:solid #e4e4e4;
+	border-width:1px 0px 0px 1px;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+
+table tr{
+	border:solid #e4e4e4;
+	border-width:0px 1px 1px 0px;
+}
+
+table tr th{
+	border:solid #e4e4e4;
+	border-width:0px 1px 0px 0px;
+	color:#9c9c9c;
+}
+
+#trade_table p{
+	color:blue;
+}
+
+/**收支记录样式**/
+#budget_data_list{
+	width:100%;
+	height:860px;
+	float:left;
+	display:none;
+}
+
+.menu_search_condition{
+	width: 948px;
+    height: 30px;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 1px solid #e4e4e4;
+    border-top: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    margin-left: 7px;
+    margin-top: 15px;
+}
+
+.menu_search_word{
+	width:110px;
+	height:30px;
+	line-height:30px;
+	float:left;
+	font-family: '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align:right;
+}
+
+/**充值记录样式**/
+#recharge_data_list{
+	width:100%;
+	height:860px;
+	float:left;
+	display:none;
+}
+
+#deposit_data_list{
+	width:100%;
+	height:860px;
+	float:left;
+	display:none;
+}
+
+#page{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	float:left;
+}

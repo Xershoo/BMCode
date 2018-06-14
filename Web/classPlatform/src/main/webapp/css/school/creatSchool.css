@@ -1,0 +1,483 @@
+@CHARSET "UTF-8";
+
+body{
+	text-align:center;
+	background:#f5f4f2;
+}
+
+#downLoad_trust_sample a:LINK{
+	color:blue;
+}
+
+#downLoad_trust_sample a:VISITED{
+	color:blue;
+}
+
+#downLoad_trust_sample a:hover{
+	color:blue;
+}
+
+#x_line{
+	width:100%;
+	min-width: 1200px;
+	height:20px;
+	border-bottom:1px solid #ccc;
+	margin-bottom:10px;
+}
+
+#main {
+	width:1200px;
+	margin:0 auto;	
+	height:auto;
+	overflow: hidden;
+	margin-bottom:20px;
+	margin-top:15px;
+}
+
+#school_ad{
+	width:1200px;
+	height:418px;
+	background:url("../../images/schoolAD_bg.png");
+	float:left;
+}
+
+#apply_title{
+	width:170px;
+	height:50px;
+	line-height:50px;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	font-weight: 400;
+	font-size:36px;
+	position:relative;
+	top:85px;
+	left:730px;
+}
+
+.creatBtn{
+	width:115px;
+	height:40px;
+	line-height:40px;
+	position:relative;
+	color:#fff;
+	background:url("../../images/sub_button_mouseOver.png") no-repeat;
+	font-size:14px;
+	font-weight: bold;
+	border-radius:5px;
+	cursor: pointer;
+}
+
+#schoolBtn{
+	top:150px;
+	left:680px;
+}
+
+#personBtn{
+	top:110px;
+	left:870px;
+}
+
+#school_ad_small{
+	width:100%;
+	height:220px;
+	float:left;
+	margin-top:40px;
+}
+
+.ad_logo{
+	width:250px;
+	height:220px;
+	margin-left:66px;
+	float:left;
+	background:url("../../images/schoolAD_bg_small.png") no-repeat;
+}
+
+/*----------------------填写申请信息样式----------------------*/
+#input_info_main{
+	width:1200px;
+	margin:0 auto;
+	border:1px solid #ccc;
+	height:auto;
+	overflow: hidden;
+	margin-bottom:20px;
+	margin-top:15px;
+	background:#fff;
+}
+
+#input_info_menu{
+	width:1170px;
+	height:45px;
+	line-height:45px;
+	background:#f5f8fa;
+	border-bottom:1px solid #e4e4e4;
+	float:left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    text-align:left;
+    padding-left:30px;
+    color:#546d7e;
+}
+
+#apply_step1,#apply_step3{
+	width:440px;
+	height:100%;
+	float:left;
+	
+}
+
+#apply_step2{
+	width:299px;
+	height:100%;
+	float:left;
+}
+
+#step1_line{
+	width:440px;
+	border:3px solid #189ed7;
+	margin-top:34px;
+	background:#189ed7;
+}
+
+#step2_line{
+	width:299px;
+	border:3px solid #ccc;
+	margin-top:34px;
+	background:#189ed7;
+}
+
+#step3_line{
+	width:440px;
+	border:3px solid #ccc;
+	margin-top:34px;
+	background:#189ed7;
+}
+
+.step_name{
+	width:161px;
+	height:59px;
+	line-height:59px;
+	position:relative;
+	color:#fff;
+	font-size:14px;
+}
+
+#step1{
+	top:-33px;
+	left:180px;
+	background:url("../../images/school_apply_menu_blue.png") no-repeat;
+}
+#step2{
+	top:-33px;
+	left:70px;
+	background:url("../../images/school_apply_menu_gray.png") no-repeat;
+}
+#step3{
+	top:-33px;
+	left:100px;
+	background:url("../../images/school_apply_menu_gray.png") no-repeat;
+}
+
+.school_info_title{
+	width:950px;
+	height:45px;
+	border-bottom:1px solid #e4e4e4;
+	float:left;
+	
+	margin-left:80px;
+}
+
+.title_word{
+	width:120px;
+	height:45px;
+	line-height:60px;
+	float:left;
+	border-bottom:3px solid #51a4f6;
+	font-family: '微软雅黑';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.school_info_main{
+	width:100%;
+	min-height:300px;
+	float:left;
+}
+
+.school_info_input{
+	width:100%;
+	height:50px;
+	float:left;
+}
+
+.school_info_label{
+	width:280px;
+	height:50px;
+	line-height:50px;
+	float:left;
+	text-align:right;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.school_info_value{
+	width:375px;
+	height:50px;
+	line-height:50px;
+	float:left;
+	text-align:left;
+	margin-left:20px;
+}
+
+select,input{
+	width:357px;
+	height:30px;
+}
+em{
+	color:red;
+}
+
+#upload_school_logo{
+	margin-top:10px;
+	width:236px;
+	height:150px;
+	/* background:url("../../images/c3-1-9techCertification/chose_fl.png") no-repeat; */
+}
+
+#sample_title{
+	width:100px;
+}
+
+#sample_school_logo{
+	margin-top:10px;
+	width:200px;
+	height:150px;
+	background:url("../../images/school/school_sample_logo.png") no-repeat;
+}
+
+.upload_logo_desc{
+	width:220px;
+	height:80px;
+	float:left;
+	font-size:13px;
+	color:#999999;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	text-align:left;
+	vertical-align: bottom;
+	margin-top:96px;
+	margin-left:20px;
+}
+
+#input_logo_file_value,#input_organ_file_value,#input_organ_file_value,#input_card_file_value,#input_trust_file_value{
+	width:194px;
+	height:40px;
+	line-height:40px;
+	background:#777777;
+	color:#fff;
+	font-family: '微软雅黑';
+    text-align: center;
+    position: relative;
+    top: -61px;
+    left: 0px;
+}
+
+.z_file {
+    width: 100%;
+    height: 30px;
+    position: relative;
+    top: -51px;
+    left: 0px;
+    opacity: 0;
+}
+
+#sample_organ_logo{
+	margin-top:10px;
+	width:200px;
+	height:150px;
+	background:url("../../images/school/organ_sample_logo.png") no-repeat;
+}
+
+#sample_business_logo{
+	margin-top:10px;
+	width:200px;
+	height:150px;
+	background:url("../../images/school/business_sample_logo.png") no-repeat;
+}
+
+#sample_card_logo{
+	margin-top:10px;
+	width:200px;
+	height:150px;
+	background:url("../../images/school/card_sample_logo.png") no-repeat;
+}
+
+#sample_trust_logo{
+	margin-top:10px;
+	width:200px;
+	height:150px;
+	background:url("../../images/school/trust_sample_logo.png") no-repeat;
+}
+
+#card_front_logo{
+	margin-top:10px;
+	width:200px;
+	height:150px;
+	background:url("../../images/school/card_front_logo.png") no-repeat;
+}
+
+#card_back_logo{
+	margin-top:10px;
+	width:200px;
+	height:150px;
+	background:url("../../images/school/card_back_logo.png") no-repeat;
+}
+
+#downLoad_trust_sample{
+	width:150px;
+	height:30px;
+	line-height:30px;
+	position: relative;
+    top: -5px;
+    left: 312px;
+    float: left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+#submit_btn_div{
+	width:270px;
+	height:40px;
+	float:left;
+	margin-top:20px;
+	margin-left:280px;
+	margin-bottom:10px;
+}
+
+.btn_common{
+	width:80px;
+	height:40px;
+	line-height:40px;
+	float:left;
+	background:#51a4f6;
+	cursor: pointer;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-radius:5px;
+    margin-left:20px;
+}
+
+.validate_info{
+	width:300px;
+	height:50px;
+	line-height:50px;
+	float:left;
+	color:red;
+	display:none;
+	text-align:left;
+}
+.validate_file_info{
+	width:300px;
+	height:30px;
+	line-height:30px;
+	float:left;
+	color:red;
+	margin-left:20px;
+	display:none;
+	text-align:left;
+}
+
+#agree_desc{
+	width:300px;
+	height:30px;
+	line-height:30px;
+	float:left;
+	text-align:left;
+	margin-left:20px;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	font-size:14px;
+}
+/*-------------------------over--------------------------*/
+
+/*----------------------提交后审核样式-----------------------*/
+#verify_apply_main{
+	width:1179px;
+	margin:0 auto;
+	border:1px solid #ccc;
+	height:auto;
+	overflow: hidden;
+	margin-bottom:20px;
+}
+
+#sub_step1_line{
+	width:440px;
+	border:3px solid #ccc;
+	margin-top:34px;
+	background:#189ed7;
+}
+
+#sub_step2_line{
+	width:299px;
+	border:3px solid #189ed7;
+	margin-top:34px;
+	background:#189ed7;
+}
+
+#sub_step3_line{
+	width:440px;
+	border:3px solid #ccc;
+	margin-top:34px;
+	background:#189ed7;
+}
+
+#sub_step1{
+	top:-33px;
+	left:180px;
+	background:url("../../images/school_apply_menu_gray.png") no-repeat;
+}
+#sub_step2{
+	top:-33px;
+	left:70px;
+	background:url("../../images/school_apply_menu_blue.png") no-repeat;
+}
+#sub_step3{
+	top:-33px;
+	left:100px;
+	background:url("../../images/school_apply_menu_gray.png") no-repeat;
+}
+
+#submit_success{
+	width:430px;
+	height:400px;
+	margin:0 auto;
+	margin-top:100px;
+}
+
+#success_logo{
+	width:128px;
+	height:128px;
+	float:left;
+	background:url("../../images/school_submit_success.png") no-repeat;
+}
+
+#success_desc{
+	width:300px;
+	height:50px;
+	line-height:50px;
+	float:left;
+	margin-top:60px;
+	font-family: '微软雅黑 Bold', '微软雅黑';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    text-align: right;
+}
+/*-------------------------over--------------------------*/
+

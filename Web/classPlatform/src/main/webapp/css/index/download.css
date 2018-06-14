@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+.downloadBanner{
+	width:1920px;
+	height:788px;
+	background:url(../../images/download/download.png) no-repeat;
+}
+
+.banner_music{
+	width:1920px;
+	height:195px;
+	background:url(../../images/download/banner_music.png) no-repeat;
+	position:relative;
+	top:294px;
+	opacity:0.3;
+}
+
+.download_title{
+	width:808px;
+	height:100px;
+	position:relative;
+	top:75px;
+	left:555px;
+}
+
+.downloadType{
+	width:790px;
+	height:52px;
+	position:relative;
+	top:160px;
+	left:555px;
+}
+
+.down_type_img{
+	width:243px;
+	height:52px;
+	float:left;
+	margin-right:30px;
+	cursor:pointer;
+}
+
+.down_type_img img{
+	width:243px;
+	height:52px;
+	border:0;
+}
+
+.download_logo{
+	width:219px;
+	height:44px;
+	position:relative;
+	top:20px;
+	left:835px;
+}
+
+.download_infor{
+	width:360px;
+	height:33px;
+	position:relative;
+	top:272px;
+	left:770px;
+	color:#fff;
+	font-size:13px;
+}
+
+#codeImg{
+	margin-top:20px;
+}
+
+.ui-dialog .ui-dialog-titlebar-close span{
+	display:block;
+}

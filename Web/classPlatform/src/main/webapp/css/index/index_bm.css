@@ -1,0 +1,255 @@
+body{font-family:"Microsoft Yahei"}
+a{ 
+text-decoration:none; 
+}
+a:link {
+ font-size: 12px;
+ color: #000000;
+ text-decoration: none;
+}
+a:visited {
+ font-size: 12px;
+ color: #000000;
+ text-decoration: none;
+}
+
+/*banner*/
+*{margin:0px;padding:0px}
+li{list-style:none}
+a{text-decoration:none}
+img{border:0px}
+.banner{width:1440px;height:431px;margin:0 auto;position:relative;overflow:hidden}
+.banner .pic{width:9999px;height:431px}
+.banner .pic li{width:1440px;height:431px;float:left}
+.banner .anniu{width:100px;height:16px;position:absolute;left:694px;top:380px;}
+.banner .anniu li{width:16px;height:16px;background:#FFFFFF;float:left;margin:4px;display:inline;
+cursor:pointer;border-radius:100%}
+.banner .anniu li.on{background:#54afd8}
+/*banner*/
+
+
+#outskirts{
+	height: 100%;
+	width: 100%;
+
+}
+
+
+
+/*#banner { position: relative; width: 1440px; height: 431px; margin: 0 auto; overflow: hidden; }*/
+
+
+
+
+
+
+
+#R{
+	width: 1200px;
+	height: 275px;
+	margin: 0 auto;
+}
+
+#pic{
+	margin-left: 441px;
+	margin-top: 62px;
+}
+
+#R1{
+	margin-left: 538px;
+	margin-top: 15px;
+	font-size: 18px;
+	color: #999999;
+}
+#R2{
+	margin-left: 530px;
+	margin-top: 15px;
+	font-size: 36px;
+}
+
+#course{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.course1{
+	position:relative;
+	height: 330px;
+	width: 290px;
+	
+	background: #fff;
+	margin-left: 3.4px;
+	margin-right: 3px;
+	margin-bottom: 30px;
+	
+display: inline-block;
+text-decoration: none;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.25);/*投影*/
+border-bottom: 1px solid rgba(0,0,0,0.25);/*底边投影*/
+/*text-shadow: 0 -1px 1px rgba(0,0,0,0.25); 字体投影*/
+position: relative;
+cursor: pointer;
+}
+.course1 img{
+	height: 152px;
+	width: 290px;
+}
+.course2 img{
+	height: 152px;
+	width: 290px;
+}
+
+.course2{
+	 position:relative;
+	height: 330px;
+	width: 290px;
+	float: left;
+	background: #fff;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-bottom: 30px;
+	
+display: inline-block;
+text-decoration: none;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.25);/*投影*/
+text-shadow: 0 -1px 1px rgba(0,0,0,0.25); /*字体投影*/
+border-bottom: 1px solid #54afd8;/*底边投影*/
+position: relative;
+cursor: pointer;
+}
+
+
+
+
+.courseName{
+	font-size: 24px;
+	color: #54afd8;
+	margin-top: 14px;
+	margin-bottom: 14px;
+	margin-left: 10px;
+}
+.coursePeron{
+	font-size: 14px;
+	color: #999;
+	margin-bottom: 4px;
+	margin-left: 10px;
+}
+
+#coursePrice{
+	float: right;
+	margin-right: 10px;
+}
+#coursePrice font{
+	
+	font-size: 32px;
+	color: #f13232;
+}
+
+#coursePrice span{
+	font-size: 14px;
+	color: #f13232;
+}
+
+#Ncourse{
+	width: 1200px;
+	height: 760px;
+	margin: 0 auto;
+	padding-top: 50px;
+	
+}
+#Newest{
+	margin-left: 28px;
+	margin-top: 15px;
+	font-size: 18px;
+	color: #999999;
+}
+
+
+
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ 
+color:#D6D6D6; 
+font-size:14px; 
+}
+ 
+input:-moz-placeholder,textarea:-moz-placeholder{ 
+color:#D6D6D6; 
+font-size:14px;
+ 
+}
+ 
+input::-moz-placeholder,textarea::-moz-placeholder{ 
+color:#D6D6D6; 
+font-size:14px; 
+} 
+input:-ms-input-placeholder,textarea:-ms-input-placeholder{ 
+color:#D6D6D6; 
+font-size:14px; 
+}
+
+
+/*推荐课程内容*/
+.zhanwei{
+	width: 1200px;
+	height: 10px;
+	margin: 0 auto;
+}
+
+.courseList{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	background: #f5f5f5
+	
+}
+
+.course_info{
+	position:relative;
+	height: 330px;
+	width: 290px;
+	background: #fff;
+	margin-left: 3.2px;
+	margin-right: 3px;
+	margin-top: 32px;
+	
+display: inline-block;
+text-decoration: none;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.25);/*投影*/
+/*text-shadow: 0 -1px 1px rgba(0,0,0,0.25); 字体投影*/
+border-bottom: 1px solid rgba(0,0,0,0.25);/*底边投影*/
+position: relative;
+cursor: pointer;
+}
+.course_info img{
+	height: 152px;
+	width: 290px;
+}
+.zhanwei2{
+	width: 1200px;
+	height: 58px;
+	background: #f5f5f5;
+	margin: 0 auto;
+}
+.seeMore{
+	width:90px;height:24px;font-size: 22px;color: #54afd8;cursor: pointer;margin: 0 auto;
+}
+.zhanwei3{
+	width: 1200px;
+	height: 84px;
+	background: #f5f5f5;
+	margin: 0 auto;
+}
+/*推荐课程内容*/

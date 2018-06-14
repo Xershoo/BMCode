@@ -1,0 +1,67 @@
+.zhanwei34{
+	height: 34px;
+	width: 1200px;
+}
+
+.fang{
+	height: 480px;
+	width: 440px;
+	border-radius: 4px;
+	border: 2px solid #54afd8;
+}
+.Tname{
+	margin-top: 16px;
+	margin-left: 18px;
+	margin-bottom: 20px;
+	font-size: 24px;
+	color: #000000;
+}
+.fontK{
+	margin-left: 18px;
+	height: 380px;
+	width: 300px;
+}
+.fontK font{
+	 font-size: 16px;
+	 color: #f84e41;
+	 line-height:28px;
+}
+.fontK span{
+	 font-size: 14px;
+	 color: #666666;
+	  line-height:22px;
+}
+
+.yuan{
+	margin-top: -600px;
+	margin-left: 338px;
+	margin-bottom:180px;
+	background: #FFFFFF;
+	height: 202px;
+	width: 202px;
+	border-radius:50%;
+	border: 1px solid #54afd8;
+}
+.TeaKuang{
+
+	margin-top: 34px;
+	margin-bottom: 16px;
+	margin-left: 34px;
+	height: 480px;
+	width: 500px;
+	
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 5px;
+	position: relative;
+	cursor: pointer;
+}
+
+.zhanwei16{
+	height: 16px;
+	width: 1200px;
+}
+.zhanwei30{
+	height: 30px;
+	width: 1200px;
+}

@@ -1,0 +1,390 @@
+
+
+.m_order {
+	width: 1200px;
+	height: 2000px;
+	margin: auto;
+}
+
+.index_title {
+	width: 1200px;
+	height: 281px;
+	background: #ffffff;
+}
+
+.index_title_beijing {
+	width: 1200px;
+	height: 236px;
+	background: url(/eduPlatform2c/images/teacher/th_back.png);
+}
+
+.index_title1 {
+	width: 1200px;
+	height: 100px;
+}
+
+.index_title2 {
+	width: 1200px;
+	height: 68px;
+}
+
+.index_title3 {
+	width: 1200px;
+	height: 68px;
+}
+
+.index_title4 {
+	width: 1200px;
+	height: 45px;
+}
+
+.index_title2_button {
+	width: 110px;
+	height: 30px;
+	border: 1px solid #E4E4E4;
+	float: right;
+	/* background: url(/eduPlatform2c/images/teacher/setting.png); */
+}
+
+.index_title3_button {
+	width: 110px;
+	height: 30px;
+	border: 1px solid #E4E4E4;
+	float: right;
+}
+
+.index_title3_name {
+	width: 400px;
+	height: 68px;
+	text-indent: 16em;
+	float: left;
+}
+/* .index_title3_name  div{ */
+/* 	height: 50%; */
+/* } */
+.index_title3_name1 {
+	width: 400px;
+	height: 34px;
+}
+
+.index_title3_name2 {
+	width: 400px;
+	height: 34px;
+}
+
+#ziti24 {
+	font-size: 24px;
+	font-family: "微软雅黑 Bold", "微软雅黑";
+	font-weight: 700;
+	font-style: normal;
+}
+
+#grey {
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	color: #999;
+}
+
+#stuent_touxiang {
+	position: relative;
+	top: -40px;
+	left: -370px;
+	border-radius: 65px;
+	width: 130px;
+	height: 130px;
+}
+
+#pen {
+	position: relative;
+	top: -40px;
+	left: -370px;
+	cursor: pointer;
+}
+
+.index_detail {
+	width: 1200px;
+	height: 1415px;
+	margin-top: 15px;
+}
+
+.index_xinxi {
+	background: #ffffff;
+	width: 300px;
+	height: 624px;
+	float: left;
+}
+
+.index_course {
+	background: #ffffff;
+	width: 880px;
+	height: 1500px;
+	float: left;
+	margin-left: 20px;
+}
+
+.index_jibenxinxi {
+	height: 40px;
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	text-indent: 1em;
+}
+
+.straight_line {
+	margin-right: 5px;
+}
+
+.index_jibenxinxi2 {
+	height: 40px;
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	text-indent: 2em;
+}
+
+#moreLearning, #alreadyLearned {
+	float: right;
+	margin-right: 65px;
+	cursor: pointer;
+}
+
+.index_xinxi2 {
+	height: 30px;
+	text-indent: 2em;
+}
+
+.index_xinxi3 {
+	width: 284px;
+	height: 10px;
+	border-bottom: 1px solid #E4E4E4;
+	margin-left: 8px;
+}
+
+.index_jibenxinxi1 {
+	height: 350px;
+	width: 260px;
+	margin-left: 20px;
+	word-wrap: break-word;
+}
+
+.index_course_etail {
+	height: 660px;
+	width: 780px;
+	margin-left: 50px;
+	border-top: 1px solid #E4E4E4;
+}
+
+.kecheng {
+	height: 280px;
+	width: 230px;
+	float: left;
+	border: 1px solid #E4E4E4;
+	margin-top: 25px;
+	cursor: pointer;
+}
+
+.kecheng:hover {
+	border: 1px solid #1976d2;
+}
+
+.k1{
+	width: 230px;
+    height: 164px;
+    overflow: hidden;
+}
+.k1 img{
+	height: 160px;
+    width: 230px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    margin:0 auto;
+	z-index:1;
+	transition-delay: 0s;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: ease;
+	/* Firefox 4 */
+	-moz-transition-delay: 0s;
+    -moz-transition-duration: 1s;
+    -moz-transition-property: all;
+    -moz-transition-timing-function: ease;
+	/* Safari �� Chrome */
+	-webkit-transition-delay: 0s;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: ease;
+	/* Opera */
+	-o-transition-delay: 0s;
+    -o-transition-duration: 1s;
+    -o-transition-property: all;
+    -o-transition-timing-function: ease;
+	}
+
+.k1_img:hover{
+	transform: scale(1.2, 1.2);
+	
+	-ms-transform:scale(1.2, 1.2); 	/* IE 9 */
+	-moz-transform:scale(1.2, 1.2); 	/* Firefox */
+	-webkit-transform:scale(1.2, 1.2); /* Safari �� Chrome */
+	-o-transform:scale(1.2, 1.2); 	/* Opera */
+}
+.k1_img {
+	height: 160px;
+	width: 230px;
+}
+
+.k2 {
+	height: 45%;
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+	line-height: 25px;
+}
+
+.hx {
+	width: 25px;
+	height: 280px;
+	float: left;
+}
+
+#directMsg {
+	float: left;
+	width: 74px;
+	height: 25px;
+	line-height: 25px;
+	border-radius: 5px;
+	border: 0px;
+	color: white;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	background: #ffa800;
+	text-indent: 0px;
+	margin-top: 9px;
+}
+
+.name {
+	float: left;
+	width: 74%;
+}
+
+.courseName {
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	color: #3d3d3d;
+}
+
+.jg1 {
+	color: #FF4500;
+	font-size: 16px
+}
+
+.k2 li {
+	color: #7c7c7c;
+	overflow: hidden;
+	margin-left: 15px;
+}
+
+.ziti30 {
+	font-size: 18px;
+	width: 100%;
+	height: 30px;
+	margin: 100px auto;
+	text-align: center;
+}
+
+/*			ѧ����ҳtop	*/
+.th_top {
+	width: 1200px;
+	height: 360px;
+	background-color: #fff;
+	text-align: center;
+	background: url("../../images/teacher/th_back.png") no-repeat;
+	-moz-box-shadow: 0px 1px 5px #888888; /* �ϵ� Firefox */
+	box-shadow: 0px 1px 5px #888888;
+}
+
+.th_top p {
+	font-size: 22px;
+	height: 30px;
+	margin-top: -45px;
+	color: #2c2c2c;
+}
+
+.head_img {
+	width: 130px;
+	height: 130px;
+	margin: 60px auto;
+	border-radius: 95px;
+}
+
+.pen {
+	width: 22px;
+	height: 22px;
+	cursor: pointer;
+	position: relative;
+	top: -65px;
+	right: 15px;
+	border-radius: 95px;
+	border: 1px solid #e5e5e5;
+}
+
+.th_other {
+	width: 100%;
+	height: 30px;
+	margin-top: -55px;
+}
+
+.t_real {
+	width: 50%;
+	height: 30px;
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: right;
+}
+
+.t_msg {
+	width: 48%;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 2%;
+	float: left;
+}
+
+#directMsg {
+	width: 74px;
+	height: 25px;
+	line-height: 25px;
+	border-radius: 5px;
+	border: 0px;
+	color: white;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	background: #ffa800;
+	margin-top: 3px;
+}
+
+.msg_img {
+	width: 12px;
+	height: 11px;
+	vertical-align: middle;
+}
+
+.own_campus {
+	width: 100%;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #a0a1a2;
+	text-align: center;
+}
+/*			ѧ����ҳtop	*/

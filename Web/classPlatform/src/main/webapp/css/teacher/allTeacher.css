@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+#teacherList{
+	width: 1242px;
+    height: auto;
+    overflow:hidden;
+    min-height:630px;
+    margin:0 auto;
+    margin-top:10px;
+}
+
+div.badoo span.current {
+    border: #42b8f6 1px solid;
+    font-weight: bold;
+    color: #fff;
+    background-color: #42b8f6;
+}
+
+div.badoo a:hover{
+	border: #42b8f6 2px solid;
+	color:#42b8f6;
+}
+
+#teacherPage{
+	height:30px;
+}
+
+.teacher_intro {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}

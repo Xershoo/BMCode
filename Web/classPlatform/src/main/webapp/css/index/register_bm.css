@@ -1,0 +1,54 @@
+body{font-family:"Microsoft Yahei"}
+#login{
+	margin-top:2px;
+	margin-left: 564px;
+	/*font-size: 14px;
+	text-decoration:none;
+	color: #999; 
+	cursor: pointer;*/
+/*	float: left;
+	margin-top: -24px;
+	margin-left: 550px;*/
+}
+#login font{
+	font-size: 14px;
+	color:#34495e;
+}
+
+#login a{
+	font-size: 14px;
+	text-decoration:none;
+	color: #2c97de; 
+	cursor: pointer;
+}
+#blank{
+	float:left;
+	width: 690px;
+	height: 58px;
+}
+.buttonNormal{
+	cursor: pointer;
+	position: relative;
+	color: #FFFFFF;
+	font-size: 18px;
+	height: 38px;
+	width: 160px;
+	float: left;
+	margin-top: -28px;
+	margin-left: 530px;
+	margin-bottom:-14px;
+	background: #2c97de; 
+	border: 0px;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.msg{
+	margin-top: 26px;
+	margin-left: 200px;
+	color: red;
+	font-size: 16px;
+	line-height:30px;
+	}

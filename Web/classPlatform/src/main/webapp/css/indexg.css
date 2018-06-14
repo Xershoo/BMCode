@@ -1,0 +1,269 @@
+.index {
+	width: 1200px;
+	height:auto;
+	overflow:hidden;
+	margin:15px auto;
+}
+
+.fenlei {
+	width: 126px;
+	height: 406px;
+	border: 1px solid #E4E4E4;
+	float: left;
+	text-align:center;
+}
+
+li {
+	list-style-type: none;
+}
+
+.fenlei li {
+	height: 46px;
+}
+
+.quanbufenlei {
+	background-color: #666666;
+	font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+font-size: 16px;
+color: #FFF;
+line-height:40px;
+	
+}
+
+.img1 {
+	margin-left: 10px;
+}
+
+.guanggao {
+	width: 1070px;
+	height: 406px;
+	float: left;
+}
+
+.title {
+	height: 46px;
+}
+
+.title li {
+	float: left;
+	width: 120px;
+	text-align: center;
+	font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+font-size: 16px;
+color: #333;
+}
+
+.guanggao1 {
+	width: 830px;
+	height: 360px;
+	float: left;
+}
+
+.denglu {
+	width: 238px;
+	height: 360px;
+	float: left;
+}
+
+.guanggao2 {
+	width: 820px;
+	height: 360px;
+	background: url(../images/c1-1index/u45.jpg);
+	margin-left: 5px;
+}
+.guanggao3 {
+	width: 820px;
+	height: 360px;
+	background: url(../images/c1-1index/u47.jpg);
+	margin-left: 5px;
+}
+.guanggao4 {
+	width: 820px;
+	height: 360px;
+	background: url(../images/c1-1index/u49.png);
+	margin-left: 5px;
+}
+.guanggao5 {
+	width: 820px;
+	height: 360px;
+	background: url(../images/c1-1index/u51.jpg);
+	margin-left: 5px;
+}
+.denglu1 {
+	height: 30%;
+	background: url(../images/c1-1index/weidenglu.png);
+}
+
+.denglu2 {
+	height: 70%;
+	background-color: #F2F2F2;
+}
+
+.huanying {
+	height: 150px;
+	font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+font-size: 15px;
+text-align: center;
+}
+
+.denglu3 {
+	height: 100px;
+	float: left;
+	width: 50%;
+}
+
+.zhuce {
+	height: 100px;
+	float: left;
+	width: 50%;
+}
+
+.anniu {
+	height: 100px;
+}
+
+.dl {
+	width: 78px;
+	height: 33px;
+	margin-left: 30px;
+	text-align: center;
+	background: url(../images/c1-1index/button_black_u342.png);
+	font-family: "微軟正黑體 Regular","微軟正黑體";
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+color: #FFF;
+}
+
+.zc {
+	width: 78px;
+	height: 33px;
+	margin-left: 10px;
+	text-align: center;
+	background: url(../images/c1-1index/button_rounded_u338.png);
+	font-family: "微軟正黑體 Regular","微軟正黑體";
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+color: #6B6B6B;
+}
+.h2{
+	height:70px;
+	font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+font-size: 18px;
+color: #333;
+line-height:70px;
+}
+.h1{
+	height:410px;
+}
+.h3{
+	height:280px;
+}
+.kecheng{
+	width:227px;
+	height:280px;
+	float:left;
+	border: 1px solid #E4E4E4;
+}
+.hx{
+	width:12.5px;
+	height:280px;
+	float:left;
+}
+.k1{
+	height:55%;
+	background: url(../images/c1-1index/tejia.png);
+}
+.k2{
+	height:45%;
+	font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+font-size: 13px;
+line-height:25px;
+}
+.laoshi{
+	width:219px;
+	height:300px;
+	float:left;
+	border: 1px solid #E4E4E4;
+}
+.l1{
+	height:55%;
+	background: url(../images/c1-1index/laoshi.png);
+}
+.l2{
+	height:45%;
+	text-align:center;
+	background-color: #F2F2F2;
+	font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+font-size: 13px;
+line-height: 25px;
+overflow: hidden;
+}
+.h4{
+	height:300px;
+}
+.hx1{
+	width:22.4px;
+	height:300px;
+	float:left;
+}
+.jiaoling{
+	background-color: #5C6166;
+}
+.lingyu{
+	background-color: #CCCCCC;
+}
+.aa{
+	width:110px;
+	height:16px;
+	margin-top:-30px;
+	margin-left:700px;
+}
+.aa div{
+	width:16px;
+	height:18px;
+	float:left;
+	margin-left:5px;
+	border: 1px solid #E4E4E4;
+	color:#FFFFFF;
+	text-align: center;
+	vertical-align: center;
+	cursor: pointer;
+}
+.fl{
+	font-family: "微软雅黑 Bold","微软雅黑";
+font-weight: 700;
+font-style: normal;
+font-size: 15px;
+text-align: center;
+}
+.jg1{
+	font-family: "微软雅黑 Bold","微软雅黑";
+font-weight: 700;
+font-style: normal;
+color: #F90;
+font-size: 24px;
+}
+.jg2{
+	font-size: 13px;
+color: #BFA699;
+text-align: center;
+line-height: normal;
+}
+.img122{
+	float:right;
+	margin-top:30px;
+}

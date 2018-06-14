@@ -1,0 +1,209 @@
+body {
+/* 	background: #f5f4f2; */
+}
+
+.all {
+	width: 1200px;
+	height: auto;
+	overflow: hidden;
+	margin: 15px auto;
+} 
+
+.zhanghu {
+	width: 963px;
+	height: 899px;
+	float: right; 
+	background-color : #ffffff;
+	background-color: #ffffff;
+	border: 1px solid #E4E4E4;
+}
+
+.zhanghu1 {
+	height: 45px;
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	text-align: left; line-height : 40px;
+	text-indent: 1em;
+/* 	background-color: #f5f8fa; */
+	line-height: 40px;
+	border-bottom: 1px solid #E4E4E4;
+	color: #546d7e;
+}
+
+.zhanghu2 {
+	height: 70px;
+}
+
+.zhanghu3 {
+	float: left;
+	background: url(../images/account/beijing_03.png);
+}
+
+.zhanghu4 {
+	float: left;
+	width: 50%;
+	height: 300px;
+}
+
+.zhanghu3 {
+	width: 368px;
+	height: 225px;
+	margin-left: 290px;
+}
+
+.zhanghu2 span {
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-size: 18px;
+	font-style: normal;
+	color: #999;
+}
+
+.zhanghu2 a {
+	font-family: "微软雅黑 Bold", "微软雅黑";
+	font-weight: 700;
+	font-size: 28px;
+	font-style: normal;
+	color: #999;
+}
+
+.yue {
+	height: 40px;
+	font-size: 18px;
+	color: #ffffff;
+	line-height: 30px;
+}
+
+.yue1 {
+	height: 120px;
+	text-align: center;
+	line-height: 100px;
+}
+
+.chongzhi div {
+	float: left;
+	width: 50%;
+}
+
+#chongzhi {
+	width: 97px;
+	height: 40px;
+	float: right;
+	margin-right: -50px;
+	text-align: center;
+	background: url(../images/account/chongzhi_06.png);
+	cursor: pointer;
+	color: #ffffff;
+	line-height: 35px;
+}
+
+#tixian {
+	width: 101px;
+	height: 40px;
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	background: url(../images/account/tixian_06.png);
+	color: #ffffff;
+	line-height: 30px;
+}
+
+.yue1 span {
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	color: #F60;
+	text-align: center;
+}
+
+.yue1 {
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	color: #333;
+}
+
+.chongzhi1 {
+	height: 60px;
+	text-indent: 1em;
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	color: #000;
+	line-height: 50px;
+	text-align: left;
+}
+
+.chongzhixinxi {
+	height: 750px;
+}
+
+.chongzhixinxi1 {
+	width: 836px;
+	height: 702px;
+	background-color: #FFFFFF;
+	margin-left: 80px;
+}
+
+.dangqianzhanghao {
+	height: 90px;
+	line-height: 100px;
+	text-indent: 2em;
+}
+
+.dangqianyue {
+	height: 50px;
+	text-indent: 2em;
+	text-align: left;
+}
+
+.jine {
+	height: 50px;
+	text-indent: 2em;
+	text-align: left;
+}
+
+.fangshi {
+	height: 50px;
+	text-indent: 2em;
+	text-align: left;
+}
+
+.zhifubao {
+	text-indent: 5em;
+	text-align: left;
+}
+
+#zhifubao {
+	width: 114px;
+	height: 40px;
+}
+
+.lijichongzhi {
+	
+}
+
+.lijichongzhi a div {
+	width: 101px;
+	height: 40px;
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	background: url(../images/account/tixian_06.png);
+	color: #ffffff;
+	line-height: 30px;
+	cursor: pointer;
+	margin-top: 60px;
+	margin-left: 100px;
+}
+
+#tips {
+	float: right;
+	font-size: 14px;
+	margin-right: 10px;
+}

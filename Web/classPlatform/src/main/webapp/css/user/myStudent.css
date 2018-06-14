@@ -1,0 +1,105 @@
+@CHARSET "UTF-8";
+
+.condition{
+	width: 100%;
+    height: auto;
+    overflow:hidden;
+    float: left;
+    background: #fff;
+    margin-bottom:10px;
+}
+
+.condition_element{
+	width: 100%;
+	height:50px;
+	float:left;
+}
+
+.lable{
+	width:60px;
+	height: 50px;
+    line-height: 50px;
+    float: left;
+    font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align:right;
+}
+
+.input{
+	width:210px;
+	height:30px;
+	float:left;
+	margin-left:10px;
+	text-align:left;
+	margin-top:12px;
+}
+
+#college,#majar,#className{
+	width: 210px;
+    height: 30px;
+    line-height: 30px;
+}
+
+#studentName,#studentId{
+	width:208px;
+	height: 26px;
+    line-height: 26px;
+}
+
+.search_btn{
+	width:110px;
+	height:30px;
+	line-height:30px;
+	margin-top:12px;
+	margin-left:24px;
+	border-radius:5px;
+	background:#51a4f6;
+	float:left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#in_name{
+	width:350px;
+}
+
+#in_faculty,#in_subject,#in_class{
+	width:140px;
+}
+
+#in_num{
+	width:110px;
+}
+
+#in_sex{
+	width:69px;
+	border-right:0px;
+}
+
+.in_stu_width{
+	width:351px;
+}
+.in_stu_desc_width{
+	width:265px;
+}
+.in_college_width, .in_major_width, .in_classname_width{
+	width:141px;
+}
+.in_classid_width{
+	width:110px;
+}
+.in_sex_width{
+	width:70px;
+}
+.out_buyCourses_width{
+	width:132px;
+}
+.out_buyPrices_width, .out_lastBuyDate_width{
+	width:125px;
+}
