@@ -1,0 +1,49 @@
+.midKuang{
+	margin: 0 auto;
+	width: 1200px;
+	height: 640px;
+	margin-top: 20px;
+}
+.errot1{
+	float: left;
+	margin-left: 60px;
+}
+
+.errotFont{
+	float: left;
+	margin-top: 280px;
+	margin-left: -90px;
+}
+.errorfont1{
+	float: left;
+	margin-left: -80px;
+	margin-top: 30px;
+	height: 50px;
+	width: 700px;
+}
+.errorfont1 span{
+	float: left;
+	color: #54AFD8;
+	font-size: 28px;
+}
+.eimg{
+	float: left;
+	margin-left: 36px;
+}
+.errorfont1 a div{
+	float: left;
+	margin-top: 6px;
+	border-bottom: 1px solid #666;
+	margin-left: 10px;
+	color: #666;
+	font-size: 22px;
+}
+
+.errorfont1 font{
+	color: #999999;
+	font-size: 18px;
+}
+#errorTime{
+	color: #284157;
+	font-size: 22px;
+}

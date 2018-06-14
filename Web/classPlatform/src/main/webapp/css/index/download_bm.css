@@ -1,0 +1,51 @@
+.banner1{
+	font-size: 0px;
+	position:relative;
+	width: 100%;
+	margin:0 auto;
+}
+
+.xiazaiTu1{
+	position:relative;
+	float: left;
+	margin-left: 23%;
+	margin-top: -20%;
+	cursor: pointer;
+	
+}
+.xiazaiTu1 img{
+		margin:0 auto;
+	width: 100%;
+}
+.xiazaiTu2 img{
+		margin:0 auto;
+	width: 100%;
+}
+
+.xiazaiTu3 img{
+		margin:0 auto;
+	width: 100%;
+}
+
+
+.xiazaiTu2{
+	position:relative;
+	float: left;
+	margin-left: 43%;
+	margin-top: -20%;
+	cursor: pointer;
+}
+
+.xiazaiTu3{
+	position:relative;
+	float: left;
+	margin-left: 63%;
+	margin-top: -20%;
+	cursor: pointer;
+	
+}
+.3tuKuang{
+	height: 1200px;
+	margin: 0 auto;
+	border: 1px solid saddlebrown;
+}

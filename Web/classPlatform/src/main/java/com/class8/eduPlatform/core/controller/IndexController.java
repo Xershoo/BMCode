@@ -31,7 +31,7 @@ public class IndexController {
 	private static final Logger logger = Logger.getLogger(IndexController.class);
 	
 	public static final String INDEX = "index_bm";
-	public static final String APP_DOWNLOAD = "index/download";
+	public static final String APP_DOWNLOAD = "index/download_bm";
 	public static final String SEARCH_COURSES = "/course/searchCourses";
 	
 	@Autowired

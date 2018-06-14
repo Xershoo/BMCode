@@ -115,10 +115,10 @@
   	
   	<error-page>
   		<error-code>404</error-code>
-  		<location>/WEB-INF/pages/errors/404.jsp</location>
+  		<location>/WEB-INF/pages/errors/404_bm.jsp</location>
   	</error-page>
   	<error-page>
   		<error-code>401</error-code>
-  		<location>/WEB-INF/pages/errors/401.jsp</location>
+  		<location>/WEB-INF/pages/errors/401_bm.jsp</location>
   	</error-page>
 </web-app>

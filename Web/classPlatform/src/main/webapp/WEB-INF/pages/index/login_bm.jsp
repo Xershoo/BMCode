@@ -10,7 +10,6 @@
 <meta property="qc:admins" content="106036373163413306375" />
 <meta property="wb:webmaster" content="ce11f2358edf704e" />
 
-<link rel="stylesheet" href="<%=request.getContextPath()%>/css/index/index_bm.css" />
 <link rel="stylesheet" href="<%=request.getContextPath()%>/css/index/head_bm.css"/>
 <link rel="stylesheet" href="<%=request.getContextPath()%>/css/index/footer_bm.css" />
 <link rel="stylesheet" href="<%=request.getContextPath()%>/css/index/login_bm.css" />

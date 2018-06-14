@@ -8,6 +8,7 @@ $(function(){
 //	getCourseDetails();
 //	getOtherCourses();
 //	getCourseStudent();
+	
 	getCourseInfos();
 	getTeacherCoursesScore(); 
    

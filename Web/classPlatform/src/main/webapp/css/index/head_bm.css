@@ -118,78 +118,41 @@ text-decoration:none;
    
 }
 
+#huanying{
+	float: left;
+}
+
+.font2 font{
+	font-size: 14px;
+	color: #d6d6d6;
+	margin-bottom: 5px;
+	margin-left: 6px;
+	cursor: pointer;
+}
+.font2{
+	margin-left: 0px;
+}
+
+
+.headPhoto{
+	float: left;
+	border-radius:50%;
+	height: 24px;
+	width: 24px;
+	margin-top: 3px;
+	margin-left: 632px;
+	cursor: pointer;
+
+}
+
+.headPhoto img{
+	border-radius:50%;
+	height: 24px;
+	width: 24px;
+}
 
 #topToolbarBack{
 	height: 30px;
 	width: 100%;
 	background: #000;
-}
-
-#topToolbarFront{
-	height: 30px;
-	width: 1200px;
-	background: #000;
-	margin: 0 auto;
-}
-
-.headWelcom{
-	color:#ffffff;
-	font-size:14px;
-	text-align:center;
-	line-height:30px;
-	width:200px;
-	margin-left:10px;
-	float:left;
-}
-
-.headUserImage{
-	width:60px;
-	float:left;
-	text-align:right;
-	margin-left:650px;
-}
-
-.imageUserHeader{
-	width:25px;
-	height:25px;
-	margin:2px 30px 3px 0px;
-	border-radius:12px;
-	cursor: pointer;
-}
-
-.headTextRight{
-	color:#ffffff;
-	font-size:14px;
-	text-align:center;
-	line-height:30px;
-	width:56px;
-	margin-left:8px;
-	float:left;
-	cursor: pointer;
-}
-
-.headTextEnd{
-	color:#ffffff;
-	font-size:14px;
-	text-align:center;
-	line-height:30px;
-	width:70px;
-	margin-left:40px;
-	float:left;
-	cursor: pointer;
-}
-
-#headLinkText{
-	color:#ffffff;
-	font-size:14px;
-}
-
-.headVline{
-	color:#ffffff;
-	font-size:14px;
-	text-align:center;
-	line-height:30px;
-	width:2px;
-	margin-left:5px;
-	float:left;
 }

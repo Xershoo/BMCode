@@ -13,54 +13,56 @@
 	        	</div>
 	        	
 	        	<div class="content" >
-			            <!-- 单个老师 -->
-			            <div class="TeaKuang" >
-			        		<div class="fang">
-			        			<div class="Tname"><span>郭晓阳</span></div>
-				        			<div class="fontK">
-				        				<font>个人履历：</font><br />
-				        				<span>数学特技教师</span><br />
-				        				<span>山东科技大学特聘教授</span><br />
-				        				<span>国内奥数专家</span><br />
-				        				<span>全国教育教学优秀教师</span><br />
-				        			</div>
-			        		</div>
-			        		<img  class="yuan" />
-			            </div>
-			           
-			            <!-- 分隔-->
-
-			          <div class="zhanwei16" ></div>
-			          <!-- 分页 -->  
-			    		<div class="tolpage"  id="tolpage"> 
-        				<ul>
-        					<div class="tolpageli"> < </div>
-        				<li class="tolpageli2">
-        					<div > <span> 1 </span> </div>
-        				</li>
-        				<li>
-        					<div class=""> <span> 2 </span> </div>
-        				</li>
-        				<li>
-        					<div class=""> <span> 3 </span>  </div>
-        				</li>
-        				<li>
-        					<div class=""> <span> 4 </span> </div>
-        				</li>
-        				<li>
-        					<div class=""> <span> 5 </span></div>
-        				</li>
-        				<li>
-        					<div class=""> <span>6</span> </div>
-        				</li>
-        					<div class="tolpageli">  > </div>
-        				</ul>
-        		</div>
-			            
-			            
-	        			<div class="zhanwei30" ></div>
-	        			
-		        			
+	        		<div id="teacherList">
+				        <!-- 单个老师 -->
+				        <div class="photoKuang">
+		        			<div class="photo"><img src="<%=request.getContextPath()%>/images/head/touxiang.png"/></div>
+		        			<div class="teaName">水龙岩老师</div>
+		        			<div class="teaYear">5年教育经验</div>
+		        			<div class="teaSchool">浙江工商大学优秀教师</div>
+		        			<div class="teaPerson" >个人主页</div>
+		        		</div>
+			        </div>   
+				    <!-- 分隔-->
+				    <div class="zhanwei16"></div>
+					<!-- 分页 -->
+					<div class="tolpage" id="tolpage">
+						<ul>
+							<div class="tolpageli"><</div>
+							<li class="tolpageli2">
+								<div>
+									<span> 1 </span>
+								</div>
+							</li>
+							<li>
+								<div class="">
+									<span> 2 </span>
+								</div>
+							</li>
+							<li>
+								<div class="">
+									<span> 3 </span>
+								</div>
+							</li>
+							<li>
+								<div class="">
+									<span> 4 </span>
+								</div>
+							</li>
+							<li>
+								<div class="">
+									<span> 5 </span>
+								</div>
+							</li>
+							<li>
+								<div class="">
+									<span>6</span>
+								</div>
+							</li>
+							<div class="tolpageli">></div>
+						</ul>
+					</div>
+					<div class="zhanwei30" ></div>		
 	        	</div>
         	</div>	
         </div>

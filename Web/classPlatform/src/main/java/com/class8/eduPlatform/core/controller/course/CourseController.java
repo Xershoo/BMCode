@@ -88,7 +88,7 @@ public class CourseController extends BaseController {
 	
 	public static final String COURSE_LIST = "/manageCourse";
 	public static final String COURSE_CREATE = "/creatCourse";
-	public static final String COURSE_DETAIL = "/course/viewPianoCourses";
+	public static final String COURSE_DETAIL = "/course/viewPianoCourses_bm";
 	public static final String CLIENT_DETAIL = "/course/viewClientCourses";
 	public static final String COURSE_OF_MINE = "/course/coursesOfMine";
 	public static final String VIEW_COURSE_DTL = "/course/viewCourses";

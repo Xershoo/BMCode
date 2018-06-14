@@ -3,10 +3,8 @@
  */
 
 var teacherCount = 0;
-var keyWord = "";
 
 $(function(){
-	keyWord = $("#keyWord").val();
 	ajaxGetAllTeacherCount();
 });
 
@@ -15,7 +13,7 @@ function ajaxGetAllTeacherCount(){
 	$.ajax({
 		url:url,
 		type:'post',
-		data:{'keyword':keyWord},
+		data:{'keyword':''},
 		dataType:'json',
 		async:false,
 		success:function(data){
@@ -30,7 +28,7 @@ function ajaxGetAllTeacherCount(){
 }
 
 function ajaxGetAllTeacher(){
-	var pageNum = Math.ceil(teacherCount/25);
+	var pageNum = Math.ceil(teacherCount/12);
 	var pageSize = 0;
 
 	if(pageNum <= 1){
@@ -39,7 +37,7 @@ function ajaxGetAllTeacher(){
 		$.ajax({
 			url:url,
 			type:'post',
-			data:{'keyword':keyWord},
+			data:{'keyword':''},
 			dataType:'json',
 			success:function(data){
 				if(data.status == 0){
@@ -47,18 +45,22 @@ function ajaxGetAllTeacher(){
 					if(jsonObj.length > 0){
 						var html = '';
 							$.each(jsonObj, function (i, item) {
-								html += '<div class="teacher_intro">';
-								if(item.largeHeadimge == null || item.largeHeadimge == "" || item.largeHeadimge.indexOf("null") > 0){
-									html += '<div class="teacher_img"><img src="images/course/creatcourse.png" onclick="goToTeacherPage(\''+item.teacherUid+'\')"></div>';
-								}else{
-									html += '<div class="teacher_img"><img src="'+item.largeHeadimge+'" onclick="goToTeacherPage(\''+item.teacherUid+'\')"></div>';
+								html += '<div><div class="photoKuang"><div class="photo"><img src="';
+								if(item.largeHeadimge == null || item.largeHeadimge == "" || item.largeHeadimge.indexOf("null") > 0) {
+									if(item.sex != 1) {
+										html += '/images/teacher/female_teacher.png';
+									} else {
+										html += '/images/teacher/male_teacher.png';
+									}
+								}else {
+									html += item.largeHeadimge;
 								}
-								html += '<div class="information">'
-										+ '<div class="teacher_name">'+item.realName+'（'+item.nickName+'）<span><img src="../images/index/letter.png"></span></div>'
-										+ '<div class="teacher_tech">专业度：0级 |  教龄：'+item.teachYears+'年</div>'
-										+ '<div class="class_price"><span>￥<span>0元</span></span>起</div>'
-										+ '</div>'
-										+ '</div>';
+								
+								html +='"/></div><div class="teaName">';
+								html += item.realName + '老师</div>';
+								
+								html += '<div class="teaPerson" onclick="goToTeacherPage(\''+item.teacherUid+'\')">个人主页</div></div>';
+								
 							});
 							
 							$("#teacherList").html(html);

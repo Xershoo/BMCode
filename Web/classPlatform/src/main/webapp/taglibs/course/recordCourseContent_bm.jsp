@@ -11,5 +11,7 @@
 	        		<span> > </span>
 	        		<a id="Apage" href="/course/playback">课程视频</a>
 	        	</div>
+	        	<div style="height:550px;background-color:#ffffff;">
+	        	</div>
         	</div>	
         </div>

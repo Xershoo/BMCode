@@ -8,7 +8,7 @@
 	
 	function searchCourse(){
 		var keyWords = $.trim($("#serch").val());
-		location.href = getRootPath() + '/course/search?keyword=' + encodeURI(encodeURI(keyWords));
+		location.href = getRootPath() + '/course/searchAll?keyword=' + encodeURI(encodeURI(keyWords));
 	}
 </script>
 <input type="hidden" id="uid" value="${user.uid }">
@@ -31,10 +31,10 @@
 					<font>|</font>
 				</span>
 				<span>
-					<a href="#"><font>下载客户端</font></a>
+					<a href="/app/download"><font>下载客户端</font></a>
 				</span>
 		    </span>
-		<span id="topBlackRight">
+			<span id="topBlackRight">
 			<span id="img1">
 				<img src="<%=request.getContextPath()%>/images/index/bm/qq.png" />
 				<img src="<%=request.getContextPath()%>/images/index/bm/wx.png" />
@@ -45,26 +45,29 @@
 </div>
 </c:when>
 <c:otherwise>
-<div id="topToolbarBack">
-	<div id="topToolbarFront">
-		<div class="headWelcom">
-			<p>${user.nickName}好，欢迎来到我爱课堂</p>
-		</div>
-		<div class="headUserImage">
-			<img class="imageUserHeader" src="${user.avatarUrl}" onclick="gotoUserCenter()"></img>
-		</div>
-		<div class="headTextRight">
-			<a id="headLinkText" href="/teacher/course/manage">我的课程</a>
-		</div>
-		<div class="headVline">
-			<p >|</p>
-		</div>
-		<div class="headTextRight">
-			<a id="headLinkText" href="/logout">退出登录</a>
-		</div>
-		<div class="headTextEnd">
-			<a id="headLinkText" href="/app/download">客户端下载</a>
-		</div>
+<div id="topBlack">
+	<div id="topBlack1200">
+			<span id="huanying">
+				<font>${user.nickName}好，欢迎来到我爱课堂</font>
+			</span>
+			<a><div class="headPhoto" ><img src="${user.avatarUrl}" onclick="gotoUserCenter()"/></div></a>
+		    <span class="font2">
+		    	<span>
+					<a href="/teacher/course/manage"><font>我的课程</font>
+				</span>
+				<span>
+					<font>|</font>
+				</span>
+				<span>
+					<a href="index.html"><font>退出登录</font></a>
+				</span>
+				<span>
+					<font>|</font>
+				</span>
+				<span>
+					<a href="/app/download"><font>下载客户端</font></a>
+				</span>
+		    </span>
 	</div>
 </div>
 </c:otherwise>

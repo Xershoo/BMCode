@@ -94,16 +94,16 @@
 	<bean id="exceptionResolver" class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">     
          <property name="exceptionMappings">     
              <props>     
-                 <prop key="java.lang.Throwable">errors/500</prop>     
+                 <prop key="java.lang.Throwable">errors/500_bm</prop>     
              </props>     
          </property>     
          <property name="statusCodes">     
              <props>     
-                 <prop key="errors/500">500</prop>     
+                 <prop key="errors/500_bm">500</prop>     
              </props>     
          </property>     
          <property name="warnLogCategory" value="WARN"></property>     
-         <property name="defaultErrorView" value="errors/500"></property>     
+         <property name="defaultErrorView" value="errors/500_bm"></property>     
          <property name="defaultStatusCode" value="500"></property>     
      </bean>  
 </beans>

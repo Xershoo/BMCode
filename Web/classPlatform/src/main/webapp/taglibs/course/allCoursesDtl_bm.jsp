@@ -31,7 +31,7 @@
         	
         	<div class="tiaojian">
         		<div class="jiage"> 
-        			<font>价格：</font>
+        			<font>课程价格：</font>
 	        			<label>
 						<input  type="checkbox" value="1" name="1">1元-5000元
 						</label>
@@ -50,7 +50,7 @@
         		</div>
         		
         		<div class="jiage"> 
-        			<font>类型：</font>
+        			<font>课程类型：</font>
 	        			<label>
 						<input type="checkbox" value="1" name="2">直播课程
 						</label>
@@ -60,13 +60,16 @@
         		</div>
         		
         		<div class="jiage"> 
-        			<font>时间：</font>
+        			<font>开始时间：</font>
 						<input class="idate" type="text"  name="1" placeholder=" 选择开始时间">
+					<font>结束时间：</font>
+						<input  class="idate" type="text"  name="1" placeholder=" 选择结束时间">
         		</div>
         		
         		<div class="jiage"> 
-        			<font>时间：</font>
-						<input  class="idate" type="text"  name="1" placeholder=" 选择结束时间">
+        			<font>关键词&nbsp;&nbsp;&nbsp;：</font>
+						<input  class="idate" type="text"  name="1" placeholder=" 搜索老师或者课程">
+						<span class="sousuo">搜&nbsp;&nbsp;&nbsp;&nbsp;索</span>
         		</div>
         	</div>
         	<div class="zhanwei"></div>

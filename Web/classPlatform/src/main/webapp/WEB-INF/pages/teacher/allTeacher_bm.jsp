@@ -18,6 +18,7 @@
 <script type="text/javascript" src="<%=request.getContextPath()%>/js/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="<%=request.getContextPath()%>/js/index/index_bm.js" ></script>
 <script type="text/javascript" src="<%=request.getContextPath()%>/js/common.js" ></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/teacher/allTeacher_bm.js" ></script>
 <link rel="shortcut icon" href="<%=request.getContextPath()%>/images/favicon.png" type="image/x-icon" />
 </head>
 <body>
