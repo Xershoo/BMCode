@@ -1,0 +1,413 @@
+@CHARSET "UTF-8";
+
+body{
+	text-align:center;
+/* 	background:#f5f4f2; */
+}
+
+#pay_main{
+	width:1200px;
+	height:auto;
+	margin:0 auto;
+	margin-bottom:20px;
+	margin-top:15px;
+	overflow:hidden;
+}
+
+#pay_right_opt{
+	width:965px;
+	min-height:900px;
+	float:right;
+	background:#fff;
+}
+
+#right_title{
+	width:100%;
+	height:45px;
+	float:left;
+	background:#f5f8fa;
+	border-bottom:1px solid #e5e5e5;
+}
+
+#right_title_word{
+	width:200px;
+	height:45px;
+	line-height:50px;
+	float:left;
+	margin-left:30px;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-align:left;
+    color:#546d7e;
+}
+
+#right_title_desc{
+	width:220px;
+	height:45px;
+	line-height:65px;
+	float:right;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    text-align:left;
+    color:#546d7e;
+}
+
+#right_set_desc{
+	width:800px;
+	height:100px;
+	line-height:100px;
+	float:left;
+	text-align:left;
+	margin-left:40px;
+	font-family:'微软雅黑 Regular', '微软雅黑';
+	font-weight:400;
+	font-size:18px;
+}
+
+#jiacu{
+	font-family:'微软雅黑 Bold', '微软雅黑';
+	font-weight:700;
+	font-size:28px;
+}
+
+#right_opt_main{
+	width:100%;
+	height:400px;
+	float:left;
+	margin-top:20px;
+	border:0px solid red;
+}
+
+#opt_left_pwd{
+	width:475px;
+	height:400px;
+	float:left;
+	border:0px solid red;
+	margin-top:100px;
+}
+
+#opt_middle{
+	width:5px;
+	height:290px;
+	border-left:1px solid #e5e5e5;
+	float:left;
+	margin-top:130px;
+}
+
+#opt_right_phone{
+	width:475px;
+	height:400px;
+	float:right;
+	border:0px solid red;
+	margin-top:100px;
+}
+
+.opt_title{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	float:left;
+	font-family: '微软雅黑 Bold', '微软雅黑';
+    font-style: normal;
+    font-size: 14px;
+    color: #3d3d3d;
+    margin-top:30px;
+    font-weight:600;
+}
+
+.set_logo{
+	width:100%;
+	height:150px;
+	float:left;
+}
+
+.result_desc{
+	width:100%;
+	height:40px;
+	line-height:40px;
+	float:left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.opt_desc{
+	width:100%;
+	height:40px;
+	line-height:40px;
+	float:left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    color: #b9b9b9;
+}
+
+.opt_btn,.set_opt_btn{
+	width:100%;
+	height:33px;
+	float:left;
+	text-align:center;
+	margin-top:30px;
+}
+
+#set_pwd_btn,#change_phone_btn{
+	width:110px;
+	height:33px;
+	line-height:33px;
+	font-family: 'Arial Normal', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    color:#2c2c2c;
+    font-size:14px;
+    cursor: pointer;
+    background:#f6f6f6;
+    border-radius:5px;
+    margin:0 auto;
+    border:1px solid #a8a8a8;
+}
+
+.find_logo{
+	width:13px;
+	height:13px;
+	position:relative;
+	top:13px;
+	left:-20px;
+}
+
+.change_main{
+	width:100%;
+	height:500px;
+	float:left;
+}
+#step2_set_password,#step2_change_password,#step2_set_phone,#step2_change_phone,#step2_forget_password{
+	display:none;
+}
+
+.step2_title{
+	width:870px;
+	height:60px;
+	line-height:60px;
+	border-bottom:1px solid #e5e5e5;
+	float:left;
+	margin-left:40px;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align:left;
+    color:#3d3d3d;
+    padding-left:25px;
+}
+
+.tip{
+	width:377px;
+	height:122px;
+	position:relative;
+	top:30px;
+	left:550px;
+	background:url(../../images/account/s_tips.png) no-repeat;
+}
+
+.tip_title{
+	width:200px;
+	height:40px;
+	position:absolute;
+	line-height:40px;
+	text-align:left;
+	left:25px;
+	color:#8b4801;
+	font-size:20px;
+	font-family: '微软雅黑';
+    font-weight: 600;
+    top:10px;
+}
+
+.tip p{
+	width:340px;
+	height:20px;
+	line-height:20px;
+	text-align:left;
+	position:absolute;
+	left:25px;
+	color:#705e40;
+}
+
+.set_pwd_desc{
+	width:850px;
+	height:60px;
+	line-height:30px;
+	float:left;
+	margin-left:100px;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    color: #b4b4b4;
+    text-align:left;
+}
+
+
+#set_pwd_desc p{
+	width:100%;
+	height:17px;
+	float:left;
+	line-height:17px;
+	text-align:left;
+	margin-top:2px;
+	font-size:14px;
+}
+
+#warn_logo{
+	width:17px;
+	height:17px;
+	float:left;
+}
+
+#xiaotieshi{
+	height:17px;
+	float:left;
+	line-height:17px;
+}
+
+.input_value{
+	width:100%;
+	height:45px;
+	float:left;
+	margin-top:50px;
+}
+
+.input_value_word{
+	width:280px;
+	height:45px;
+	line-height:45px;
+	float:left;
+	font-family: '微软雅黑 Bold', '微软雅黑';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+	text-align:right;
+}
+.input_value_text{
+	width:300px;
+	height:30px;
+	margin-left:20px;
+	text-align:left;
+	float:left;
+	margin-top:7px;
+}
+.info{
+	width:250px;
+	height:45px;
+	float:left;
+	line-height:45px;
+	margin-left:10px;
+	text-align:left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    color: #d8271c;
+    display:none;
+}
+
+.pwd_common{
+	width:300px;
+	height:30px;
+	line-height:30px;
+}
+
+#pwd_desc{
+	width:100%;
+	height:20px;
+	float:left;
+	margin-top:5px;
+}
+
+#pwd_desc_word{
+	width:300px;
+	height:20px;
+	float:left;
+	line-height:20px;
+	margin-left:300px;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    text-align:left;
+}
+
+.opt_btn_main{
+	width:270px;
+	height:33px;
+	float:left;
+	margin-left:316px;
+}
+#set_queren_btn,#change_queren_btn,#phone_queren_btn,#set_phone_queren_btn,#reset_queren_btn{
+	width:120px;
+	height:33px;
+	float:left;
+	line-height:33px;
+	background:#ffa800;
+	border-radius:5px;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+#set_cancel_btn,#change_cancel_btn,#phone_cancel_btn,#set_phone_cancel_btn,#reset_cancel_btn{
+	width:120px;
+	height:33px;
+	line-height:33px;
+	float:right;
+	background:#51a4f6;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+#getVerify, #setGetVerify,#resetGetVerify{
+	width:105px;
+	height:30px;
+	line-height:30px;
+	float:left;
+	background:#6e8ba7;
+	border-radius:5px;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top:8px;
+    cursor: pointer;
+}
+
+#verifyNum,#setVerifyNum,#resetVerifyNum{
+	width:185px;
+}
+
+#find_pwd{
+	width:80px;
+	height:20px;
+	line-height:20px;
+	text-align:left;
+	float:left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: blue;
+    position: relative;
+    top: -26px;
+    left: 320px;
+    cursor: pointer;
+    display:none;
+}

@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+#stu_mgn a:LINK{
+	color:#51a4f6;
+	text-decoration: none;
+}
+
+#stu_mgn a:VISITED{
+	color:#51a4f6;
+	text-decoration: none;
+}
+
+#stu_mgn a:hover{
+	color:#51a4f6;
+	text-decoration: none;
+}

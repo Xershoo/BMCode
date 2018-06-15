@@ -1,0 +1,262 @@
+.pay_content{
+	width: 1200px;
+	height: 1100px;
+	
+	margin: 15px auto;
+/* 	border: 1px solid #E4E4E4; */
+}
+.pay_order{
+	width: 1200px;
+	height: 45px;
+	border-bottom: 1px solid #E4E4E4;
+	font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+font-size: 18px;
+color: #333;
+text-indent: 1em;
+background-color: #F2F2F2;
+}
+.content{
+	width: 1200px;
+	height: 926px;
+	background-color: #ffffff;
+	border: 1px solid #E4E4E4;
+}
+.order_detail{
+	width: 1200px;
+	height: 280px;
+	font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+font-size: 18px;
+color: #333;
+}
+.order_detail_title span{
+	font-size: 13px;
+	color: #999;
+	font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+}
+.order_detail_title{
+	width: 1200px;
+	height: 40px;
+	text-indent: 2em;
+}
+.order_detail_title1{
+	width: 1122px;
+	height: 40px;
+	border-top:  1px solid #E4E4E4;
+	margin-left: 40px;
+}
+.order_detail_title2{
+	width: 1200px;
+	height: 50px;
+}
+.order_detail_content{
+	height: 132px;
+	width: 1122px;
+	background-color: #FFFFFF;
+	margin-left: 40px;
+	border: 1px solid #E4E4E4;
+}
+li{
+	list-style-type: none;
+}
+.order_detail_li{
+	height: 39px;
+	width: 1122px;
+	border-bottom: 1px solid #E4E4E4;
+	color: #333;
+	font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+text-indent: 2em;
+}
+.order_detail_li_span1{
+	color: #333;
+	font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+}
+.order_detail_li1{
+	height: 60px;
+	float: left;
+	width: 25%;
+	font-size: 16px;
+color: #333;
+font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+border-right: 1px solid #E4E4E4;
+margin-top: 20px;
+text-indent: 2em;
+}
+.odl{
+	font-size: 18px;
+color: #ffb867;
+font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+}
+.odl1{
+	font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+font-size: 36px;
+color: #ffb867;
+}
+.order_detail_li2{
+	height: 93px;
+	float: left;
+	width: 60%;
+	font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+color: #333;
+margin-left: 5em;
+line-height: 40px;
+	
+}
+.order_detail_li_span{
+	float: right;
+	color: #999;
+	font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+font-size: 13px;
+}
+.order_detail_li_span span{
+	font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+font-size: 13px;
+color: #F60;
+}
+.pay_method{
+	height: 50px;
+	width: 1122px;
+	font-size: 18px;
+color: #333;
+font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+text-indent: 2em;
+}
+.pay_method span{
+	font-size: 13px;
+color: #999;
+font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+}
+.pay{
+	height:400px;
+	width: 1122px;
+	background-color: #FFFFFF;
+	margin-left: 40px;
+	border: 1px solid #E4E4E4; 
+}
+.pay_div1{
+	height:45px;
+	width: 1122px;
+	border-bottom: 1px solid #E4E4E4;
+}
+.pay_div1 div{
+	height:41px;
+	float: left;
+	margin-left: 50px;
+font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+font-size: 18px;
+color: #333;
+cursor: pointer;
+	
+}
+.pay_div1_div1{
+	border-bottom: 3px  solid #000000;
+}
+.confirm_pay{
+	width:108px;
+	height:39px;
+	background: url(../../images/manageCourse/confirmPay_03.png);
+	font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+font-size: 15px;
+color: #FFF;
+cursor: pointer;
+line-height: 40px;
+text-indent: 4.5em;
+float: left;
+}
+.pay_div2{
+	height:50px;
+	text-align: left;
+	text-indent: 2em;
+	font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+font-size: 16px;
+color: #333;
+}
+.pay_div2 span{
+	font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+color: #333;
+font-size: 13px;
+}
+.pay_div3{
+	height:50px;
+	text-indent: 2em;
+}
+.pay_div4{
+	height:50px;
+	text-indent: 2em;
+}
+.pay_div4 span{
+	font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+color: #8cbff8;
+}
+.pay_div4 input{
+	width: 199px;
+	height: 22px;
+}
+.pay_div5{
+	height:50px;
+	text-indent: 2em;
+	margin-left: 2em;
+}
+#success_content{
+	font-size: 30px;
+color: #333;
+font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+text-align: center;
+}
+.pay_div31{
+	width: 300px;
+	height: 50px;
+	float: left;
+}
+#password{
+	height: 32px;
+}
+#red{
+	color: red;
+}
+.statement{
+	width: 1200px;
+	font-size: 12px;
+	text-align: left;
+	color: #888888;
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+		
+	<context:component-scan base-package="com.class8.eduPlatform">
+		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+	</context:component-scan>
+	
+	<mvc:annotation-driven>
+		<mvc:message-converters>
+			<bean class="org.springframework.http.converter.StringHttpMessageConverter">
+	            <property name="supportedMediaTypes">  
+	                <list>  
+	                    <value>text/plain;charset=UTF-8</value>  
+	                    <value>text/html;charset=UTF-8</value>  
+	                </list>  
+	            </property>  
+	        </bean>  
+		</mvc:message-converters>
+	</mvc:annotation-driven>
+	
+	<mvc:resources location="/" mapping="/**/*.html" order="0" />  
+    <mvc:resources location="/images/" mapping="/images/**" />  
+    <mvc:resources location="/js/" mapping="/js/**" />
+    <mvc:resources location="/css/" mapping="/css/**" />
+    
+    <mvc:interceptors>
+    	<mvc:interceptor>
+    		<mvc:mapping path="/student/**"/>
+    		<bean class="com.class8.eduPlatform.core.interceptor.StudentInterceptor"></bean>
+    	</mvc:interceptor>
+    	<mvc:interceptor>
+    		<mvc:mapping path="/teacher/**"/>
+    		<bean class="com.class8.eduPlatform.core.interceptor.TeacherInterceptor">
+    			<property name="authValidURIs">
+    				<list>
+    					<value>/teacher/course/create</value>
+    					<value>/teacher/applyToSchool</value>
+    				</list>
+    			</property>
+    		</bean>
+    	</mvc:interceptor>
+    	<mvc:interceptor>
+    		<mvc:mapping path="/school/**"/>
+    		<bean class="com.class8.eduPlatform.core.interceptor.SchoolInterceptor"></bean>
+    	</mvc:interceptor>
+    </mvc:interceptors>
+    
+	<!-- 
+	通过引用的方式不起作用，只能配置在mvc:annotation-driven之中
+	<bean id="stringMessageConverter" class="org.springframework.http.converter.StringHttpMessageConverter">
+		<constructor-arg index="0" value="UTF-8" ></constructor-arg>
+		<property name="supportedMediaTypes">
+			<list>
+				<value>text/plain;charset=UTF-8</value>
+			</list>
+		</property>
+	</bean>
+	 -->
+	
+	<!-- 
+	因为方法返回的数据已经是json化的数据
+	<bean id="fastJsonHttpMessageConverter" class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
+		<property name="supportedMediaTypes">
+			<list>
+				<value>application/json;charset=UTF-8</value>
+				<value>text/plain;charset=UTF-8</value>
+			</list>
+		</property>
+	</bean>
+	-->
+	
+	<bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    	<property name="viewClass" value="org.springframework.web.servlet.view.InternalResourceView"></property>
+    	<property name="prefix" value="/WEB-INF/pages/"></property>
+    	<property name="suffix" value=".jsp"></property>
+    </bean>
+    
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+    	<property name="defaultEncoding" value="UTF-8"></property>
+    	<!-- 单次上传文件的总大小限制，不是针对单个文件 -->
+    	<property name="maxUploadSize" value="52428800"></property>
+    	<property name="uploadTempDir" value="/upload"></property>
+    </bean>
+  
+	<bean id="exceptionResolver" class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">     
+         <property name="exceptionMappings">     
+             <props>     
+                 <prop key="java.lang.Throwable">errors/500</prop>     
+             </props>     
+         </property>     
+         <property name="statusCodes">     
+             <props>     
+                 <prop key="errors/500">500</prop>     
+             </props>     
+         </property>     
+         <property name="warnLogCategory" value="WARN"></property>     
+         <property name="defaultErrorView" value="errors/500"></property>     
+         <property name="defaultStatusCode" value="500"></property>     
+     </bean>  
+</beans>

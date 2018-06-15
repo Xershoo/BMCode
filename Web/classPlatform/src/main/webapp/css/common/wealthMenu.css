@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+
+.menu_info_word a:LINK{
+	color:#7c7c7c;
+	text-decoration: none;
+}
+
+.menu_info_word a:VISITED{
+	color:#7c7c7c;
+	text-decoration: none;
+}
+
+.menu_info_word a:hover{
+	color:#7c7c7c;
+	text-decoration: none;
+}
+
+.common_link a:LINK{
+	color:#51a4f6;
+	text-decoration: none;
+}
+
+.common_link a:VISITED{
+	color:#51a4f6;
+	text-decoration: none;
+}
+
+.common_link a:hover{
+	color:#51a4f6;
+	text-decoration: none;
+}
+
+#pay_left_menu{
+	width:220px;
+	height:900px;
+	float:left;
+	background:#fff;
+	border: 1px solid #E4E4E4;
+}
+
+#my_wealth_title{
+	width:220px;
+	height:45px;
+	border-bottom:1px solid #e5e5e5;
+	float:left;
+}
+
+#my_wealth_logo{
+	width:24px;
+	height:24px;
+	float:left;
+	margin-top:10px;
+	margin-left:50px;
+}
+
+#wealth_img{
+	width:18px;
+	height:18px;
+	border:0px;
+	margin-top:3px;
+}
+
+#my_wealth_word{
+	width:100px;
+	height:45px;
+	line-height:45px;
+	float:left;
+	text-align:left;
+	margin-left:5px;
+	font-family: '微软雅黑 Bold', '微软雅黑';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.menu_info{
+	width:220px;
+	height:50px;
+	float:left;
+}
+
+.menu_info_word{
+	width:100px;
+	height:50px;
+	line-height:50px;
+	margin-left:80px;
+	float:left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+    text-align:left;
+}

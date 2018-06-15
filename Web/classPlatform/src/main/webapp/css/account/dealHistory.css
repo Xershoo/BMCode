@@ -1,0 +1,328 @@
+.all{
+	width: 100%;
+	height: 100%;
+	background:#f5f5f5;
+}
+.zhanwei20{
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+}
+.all1{
+	background:#FFFFFF;
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	font-size: 0;
+}
+.leftMenu{
+	float: left;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	width: 200px;
+}
+.myCourse{
+	cursor: pointer;
+	height: 54px;
+	width: 200px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.myCourse img{
+	float: left;
+	margin-top: 16px;
+	margin-left: 24px;
+}
+.myCourse font{
+	float: left;
+	font-size: 16px;
+	color: #969696;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.TeaData{
+	cursor: pointer;
+	height: 54px;
+	width: 200px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.TeaData img{
+	float: left;
+	margin-top: 18px;
+	margin-left: 24px;
+}
+.TeaData font{
+	float: left;
+	font-size: 16px;
+	color: #969696;
+	margin-top: 15px;
+	margin-left: 14px;
+}
+
+.myTreasure{
+	background: #54AFD8;
+	cursor: pointer;
+	height: 54px;
+	width: 200px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.myTreasure img{
+	float: left;
+	margin-top: 18px;
+	margin-left: 24px;
+}
+.myTreasure font{
+	float: left;
+	font-size: 16px;
+	color: #FFFFFF;
+	margin-top: 15px;
+	margin-left: 14px;
+}
+.personSet{
+	cursor: pointer;
+	height: 54px;
+	width: 200px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.personSet img{
+	float: left;
+	margin-top: 18px;
+	margin-left: 24px;
+}
+.personSet font{
+	float: left;
+	font-size: 16px;
+	color: #969696;
+	margin-top: 15px;
+	margin-left: 14px;
+}
+
+
+.rightContrnt{
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	border-left: 1px solid #d5d5d5;
+	width: 998px;
+}
+.topMenu{
+	height: 54px;
+	width: 998px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.topMenu ul li{
+	text-decoration:none; 
+	font-size: 16px;
+	color: #666666;
+	line-height: 54px;
+	margin-left: 50PX;
+	float: left;
+}
+
+#tclick{
+	text-decoration:none; 
+	font-size: 18px;
+	color: #333333;
+	line-height: 54px;
+	margin-left: 50PX;
+	float: left;
+}
+.midMenu{
+	height: 48px;
+	width: 998px;
+}
+
+.midMenu ul li{
+	text-decoration:none; 
+	font-size: 14px;
+	color: #666666;
+	text-align: center;
+	margin-left: 14PX;
+	margin-right: 20px;
+	margin-top: 14px;
+	float: left;
+}
+.xiaxian{
+	height: 24px;
+	color: #54AFD8;
+	border-bottom: 1px solid #54AFD8;
+}
+.noOrder{
+	font-size: 14px;
+	color: #666666;
+	margin-left: 14px;
+	margin-top: 4px;
+}
+
+.zhanwei164{
+	width: 998px;
+	height: 176px;
+}
+.line800{
+	margin-top: 16px;
+	margin-left: 44px;
+	width: 900px;
+	height: 40px;
+}
+.linefont1{
+	float: left;
+	line-height: 40px;
+	font-size: 16px;
+	color: #666666;
+}
+.linefont2{
+	float: left;
+	margin-left: 30px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #666666;
+}
+.line800 input{
+	float: left;
+	border-radius:4px;
+	 border:0;
+	outline: none;
+	margin-left: 12px;
+	 padding-left: 10px; 
+	font-size: 18px;
+	color: #333;
+	width: 189px;
+	height: 40px;
+	border: 1px solid #D5D5D5;
+}
+.Time{
+	margin-left: 520px;
+	width: 400px;
+	height: 40px;
+	
+}
+.Time ul li{
+	margin-top: 5px;
+	float: left;
+	line-height: 30px;
+	font-size: 14px;
+	color: #666666;
+	margin-right: 24px;
+}
+.Time1{
+	margin-left: 92px;
+	width: 400px;
+	height: 40px;
+	
+}
+.Time1 ul li{
+	margin-top: 5px;
+	float: left;
+	line-height: 30px;
+	font-size: 14px;
+	color: #666666;
+	margin-right: 24px;
+}
+.Onclick{
+	color: #FFFFFF;
+	border-radius:4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #54AFD8;
+}
+
+.thOrder{
+	margin-left: 13px;
+	height: 60px;
+	width: 974px;
+	background: #F6F6F6;
+}
+.thOrder1{
+	float: left;
+	margin-left: 30px;
+	line-height: 60px;
+	font-size: 14px;
+	color: #333;
+}
+.thOrder2{
+	float: left;
+	margin-left: 82px;
+	line-height: 60px;
+	font-size: 14px;
+	color: #333;
+}
+.deal{
+	margin-left: 13px;
+	height: 76px;
+	width: 974px;
+	border-bottom: 1px solid #D5D5D5;
+}
+.OrderNum{
+	float: left;
+	font-size: 14px;
+	color: #333333;
+	text-align: center;
+	line-height: 76px;
+	height: 76px;
+	width: 110px;
+}
+.OrderTime{
+	float: left;
+	font-size: 14px;
+	color: #333333;
+	padding-top: 10px;
+	line-height: 28px;
+	text-align: center;
+	height: 66px;
+	width: 140px;
+}
+.OrderText{
+	float: left;
+	font-size: 14px;
+	color: #333333;
+	padding-top: 10px;
+	line-height: 28px;
+	text-align: center;
+	height: 66px;
+	width: 200px;
+}
+.OrderPeo{
+	float: left;
+	font-size: 14px;
+	color: #333333;
+	text-align: center;
+	line-height: 76px;
+	height: 76px;
+	width: 124px;
+}
+.OrderPrice{
+	float: left;
+	font-size: 14px;
+	color: #333333;
+	text-align: center;
+	line-height: 76px;
+	height: 76px;
+	width: 140px;
+}
+.OrderState{
+	float: left;
+	font-size: 14px;
+	color: #333333;
+	text-align: center;
+	line-height: 76px;
+	height: 76px;
+	width: 140px;
+}
+.OrderOpera{
+	float: left;
+	font-size: 14px;
+	color: #54AFD8;
+	text-align: center;
+	line-height: 76px;
+	height: 76px;
+	width: 108px;
+	cursor: pointer;
+}
+
+.zhanwei76{
+	height: 76px;
+}
+.zhanwei228{
+	height: 228px;
+}

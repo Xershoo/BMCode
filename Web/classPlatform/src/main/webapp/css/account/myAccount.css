@@ -1,0 +1,174 @@
+.all{
+	width: 100%;
+	height: 100%;
+	background:#f5f5f5;
+}
+.zhanwei20{
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+}
+.all1{
+	background:#FFFFFF;
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	font-size: 0;
+}
+.leftMenu{
+	float: left;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	width: 200px;
+}
+.myCourse{
+	cursor: pointer;
+	height: 54px;
+	width: 200px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.myCourse img{
+	float: left;
+	margin-top: 16px;
+	margin-left: 24px;
+}
+.myCourse font{
+	float: left;
+	font-size: 16px;
+	color: #969696;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.TeaData{
+	cursor: pointer;
+	height: 54px;
+	width: 200px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.TeaData img{
+	float: left;
+	margin-top: 18px;
+	margin-left: 24px;
+}
+.TeaData font{
+	float: left;
+	font-size: 16px;
+	color: #969696;
+	margin-top: 15px;
+	margin-left: 14px;
+}
+
+.myTreasure{
+	cursor: pointer;
+	background: #54AFD8;
+	height: 54px;
+	width: 200px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.myTreasure img{
+	float: left;
+	margin-top: 18px;
+	margin-left: 24px;
+}
+.myTreasure font{
+	float: left;
+	font-size: 16px;
+	color: #FFFFFF;
+	
+	margin-top: 15px;
+	margin-left: 14px;
+}
+.personSet{
+	
+	cursor: pointer;
+	height: 54px;
+	width: 200px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.personSet img{
+	float: left;
+	margin-top: 18px;
+	margin-left: 24px;
+}
+.personSet font{
+	float: left;
+	font-size: 16px;
+	color: #969696;
+	margin-top: 15px;
+	margin-left: 14px;
+	
+}
+
+
+.rightContrnt{
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	border-left: 1px solid #d5d5d5;
+	width: 998px;
+}
+.topMenu{
+	height: 54px;
+	width: 998px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.topMenu ul li{
+	text-decoration:none; 
+	font-size: 16px;
+	color: #666666;
+	line-height: 54px;
+	margin-left: 50PX;
+	float: left;
+}
+
+#tclick{
+	text-decoration:none; 
+	font-size: 18px;
+	color: #333333;
+	line-height: 54px;
+	margin-left: 50PX;
+	float: left;
+}
+.zhanwei146{
+	height: 150px;
+	width: 998px;
+	border-bottom: 1px solid #D5D5D5;
+}
+.Kuang250{
+	float: left;
+	margin-left: 46px;
+	height: 146px;
+	width: 300px;
+}
+.kfont1{
+	margin-top: 42px;
+	font-size: 16px;
+	color: #666666;
+}
+.kfont2{
+	font-size: 36px;
+	color: #fe5907;
+}
+.kfont3{
+	font-size: 24px;
+	margin-top: 10px;
+	color: #333333;
+}
+.congzhi{
+	border:0;
+	border-radius:4px;
+	font-size: 20px;
+	color: #FFFFFF;
+	background: #FE5907;
+	width: 102px;
+	height: 40px;
+	margin-top: 52px;
+	margin-left: 12px;
+}
+
+
+.zhanwei400{
+	height: 350px;
+}

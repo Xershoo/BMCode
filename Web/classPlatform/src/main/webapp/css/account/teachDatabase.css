@@ -1,0 +1,299 @@
+.all{
+	width: 100%;
+	height: 100%;
+	background:#f5f5f5;
+}
+.zhanwei20{
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+}
+.all1{
+	background:#FFFFFF;
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	font-size: 0;
+}
+.leftMenu{
+	float: left;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	width: 200px;
+}
+.myCourse{
+	cursor: pointer;
+	height: 54px;
+	width: 200px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.myCourse img{
+	float: left;
+	margin-top: 16px;
+	margin-left: 24px;
+}
+.myCourse font{
+	float: left;
+	font-size: 16px;
+	color: #969696;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.TeaData{
+	cursor: pointer;
+	background: #54AFD8;
+	height: 54px;
+	width: 200px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.TeaData img{
+	float: left;
+	margin-top: 18px;
+	margin-left: 24px;
+}
+.TeaData font{
+	float: left;
+	font-size: 16px;
+	color: #FFFFFF;
+	margin-top: 15px;
+	margin-left: 14px;
+}
+
+.myTreasure{
+	cursor: pointer;
+	height: 54px;
+	width: 200px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.myTreasure img{
+	float: left;
+	margin-top: 18px;
+	margin-left: 24px;
+}
+.myTreasure font{
+	float: left;
+	font-size: 16px;
+	color: #969696;
+	margin-top: 15px;
+	margin-left: 14px;
+}
+.personSet{
+	cursor: pointer;
+	height: 54px;
+	width: 200px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.personSet img{
+	float: left;
+	margin-top: 18px;
+	margin-left: 24px;
+}
+.personSet font{
+	float: left;
+	font-size: 16px;
+	color: #969696;
+	margin-top: 15px;
+	margin-left: 14px;
+}
+
+
+.rightContrnt{
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	border-left: 1px solid #d5d5d5;
+	width: 998px;
+}
+.topMenu{
+	height: 54px;
+	width: 998px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.topMenu ul li{
+	text-decoration:none; 
+	font-size: 16px;
+	color: #666666;
+	line-height: 54px;
+	margin-left: 50PX;
+	float: left;
+}
+
+#tclick{
+	text-decoration:none; 
+	font-size: 18px;
+	color: #333333;
+	line-height: 54px;
+	margin-left: 50PX;
+	float: left;
+}
+.midMenu{
+	height: 60px;
+	width: 998px;
+}
+
+.shangchuan{
+	margin-left: 20PX;
+	margin-top: 10px;
+	float: left;
+	cursor: pointer;
+	width:150px;
+	height: 36px;
+	border-radius:5px;
+	border: 2px solid #54AFD8;
+}
+.shangchuan img{
+	float: left;
+	margin-left: 20PX;
+	margin-top: 6px;
+}
+.shangchuan font {
+	float: left;
+	margin-left: 16PX;
+	margin-top: 6px;
+	font-size: 16px;
+	color: #333333;
+}
+
+.noOrder{
+	font-size: 14px;
+	color: #666666;
+	margin-left: 14px;
+	margin-top: 4px;
+}
+.zhanwei400{
+	height: 400px;
+}
+
+.thOrder{
+	height: 50px;
+	background: #F7F7F7;
+	border-bottom: 1px solid #d5d5d5;
+	border-top: 1px solid #d5d5d5;
+}
+.allCheck{
+	float: left;
+	margin-left: 24px;
+	margin-top: 20px;
+}
+.thOrder1{
+	float: left;
+	margin-top: 16px;
+	margin-left: 10px;
+	font-size: 14px;
+	color: #666666;
+}
+.thOrder2{
+	float: left;
+	margin-top: 16px;
+	margin-left: 580px;
+	font-size: 14px;
+	color: #666666;
+}
+.thOrder4{
+	float: left;
+	margin-top: 16px;
+	margin-left: 630px;
+	font-size: 14px;
+	color: #666666;
+}
+.thOrder3{
+	float: left;
+	margin-top: 16px;
+	margin-left: 130px;
+	font-size: 14px;
+	color: #666666;
+}
+.thOrder5{
+	float: left;
+	margin-top: 16px;
+	margin-left: 116px;
+	font-size: 14px;
+	color: #666666;
+}
+.thDir{
+	height: 54px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.thDir font{
+	float: left;
+	margin-left: 14px;
+	font-size: 14px;
+	margin-top: 18px;
+	color: #666666;
+}
+.thDir img{
+	float: left;
+	margin-left: 10px;
+	font-size: 14px;
+	margin-top: 16px;
+	color: #666666;
+	cursor: pointer;
+}
+
+.oneCheck{
+	float: left;
+	margin-left: 24px;
+	margin-top: 22px;
+}
+
+.zhanwei50{
+	height: 50px;
+}
+
+.backMenu{
+	height: 50px;
+	border-top: 1px solid #d5d5d5;
+}
+.backMenu font{
+	float: left;
+	font-size: 14px;
+	margin-top: 16px;
+	margin-left: 14px;
+	color: #666666;
+	cursor: pointer;
+}
+.DirName{
+	float: left;
+	height: 20px;
+	width: 300px;
+	margin-left: 14px;
+	font-size: 14px;
+	color: #666666;
+	margin-top: 18px;
+}
+.DirOpera{
+	float: left;
+	height: 52px;
+	width: 220px;
+	margin-left: 14px;
+}
+.DirOpera img {
+	margin-left: 14px;
+	margin-right: 14px;
+	cursor: pointer;
+}
+.DirSize{
+	float: left;
+	height: 20px;
+	width: 150px;
+	margin-left: 48px;
+	font-size: 14px;
+	color: #666666;
+	text-align: center;
+	margin-top: 18px;
+}
+.DirTime{
+	float: left;
+	height: 20px;
+	width: 136px;
+	margin-left: 36px;
+	font-size: 14px;
+	color: #666666;
+	text-align: center;
+	margin-top: 18px;
+}
+.zhanwei300{
+	height: 280px;
+}

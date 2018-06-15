@@ -1,0 +1,657 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li,
+	pre, fieldset, lengend, button, input, textarea, th, td {
+	margin: 0;
+	padding: 0
+}
+
+body, button, input, select, textarea {
+	font: 14px/1.5 "Helvetica Neue", Helvetica, Tahoma, Arial, sans-serif
+}
+
+.message_all {
+	width: 1200px;
+	margin: 15px auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.navigation {
+	width: 200px;
+	height: 1030px;
+	float: left;
+	background-color: #ffffff;
+}
+
+li {
+	list-style-type: none;
+}
+
+body {
+	background-color: #f5f4f2;
+}
+
+.navigation_message {
+	height: 40px;
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	text-align: left;
+	color: #333;
+	text-indent: 3em;
+	cursor: pointer;
+}
+
+.myMessage {
+	font-family: "微软雅黑 Bold", "微软雅黑";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 18px;
+	text-align: left;
+	color: #333;
+	text-indent: 1em;
+}
+
+.my_message_img {
+	margin-top: 5px;
+	float: left;
+}
+
+.my_message {
+	margin-top: 5px;
+	float: left;
+	margin-left: -15px;
+}
+
+.message {
+	float: left;
+	width: 965px;
+	height: 1030px;
+	margin-left: 15px;
+	background-color: #ffffff;
+}
+
+.message1 {
+	width: 100%;
+	height: 45px;
+	border-bottom: 1px solid #E4E4E4;
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	color: #333;
+	text-indent: 1em;
+	line-height: 40px;
+	background-color: #f5f8fa;
+	text-align: left;
+}
+
+.checkbox {
+	width: 990px;
+	height: 50px;
+}
+
+.checkbox1 {
+	float: left;
+	margin-left: 30px;
+}
+
+.delete {
+	float: left;
+	margin-left: 30px;
+	background: url(../../images/button_simple_u207.png);
+	width: 50px;
+	height: 20px;
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	color: #6B6B6B;
+	cursor: pointer;
+	font-size: 14px;
+	text-align: center;
+}
+
+.mark {
+	float: left;
+	margin-left: 30px;
+	width: 90px;
+	height: 20px;
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	color: #6B6B6B;
+	cursor: pointer;
+	font-size: 14px;
+	background: url(../../images/button_simple_u209.png);
+	text-align: center;
+}
+
+.courseMessage_list {
+	width: 990px;
+	height: 160px;
+}
+
+.courseMessage_list div {
+	float: left;
+}
+
+.icon {
+	width: 180px;
+	height: 100px;
+}
+
+.detail {
+	width: 460px;
+	height: 100px;
+}
+
+.time {
+	width: 220px;
+	height: 100px;
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	color: #333;
+	line-height: 110px;
+}
+
+.delete_icon {
+	width: 80px;
+	height: 100px;
+}
+
+.icon li {
+	float: left;
+}
+
+.icon1 {
+	margin-left: 30px;
+	margin-top: 52px;
+}
+
+.icon2 {
+	margin-left: 10px;
+    margin-top: 15px;
+}
+
+.detail li {
+	height: 45%;
+}
+
+.d1 {
+	font-family: "微软雅黑 Bold", "微软雅黑";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 14px;
+	color: #333;
+	cursor: pointer;
+}
+
+.d2 {
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	color: #333;
+}
+
+.d3 {
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	color: #333;
+}
+
+.detail2 {
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	color: #333;
+	line-height: 20px;
+	cursor: pointer;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.detail1 {
+	line-height: 80px;
+}
+
+.delete_icon1 {
+	margin-top: 42px;
+}
+
+.remark_list {
+	width: 990px;
+	height: 200px;
+}
+
+.remark_detail {
+	width: 780px;
+	float: left;
+}
+
+.icon {
+	float: left;
+}
+
+.remark_detail1 {
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	color: #333;
+	text-align: left;
+	height: 30px;
+}
+
+.remark_detail2 {
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	color: #666;
+	font-size: 14px;
+	height: 30px;
+}
+
+.remark_detail2 span {
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	color: #39F;
+	font-size: 14px;
+}
+
+.remark_detail3 {
+	height: 75px;
+	background-color: #E4E4E4;
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	color: #333;
+	text-align: left;
+	font-size: 14px;
+}
+
+.remark_detail4 {
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	color: #999;
+	font-size: 14px;
+}
+
+.remark_list1 {
+	width: 875px;
+	height: 200px;
+}
+
+.rd1 {
+	height: 153px;
+}
+
+.rd2 {
+	height: 46px;
+	width: 870px;
+	border-bottom: 1px solid #E4E4E4;
+	margin-left: 40px;
+}
+
+.review_detail {
+	width: 90px;
+	height: 26px;
+	float: right;
+	background: url(../../images/button_toggle_u155.png);
+	margin-right: 30px;
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	color: #6B6B6B;
+	text-align: center;
+}
+
+.review_reply {
+	width: 90px;
+	height: 26px;
+	float: right;
+	background: url(../../images/button_black_u158.png);
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	color: #FFF;
+	text-align: center;
+}
+
+.u144_img {
+	float: right;
+}
+
+#cm {
+	background-color: #FFFFFF;
+}
+
+.detail2 span {
+	cursor: pointer;
+}
+
+.cd1 {
+	height: 100px;
+}
+
+.cd1_icon {
+	width: 120px;
+	float: left;
+	height: 100px;
+}
+
+.cd1_teacher {
+	height: 100px;
+	width: 600px;
+	float: left;
+}
+
+.cd1_teacher1 {
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	color: #333;
+	height: 50%;
+	line-height: 80px;
+}
+
+.cd1_teacher2 {
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	color: #999;
+	font-size: 14px;
+	height: 50%;
+}
+
+.u148_img {
+	margin-left: 60px;
+	margin-top: 30px;
+}
+
+.title {
+	text-indent: 4em;
+	height: 50px;
+	font-family: "微软雅黑 Bold", "微软雅黑";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 14px;
+	color: #333;
+}
+
+.title span {
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	color: #333;
+}
+
+.content {
+	text-indent: 2em;
+	width: 780px;
+	margin-left: 110px;
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 23px;
+	color: #333;
+	word-break: break-word;
+}
+
+.back_courseMessage {
+	float: right;
+	width: 150px;
+}
+
+.back_courseMessage span {
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	text-align: right;
+	font-size: 14px;
+	color: #333;
+	cursor: pointer;
+}
+
+.u307_img {
+	margin-top: 6px;
+	float: left;
+}
+
+.back_m {
+	float: left;
+	margin-left: -20px;
+}
+
+.user_name {
+	font-family: "微软雅黑 Bold", "微软雅黑";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 18px;
+	color: #333;
+}
+
+#u145_img {
+	width: 100px;
+	height: 100px;
+	border-radius: 90px;
+	cursor: pointer;
+}
+
+.imgu {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}
+
+.newCourseMessage {
+	float: left;
+	cursor: pointer;
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	color: #333;
+}
+
+.cmu262 {
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin-top: 4px;
+}
+
+.kcxx {
+	float: left;
+	width: 815px;
+}
+
+.sendMessage_people1 {
+	height: 50px;
+}
+
+.sendMessage_people {
+	height: 50px;
+	text-indent: 5em;
+}
+
+.sendMessage_people input {
+	width: 688px;
+	height: 27px;
+}
+
+.sendMessage_title {
+	height: 50px;
+	text-indent: 5em;
+}
+
+.sendMessage_title input {
+	width: 688px;
+	height: 27px;
+}
+
+.sendMessage_content {
+	height: 400px;
+	text-indent: 5em;
+}
+
+.sendMessage_content input {
+	width: 688px;
+	height: 353px;
+}
+
+.sendMessage_caozuo {
+	height: 50px;
+}
+
+.sendMessage_caozuo div {
+	width: 98px;
+	height: 30px;
+}
+
+.send {
+	background: url(../../images/button_black_u356.png);
+	margin-right: 30px;
+	float: right;
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	color: #FFF;
+	text-align: center;
+	cursor: pointer;
+	line-height: 30px;
+}
+
+.cancel {
+	background: url(../../images/button_simple_u358.png);
+	margin-right: 200px;
+	float: right;
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	color: #6B6B6B;
+	text-align: center;
+	cursor: pointer;
+	line-height: 30px;
+}
+
+.m_receiverInfo {
+	width: 690px;
+	height:300px;
+	position: absolute;
+	top: 208px;
+	left: 692px;
+	background-color: #F2F2F2;
+	overflow-y: auto;
+}
+
+.m_receiverInfo p {
+	font-family: "微软雅黑", "Microsoft YaHei";
+	font-size: 14px;
+	overflow: hidden;
+}
+
+.yanzheng {
+	font-family: "微软雅黑", "Microsoft YaHei";
+	font-size: 14px;
+	color: red;
+	margin-left: 10px;
+}
+
+.xiahuxian {
+	width: 900px;;
+	height: 5px;
+	border-bottom: 1px solid #E4E4E4;
+	margin-left: 30px;
+}
+
+.courseMessage_list1 {
+	width: 990px;
+	height: 130px;
+	margin-top: 5px;
+}
+
+.replay {
+	height: 50px;
+}
+
+.replay1 {
+	width: 110px;
+	height: 30px;
+	margin-right: 100px;
+	float: right;
+	background:
+		url(/images/manageCourse/button_black_u397.png);
+	font-family: "微软雅黑", "Microsoft YaHei";
+	font-size: 16px;
+	color: #ffffff;
+	text-align: center;
+	cursor: pointer;
+	line-height: 30px;
+}
+
+.content_textarea {
+	width: 850px;
+	height: 387px;
+	margin-left: 70px;
+}
+
+#privatemessagecontent {
+	margin-left: 70px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 850px;
+	height: 30px;
+}
+
+.newflag {
+	margin-top: 10px;
+}
+
+#privatemessagecontent_tip {
+	margin-left: 70px;
+	color: red;
+}
+
+#send_private_Content_tip {
+	margin-left: 70px;
+	color: red;
+}
+
+#courseMessageList {
+	text-align: center;
+}
+
+#privateMessageList {
+	text-align: center;
+}
+
+#systemMessageList {
+	text-align: center;
+}
+.pm{
+	height:30px;
+	text-indent: 20px;
+	color: #B8BABA;
+}
+#wuxiaoxi{
+	line-height: 200px;
+}
+pre {
+white-space: pre-wrap;
+word-wrap: break-word;
+}

@@ -1,0 +1,870 @@
+@CHARSET "UTF-8";
+
+body {
+	text-align: center;
+}
+
+#course_main {
+	width: auto;
+	min-width:1200px;
+	height: auto;
+    min-height: 1200px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.c_title {
+	width: 1200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: left;
+	font-size: 14px;
+	background-color: #ffffff;
+}
+
+.c_top {
+	width: 1200px;
+	height: 330px;
+/* 	border: 1px solid #eeecea; */
+	background-color: #fff;
+}
+
+.c_top_left {
+	width: 500px;
+	height: 307px;
+	float: left;
+	margin-top: 12px;
+	margin-left: 20px;
+}
+
+.c_top_right {
+	width: 645px;
+	height: 325px;
+	float: right;
+}
+
+h1 {
+	width: 100%;
+	height: 70px;
+	line-height: 60px;
+	text-align: left;
+	font-size: 26px;
+	color: #3d3d3d;
+	font-weight: bold;
+}
+
+.t_sex{
+	width:14px;
+	height:14px;
+	margin-top:10px;
+	margin-right:5px;
+}
+
+.c_top_price {
+	width: auto;
+	min-width:180px;
+	height: 35px;
+	font-weight: 400;
+	line-height: 35px;
+	text-align: left;
+	float: left;
+	font-size: 15px;
+	color: #bababa;
+}
+
+.c_coupons {
+	width: 300px;
+	height: 35px;
+	line-height: 35px;
+	float: left;
+	text-align: left;
+}
+
+.get_coupons {
+	height: 30px;
+	line-height: 35px;
+	font-size: 14px;
+	padding-top: 5px;
+	vertical-align: middle;
+	color: #0099ff;
+}
+
+.c_cp {
+	vertical-align: middle;
+	padding-top: 5px;
+}
+
+a:HOVER {
+	color: #3266ff;
+	decoration: underline;
+	cursor: pointer;
+}
+
+.c_under {
+	margin:10px auto;
+	float: left;
+}
+
+.c_top_tab {
+	width: 645px;
+	height: 210px;
+	float: left;
+	color: #bababa;
+}
+
+.c_tab_dtl {
+	width: 645px;
+	height: 190px;
+	border: 0px solid #ffffff;
+	margin-top: 10px;
+}
+
+.c_tab_dtl th {
+	width: 60px;
+	height: 20px;
+	line-height: 30px;
+	font-size: 15px;
+	text-align: left;
+	font-weight: 100;
+}
+
+.c_tab_dtl tr td {
+	text-align: left;
+	font-size: 15px;
+	color: #3d3d3d;
+}
+
+.c_btn {
+	width: 645px;
+	height: 50px;
+	float: left;
+	text-align: left;
+}
+
+.c_apply {
+	width: 150px;
+	height: 47px;
+	margin-right: 20px;
+	border-radius: 5px;
+	background-color: #5abd72;
+	color: white;
+	font-size: 18px;
+	cursor:pointer;
+	border: 0px solid #ffffff;
+}
+.alpay{
+	cursor:auto;
+}
+.c_cursor{
+	cursor:pointer;
+}
+.c_dis{
+	background:#d2d2d2;
+	color:white;
+}
+.c_end {
+	width: 290px;
+	height: 47px;
+	border-radius: 5px;
+	margin-right: 20px;
+	background-color: #d2d2d2;
+	color: #9a9a9a;
+	font-size: 18px;
+	border: 0px solid #fff;
+}
+
+.in_class{
+	background:#1976d2;
+	color:white;
+}
+
+.c_applied {
+	width: 290px;
+	height: 47px;
+	border-radius: 5px;
+	margin-right: 20px;
+	background-color: #ffa800;
+	color: white;
+	font-size: 18px;
+	cursor:pointer;
+	text-align:center;
+	border: 0px solid #fff;
+}
+
+.add_btn {
+	width: 290px;
+}
+
+.add_middle {
+	width: auto;
+	min-width:1200px;
+	height:auto;
+	overflow:hidden;
+	min-height: 1025px;
+	margin:4px auto;
+	margin-bottom:0;
+}
+
+.c_target {
+    width: 810px;
+    height: 80px;
+    margin-left: 6%;
+	font-size: 16px;
+	color: #7c7c7c;
+	margin-top: 10px;
+	word-break: break-all;
+}
+
+.c_intro {
+	height: 200px;
+}
+
+.c_go_class {
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #1ab9f3;
+	color: white;
+	font-size: 18px;
+	border: 0px solid #ffffff;
+}
+
+.c_middle_left {
+	width: 900px;
+	height:auto;
+	overflow:hidden;
+	min-height: 1004px;
+	float: left;
+	margin: 20px auto;
+	margin-bottom:0;
+	background-color: #fff;
+}
+
+.c_middle_tab {
+	width: 900px;
+	height: 45px;
+	line-height: 45px;
+	vertical-align: middle;
+	float: left;
+	font-size: 18px;
+	color: #546d7e;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.course_info {
+	width: 80px;
+	height: 42px;
+	float: left;
+	margin-left: 65px;
+	cursor: pointer;
+	border-bottom: 3px solid #51a4f6;
+	decoration: underline;
+}
+#course_info:hover{
+	color:#51a4f6;
+}
+#course_catalog:hover{
+	color:#51a4f6;
+}
+#course_evaluation:hover{
+	color:#51a4f6;
+}
+#course_data:hover{
+	color:#51a4f6;
+}
+.course_color{
+	color:#51a4f6;
+}
+.school_info{
+	font-weight:100;
+	border-bottom:0;
+}
+
+.school_rm_info{
+	font-weight:bold;
+	border-bottom:3px solid #31a844;
+}
+.course_catalog {
+	width: 80px;
+	height: 42px;
+	float: left;
+	margin-left: 65px;
+	cursor: pointer;
+}
+
+.course_evaluation {
+	width: 150px;
+	height: 42px;
+	float: left;
+	margin-left: 65px;
+	cursor: pointer;
+}
+
+.course_data {
+	width: 80px;
+	height: 42px;
+	float: left;
+	margin-left: 65px;
+	cursor: pointer;
+}
+
+.course_content {
+	width: 890px;
+	height:auto;
+	overflow:hidden;
+	min-height: 600px;
+	text-align: left;
+	margin-top: 60px;
+}
+
+.c_target_h2 {
+	width: 840px;
+	height:40px;
+	line-height: 30px;
+	margin-left: 30px;
+	font-size: 16px;
+	color: #3d3d3d;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.c_t_tip {
+	margin-right: 10px;
+}
+
+.c_content_tab {
+	width: 800px;
+	text-align: left;
+	margin-left: 50px;
+}
+
+.c_content_tab th {
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	text-align: left;
+	font-weight: 100;
+}
+
+.c_content_tab tr td {
+	width: 650px;
+	text-align: left;
+	font-size: 15px;
+}
+.c_middle_right{
+	width: 280px;
+	height: auto;
+	min-height:600px;
+	overflow:hidden;
+/* 	float: left; */
+	margin-top: 20px;
+/* 	margin-left:20px; */
+	padding-left:20px;
+}
+.middle_right {
+	width: 280px;
+	height: 200px;
+	float: left;
+	background-color: #fff;
+}
+
+.middle_img {
+	width: 100px;
+	height: 130px;
+	float: left;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.self_img {
+	width: 100px;
+	height: 100px; 
+	margin-top:20px;
+	cursor:pointer;
+	border-radius: 90px;
+}
+
+.middle_self_info {
+	width: 260px;
+	height: 110px;
+	line-height: 32px;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-size: 12px;
+}
+
+.middle_self_info p {
+	text-align: left;
+	margin-left: 120px;
+}
+
+.t_name {
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.id_card {
+	text-align: center;
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+}
+
+.card_img {
+	margin-right: 16px;
+	background-color: #cbcbcb;
+}
+
+.c_score {
+	text-align: left;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #717171;
+}
+
+.d_score {
+	font-size: 18px;
+	margin-left: 15px;
+}
+
+.s_score {
+	width: 240px;
+    height: 35px;
+	padding-top: 10px;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.right_bottom {
+	width: 280px;
+	height: auto;
+	overflow:hidden;
+	min-height:200px;
+}
+
+.c_other {
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 15px;
+	font-size: 15px;
+}
+
+.go_cor {
+	width: 50px;
+	height: 60px;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-right: 20px;
+}
+
+.other_cor {
+	width: 270px;
+	height: 73px;
+	float: left;
+	padding-left: 10px;
+}
+
+.other_img {
+	width: 100px;
+	text-align: left;
+	float: left;
+	padding-left: 15px;
+}
+
+.o_content {
+	width: 140px;
+    height: 58px;
+	line-height: 19px;
+	float: left;
+	text-align: left;
+	font-size: 13px;
+}
+
+.cor_price{
+	color:#ffa800;
+}
+
+.c_bottom {
+	width: 295px;
+	height: auto;
+	overflow:hidden;
+	min-height:365px;
+	margin-top: 15px;
+	font-size: 16px;
+}
+
+.c_applyed {
+	width: 90%;
+	height: 47px;
+	margin-left: 15px;
+	float: left;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.st_tab tr td {
+	width: 90px;
+	margin-left: 20px;
+	font-size: 13px;
+}
+
+.ct_score {
+	width: 845px;
+	height: 40px;
+	text-align: left;
+	margin-left: 22px;
+	border-bottom: 1px solid #e5e5e5;
+	margin-top: 20px;
+}
+
+.ct_score h2 {
+	font-size: 18px;
+	color: #3d3d3d;
+}
+
+.ct_content {
+	width: 845px;
+	height:auto;
+	overflow:hidden;
+	min-height: 150px;
+	font-size: 14px;
+	margin-left: 20px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.st_bkimg {
+	width: 100px;
+	height: 120px;
+	margin-left: 25px;
+	padding-top: 30px;
+	float: left;
+}
+
+.ct_detail {
+	width: 890px;
+	height: 40px;
+	text-align: left;
+	padding-top: 20px;
+}
+
+.ct_detail h2 {
+	font-size: 14px;
+	color: #999999;
+}
+
+.sr_score {
+	width: 840px;
+	height: 90px;
+}
+
+.st_time {
+	float: right;
+	margin-right: 57px;
+	margin-top: -22px;
+}
+
+.sr_score p {
+	text-align: left;
+    width: 710px;
+    float: left;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.cor_file {
+	width: 253px;
+	height:180px;
+	margin-top: 10px;
+    float: left;
+    margin-left: 32px;
+	border:1px solid #efefef;
+}
+.cor_file p{
+    float: left;
+    height: 35px;
+    width: 98%;
+    font-size: 14px;
+    margin-left: 7px;
+    line-height: 35px;
+}
+.cor_back_img{
+    width: 235px;
+    height: 138px;
+    float: left;
+    margin-top: 7px;
+    margin-left: 9px;
+    background: #efefef;
+}
+.cor_back_img p{
+    float: left;
+    margin: 30px auto;
+    font-size: 14px;
+}
+.cor_file tr td {
+	width: 240px;
+	height: 200px;
+	background: url("../../images/c2-1coursedetail/cor_file.png") no-repeat;
+}
+
+.cor_file tr {
+	height: 220px;
+}
+
+.cor_file tr td p {
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 150px;
+	font-size: 14px;
+}
+
+.dl_file {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.file_img {
+	width: 88px;
+	height: 95px;
+	float: left;
+    margin-left: 72px;
+    margin-top: 20px;
+}
+
+.less_fl {
+	float: left;
+	margin-left: 200px;
+}
+.top_content{
+	width:auto;
+	min-width:1200px;
+	height:400px;
+    background: #fff;
+    margin-top: 15px;
+	-moz-box-shadow: 10px 3px 5px #888888; /* 老的 Firefox */
+	box-shadow: 10px 3px 5px #888888;
+}
+.c_top_bor {
+	width: 1200px;
+	height: 380px;
+	margin: 0 auto;
+}
+
+.left_line {
+	width: 63px;
+	height: 703px;
+	margin-top: -4px;
+	float: left;
+	border-right: 1px solid #c6c4c4;
+}
+
+.detailMain {
+	width: 96%;
+	margin-left: 2%;
+	border: 1px solid #dedede;
+}
+
+.detailMainC.cur {
+	display: block;
+	position: relative;
+}
+
+.detailMainC {
+	height: 750px;
+	display: none;
+	background: #fff;
+}
+
+.spreadBtn {
+	height: 32px;
+	line-height: 32px;
+	padding-left: 54px;
+	margin-top: -32px;
+	text-align: left;
+	font-size: 14px;
+	color: #3d3d3d;
+	cursor: pointer;
+}
+
+.spread {
+	margin-left: 74px;
+	margin-top: 25px;
+}
+
+.sp_btn {
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+.e_class_info {
+	width: 855px;
+	height: 25px;
+	margin-top: 10px;
+	text-align: left;
+	font-size: 14px;
+	color: #505050;
+}
+
+.n_class {
+	text-align: left;
+	margin-left: 10px;
+}
+
+.c_name {
+	text-align: left;
+	margin-left: 15px;
+	display: inline-block;
+    width: 250px;
+}
+
+.c_time {
+	text-align: left;
+	margin-left: 10px;
+}
+
+.straight{
+	margin-left:10px;
+}
+
+.c_status {
+	width: 80px;
+	height: 22px;
+	float: right;
+	background: #31a844;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+}
+
+.c_not_bn {
+	width: 80px;
+	height: 22px;
+	float: right;
+	background: #9ccefe;
+	margin-right: 20px;
+	text-align: center;
+	color: #3591eb;
+	font-size: 14px;
+}
+
+.c_over {
+	width: 80px;
+	height: 22px;
+	float: right;
+	background: #d2d2d2;
+	margin-right: 20px;
+	text-align: center;
+	color: #9a9a9a;
+	font-size: 14px;
+}
+
+.r_class {
+	text-align: left;
+	margin-left: -5px;
+}
+
+.sp_dtl {
+	margin-left: -10px;
+}
+
+.m_content {
+	width: 1200px;
+	height:auto;
+	overflow:hidden;
+	min-height: 1028px;
+	margin: 0 auto;
+}
+.o_img{
+	width: 90px;
+    height: 56px;
+	cursor:pointer;
+	border:1px solid #e5e5e5;
+}
+.o_img:hover{
+	/* -moz-box-shadow: 10px 10px 5px #888888; 老的 Firefox
+	box-shadow: 10px 10px 5px #888888; */
+	border:1px solid #1976d2;
+}
+#page{
+	width:100%;
+	height:40px;
+	float:left;
+	text-align:center;
+	background:#fff;
+}
+#ccPage{
+	width:900px;
+	height:40px;
+	float:left;
+	text-align:center;
+	background:#fff;
+}
+#evaluate{
+	width: 900px;
+    height: auto;
+    overflow: hidden;
+    min-height: 300px;
+    font-size:14px;
+    float:left;
+}
+.eva-course{
+	width:898px;
+	height:220px;
+	border:1px solid #C1DFEE;
+	margin: 0px auto;
+	background:#fff;
+}
+.eva-star{
+    width: 100%;
+    height: 34px;
+    line-height: 30px;
+    float: left;
+    text-align: left;
+}
+.eva-th-cour{
+    margin-left: 22%;
+    float: left;
+    height: 34px;
+    line-height: 34px;
+}
+.eva-info{
+    width: 100%;
+    float: left;
+    margin: 5px auto;
+}
+#star2{
+	float:left;
+	margin: 5px auto;
+}
+.eva-area{
+    width: 500px;
+    height: 125px;
+    border: 1px solid #CCC;
+    resize: vertical;
+    text-indent:5px;
+}
+#pubEvaluate{
+	width:130px;
+	height:36px;
+	line-height:36px;
+	margin:25px auto;
+	border-radius:5px;
+	background:#3498db;
+	color:#fff;
+	cursor:pointer;
+}
+.eva-prompt{
+    height: 34px;
+    line-height: 34px;
+	margin-left:15px;
+	color:red;
+}
+.data-prompt{
+	color:red;
+}

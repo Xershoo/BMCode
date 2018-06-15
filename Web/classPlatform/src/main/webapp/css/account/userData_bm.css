@@ -1,0 +1,328 @@
+.all{
+	width: 100%;
+	height: 100%;
+	background:#f5f5f5;
+}
+.zhanwei20{
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+}
+.all1{
+	background:#FFFFFF;
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	font-size: 0;
+}
+.leftMenu{
+	float: left;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	width: 200px;
+}
+.myCourse{
+	cursor: pointer;
+	height: 54px;
+	width: 200px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.myCourse img{
+	float: left;
+	margin-top: 16px;
+	margin-left: 24px;
+}
+.myCourse font{
+	float: left;
+	font-size: 16px;
+	color: #969696;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.TeaData{
+	cursor: pointer;
+	height: 54px;
+	width: 200px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.TeaData img{
+	float: left;
+	margin-top: 18px;
+	margin-left: 24px;
+}
+.TeaData font{
+	float: left;
+	font-size: 16px;
+	color: #969696;
+	margin-top: 15px;
+	margin-left: 14px;
+}
+
+.myTreasure{
+	cursor: pointer;
+	height: 54px;
+	width: 200px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.myTreasure img{
+	float: left;
+	margin-top: 18px;
+	margin-left: 24px;
+}
+.myTreasure font{
+	float: left;
+	font-size: 16px;
+	color: #969696;
+	margin-top: 15px;
+	margin-left: 14px;
+}
+.personSet{
+	background: #54AFD8;
+	cursor: pointer;
+	height: 54px;
+	width: 200px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.personSet img{
+	float: left;
+	margin-top: 18px;
+	margin-left: 24px;
+}
+.personSet font{
+	float: left;
+	font-size: 16px;
+	color: #FFFFFF;
+	margin-top: 15px;
+	margin-left: 14px;
+
+}
+
+
+.rightContrnt{
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	border-left: 1px solid #d5d5d5;
+	width: 998px;
+}
+.topMenu{
+	height: 54px;
+	width: 998px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.topMenu ul li{
+	text-decoration:none;
+	font-size: 16px;
+	color: #666666;
+	line-height: 54px;
+	margin-left: 50PX;
+	float: left;
+}
+
+#tclick{
+	text-decoration:none;
+	font-size: 18px;
+	color: #333333;
+	line-height: 54px;
+	margin-left: 50PX;
+	float: left;
+}
+.zhanwei40{
+	height: 40px;
+}
+
+.zhanwei200 {
+	height: 188px;
+	width: 945px;
+	margin-left: 24px;
+	border-bottom: 1px dashed #D5D5D5;
+}
+.touxiang{
+	float: left;
+	height: 163px;
+	width: 163px;
+}
+.touxiang img{
+	height: 163px;
+	width: 163px;
+	cursor: pointer;
+}
+.loginData{
+	float: left;
+	margin-left: 20px;
+	height: 163px;
+	width: 300px;
+	border-right: 1px solid #F7F7F7;
+}
+.Tphone{
+	margin-top: 20px;
+	font-size: 14px;
+	color: #323232;
+}
+.Tlogin{
+	margin-top: 14px;
+	font-size: 14px;
+	color: #323232;
+}
+.Tphoto img{
+	margin-right: 14px;
+	margin-top: 14px;
+	cursor: pointer;
+}
+.zhanwei58{
+	height: 54px;
+	width: 945px;
+	font-size: 16px;
+	color: #323232;
+	margin-left:24px ;
+	line-height: 54px;
+	border-bottom: 1px solid #D5D5D5;
+}
+
+.formKuang{
+	margin-left:24px ;
+	width: 945px;
+}
+.zhanwei50{
+	height: 50px;
+}
+.uID{
+	height: 40px;
+	margin-bottom: 20px;
+}
+.uID font{
+	margin-left: 200px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #484848;
+
+}
+.uID input{
+	border:none;
+	outline: none;
+	padding-left: 10px;
+	margin-left: 16px;
+	border-radius:5px;
+	font-size: 16px;
+	color: #000000;
+	height: 36px;
+	width: 200px;
+	background: #D5D5D5;
+	border: 2px solid #D5D5D5;
+
+}
+
+.uName{
+	height: 40px;
+	margin-bottom: 20px;
+}
+.uName font{
+	margin-left: 214px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #484848;
+
+}
+.uName input{
+	border:none;
+	outline: none;
+	padding-left: 10px;
+	margin-left: 16px;
+	border-radius:5px;
+	font-size: 16px;
+	color: #000000;
+	height: 36px;
+	width: 200px;
+	border: 2px solid #D5D5D5;
+
+}
+
+.uSex{
+	height: 40px;
+	margin-bottom: 10px;
+}
+.uSex font{
+	margin-left: 214px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #484848;
+
+}
+.uSex span{
+	line-height: 40px;
+	font-size: 14px;
+	color: #484848;
+}
+.uSex input{
+	border:none;
+	outline: none;
+	margin-left: 18px;
+
+}
+.moreInfo{
+	height: 40px;
+	margin-bottom: 86px;
+}
+.moreFont{
+	margin-left: 186px;
+	width: 60px;
+	font-size: 14px;
+	color: #484848;
+}
+
+.moreInfo textarea{
+	margin-top: -18px;
+	border:none;
+	outline: none;
+	padding-left: 10px;
+	margin-left: 258px;
+	border-radius:5px;
+	font-size: 16px;
+	color: #000000;
+	height: 100px;
+	width: 635px;
+	border: 2px solid #D5D5D5;
+
+}
+
+.submit input{
+	margin-bottom: 60px;
+	margin-top: 20px;
+	margin-left: 260px;
+	border:none;
+
+	background: #54AFD8;
+	border-radius:5px;
+	color: #FFFFFF;
+	height: 64px;
+	width: 186px;
+	font-size:24px ;
+	cursor: pointer;
+
+}
+
+
+.zhanwei400{
+	height: 400px;
+}
+
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{
+	font-size: 16px;
+	color: #000000;
+}
+input:-moz-placeholder,textarea:-moz-placeholder{
+	font-size: 16px;
+	color: #000000;
+
+}
+
+input::-moz-placeholder,textarea::-moz-placeholder{
+	font-size: 16px;
+	color: #000000;
+}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder{
+	font-size: 16px;
+	color: #000000;
+}

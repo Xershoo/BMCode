@@ -1,0 +1,432 @@
+@CHARSET "UTF-8";
+
+body{
+	text-align:center;
+}
+.sh_manage{
+	width:1200px;
+	height:auto;
+	overflow:hidden;
+	margin:15px auto;
+}
+
+.sh_content{
+	width:965px;
+	height:auto;
+	min-height:500px;
+	float:left;
+	background:#fff;
+	overflow:hidden;
+	margin-left:15px;
+}
+.navigate{
+	width:965px;
+	height:45px;
+	line-height:45px;
+	font-size:16px;
+	background:#f5f8fa;
+	border-bottom:1px solid #e5e5e5;
+}
+
+#basicInfo{
+	width:120px;
+	height:45px;
+	float:left;
+	cursor:pointer;
+}
+
+#adImages{
+	width:120px;
+	height:45px;
+	float:left;
+	margin-left:60px;
+	cursor:pointer;
+}
+#schoolAnnounce{
+	width:120px;
+	height:45px;
+	float:left;
+	margin-left:60px;
+	cursor:pointer;
+}
+#previewHome, .sh_ad_info{
+	width:80px;
+	height:30px;
+	line-height:30px;
+	border-radius:5px;
+	float:right;
+	margin-right:50px;
+	margin-top:8px;
+	font-size:14px;
+	background:#3FC555;
+	color:white;
+	cursor:pointer;
+}
+#basicInfoContent{
+	width:965px;
+	height:auto;
+	float:left;
+	min-height:600px;
+}
+.ad_btn{
+	margin-top:-72px;
+}
+.sh_info, .sh_label, .sh_intro, .sh_logo{
+	width:965px;
+	height:50px;
+	float:left;
+	line-height:50px;
+	margin-top:10px;
+}
+.sh_name, .sh_label_name, .sh_intro_name, .sh_logo_name, .sh_sld_name{
+	width:100px;
+	height:50px;
+	float:left;
+	font-size:14px;
+	font-weight:700;
+	margin-left:30px;
+}
+.sh_name_info ,.sh_label_info,.sh_intro_info, .sh_logo_info, .sh_sld_info{
+	width:500px;
+	height:50px;
+	float:left;
+	font-size:14px;
+	text-align:left;
+}
+.sh_label{
+	float:left;
+	height:auto;
+	margin-top:0;
+}
+.sh_intro{
+	float:left;
+	height:auto;
+}
+.sh_edit{
+	width:270px;
+	height:50px;
+	float:right;
+	font-size:14px;
+}
+.sh_edit_info{
+	width:80px;
+	height:30px;
+	border-radius:5px;
+	background:#51a4f6;
+	border:0;
+	text-indent:0;
+	color:white;
+	cursor:pointer;
+	font-family:'微软雅黑  Regular','微软雅黑';
+}
+
+.sh_cancel,.del_banner,.ad_cancel{
+	width:80px;
+	height:30px;
+	line-height:30px;
+	margin-right:30px;
+	margin-top:-72px;
+	border-radius:5px;
+	background:#c3c3c3;
+	border:0;
+	color:white;
+	text-indent:0;
+	font-size:14px;
+	cursor:pointer;
+	font-family:'微软雅黑  Regular','微软雅黑';
+}
+.del_banner{
+	width:74px;
+	float:right;
+	background:#ffa800;
+	margin-right:200px;
+}
+.ad_cancel{
+	width:74px;
+	float:right;
+}
+.sh_intro{
+	height:auto;
+	overflow:hidden;
+	line-height:22px;
+}
+.sh_intro_info{
+	width:600px;
+	height:auto;
+	overflow:hidden;
+}
+.sh_logo_info{
+	height:200px;
+	margin-top:15px;
+}
+.logo{
+	width:157px;
+	height:155px;
+	border:1px solid #e5e5e5;
+}
+#adImagesContent{
+	width:965px;
+	height:auto;
+	overflow:hidden;
+	min-height:350px;
+}
+.sh_ad_images{
+	width:965px;
+	height:140px;
+	border-bottom:1px solid #e5e5e5;
+}
+
+#newADAgain, #newSchoolAD{
+	text-align:left;
+	margin:15px 20px;
+	color:#39bf51;
+	cursor:pointer;
+}
+.ad_back{
+	width:200px;
+	height:140px;
+	float:left;
+}
+.ad_img{
+	width:170px;
+	height:100px;
+	margin-top:18px;
+	border:1px solid #e5e5e5;
+}
+.ad_content{
+	width:765px;
+	height:140px;
+	float:left;
+}
+.ad_diagram, .ad_url{
+	width:765px;
+	height:60px;
+	line-height:60px;
+	font-size:14px;
+	float:left;
+	text-align:left;
+}
+.ad_diagram_name, .ad_url_name{
+	font-weight:700;
+	float:left;
+}
+.ad_diagram_info, .ad_url_info{
+	float:left;
+}
+.sh_ad_info{
+	width:74px;
+	background:#51a4f6;
+	font-size:14px;
+	margin-top:-72px;
+	margin-right:115px;
+}
+.navigate_info{
+	border-top:3px solid #51a4f6;
+	border-right:1px solid #e5e5e5;
+	font-weight:700;
+	background:#fff;
+}
+#schoolAnnouncement{
+	width:965px;
+	height:auto;
+	overflow:hidden;
+}
+.announce_info{
+	width:955px;
+	height:35px;
+	line-height:35px;
+	font-size:14px;
+	font-weight:700;
+	background:#f5f4f2;
+	margin:15px 5px 0 5px;
+}
+
+.announce_id{
+	width:100px;
+}
+.announce_title{
+	width:150px;
+}
+.announce_content{
+	width:200px;
+}
+.announce_issuer{
+	width:100px;
+}
+.announce_time{
+	width:130px;
+}
+.announce_status{
+	width:80px;
+}
+.announce_top{
+	width:80px;
+}
+.announce_op{
+	width:106px;
+	float:left;
+}
+.position{
+	float:left;
+	border-right:1px solid #e5e5e5;
+}
+.sh_ann_info{
+	width:953px;
+	height:120px;
+	font-size:14px;
+	border-right:1px solid #e4e4e4;
+	border-left:1px solid #e4e4e4;
+	border-bottom:1px solid #e4e4e4;
+	margin-left:5px;
+	word-break:break-all;
+}
+.ann_content{
+	margin-top:45px;
+	word-break:break-word;
+	vertical-align:middle;
+	float:left;
+	text-align:center;
+}
+.ann_btn{
+	margin-top:35px;
+}
+
+.ann_id_info{
+	width:101px;
+}
+.ann_title_info{
+	width:151px;
+}
+.ann_content_info{
+	width:201px;
+}
+.ann_issuer_info{
+	width:101px;
+}
+.ann_time_info{
+	width:131px;
+}
+.ann_status_info{
+	width:81px;
+}
+.ann_top_info{
+	width:81px;
+}
+.ann_op_info{
+	width:106px;
+	float:left;
+	color:blue;
+}
+.info, .ad_info,.prompt_info{
+	font-size:14px;
+	color:red;
+    margin-left: 15px;
+    text-align: left;
+}
+.prompt_info{
+	float:left;
+	margin-left: 145px;
+}
+.sh_label_input{
+	width:240px;
+	height:29px;
+}
+.add_input{
+	font-family:'微软雅黑 Regular','微软雅黑';
+	text-indent:10px;
+	border-radius:5px;
+	font-size:14px;
+	border:1px solid #B3B0B0;
+}
+.sh_textarea{
+	width:470px;
+	height:190px;
+	font-family:'微软雅黑 Regular','微软雅黑';
+	text-indent:10px;
+	resize: none;
+}
+#uploadImg{
+	width:220px;
+	height:70px;
+	margin-top:-21px;
+}
+.banner_file{
+	position:relative;
+	width:170px;
+	height:100px;
+    line-height: 90px;
+	top:-106px;
+	display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 2px;
+    overflow: hidden;
+	color:white;
+    text-decoration: none;
+    font-size:16px;
+    text-align:center;
+}
+.banner_file input{
+	position:relative;
+	width:170px;
+	height:100px;
+	top:-124px;
+	opacity:0;
+}
+.sh_file_up{
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 2px;
+    padding: 4px 12px;
+    overflow: hidden;
+	color:white;
+    text-decoration: none;
+    line-height: 20px;
+    height:22px;
+    width:133px;
+    font-size:16px;
+    text-align:center;
+}
+.sh_file_up input{
+	width:246px;
+	height:30px;
+	position:relative;
+	top:-25px;
+	left:-13px;
+	opacity:0;
+}
+.apply_content {
+	width: 470px;
+	height: 195px;
+	float: left;
+	margin-top: 14px;
+	font-family:'微软雅黑 Regular','微软雅黑';
+}
+.ad_title{
+	width:470px;
+	height:40px;
+	line-height:40px;
+	text-align:right;
+}
+.ad_file{
+	float:left;
+}
+.ad_title_info{
+	float:left;
+	margin-left:80px;
+}
+.ad_con_info{
+	height:100px;
+}
+.ad_con_info textarea{
+	width:240px;
+	height:100px;
+	text-indent:5px;
+	resize: none;
+}
+.ad_announce{
+	width:237px;
+	height:25px;
+	text-indent:5px;
+}

@@ -1,0 +1,451 @@
+@CHARSET "UTF-8";
+
+table { border-width: 0px 0px 1px 1px; border-style:solid;border-color:#d8dee4}  
+td { border-width: 1px 1px 0px 0px; border-style:solid;border-color:#d8dee4}
+
+body{
+	background:#f5f4f2;
+}
+
+.courseCalWrap{
+    min-width:1000px;
+    margin:0 40px;
+    overflow: hidden;
+    padding-bottom:10px;
+}
+.courseCalWrap .courseCalLeft{
+    width:100%;
+    padding-top:5px;
+    margin-left: -242px;
+    float: left;
+    min-height:1040px;
+}
+.courseCalWrap .courseCalRight{
+    width:232px;
+    height:600px;
+    padding-top:44px;
+    float: right;
+}
+.courseCalWrap .dateTop{
+    height:44px;
+}
+.courseCalWrap .courseCalLeft .scroll{
+    height:44px;
+    padding-left: 242px;
+}
+.courseCalWrap .courseCalLeft .scroll span{
+    float: left;
+    margin-left: 40px;
+    display: inline;
+}
+.courseCalWrap .courseCalLeft .scroll .scrollLeft{
+    margin-left: 0px;
+}
+.courseCalWrap .scroll .threeImg{
+    width:198px;
+    height:28px;
+    border:1px solid #d7dde4;
+    float: right;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -o-border-radius:3px;
+    -ms-border-radius:3px;
+    overflow: hidden;
+    background:#fff;
+}
+.courseCalWrap .scroll .threeImg span{
+    width:27px;
+    height:28px;
+    margin-left:0;
+    padding-left:38px;
+    border-right:1px solid #d7dde4;
+    line-height: 28px;
+    font-size:14px;
+    color:#b0bccc;
+    background:url(../../images/calIcon.png) 12px -39px;
+}
+.courseCalWrap .scroll .threeImg .weekImg,.courseCalWrap .scroll .threeImg .dayImg{
+    color:#b0bccc;
+    background:url(../../images/calIcon.png) 12px -39px;
+}
+.courseCalWrap .scroll .threeImg .dayImg{
+    border-right:none;
+}
+.courseCalWrap .scroll .scrollLeft,.courseCalWrap .scroll .scrollRight{
+    padding-top:8px;
+    cursor: pointer;
+    width:10px;
+    height:17px;
+    background:url(../../images/calIcon.png) no-repeat 0 7px;
+}
+.courseCalWrap .scroll .scrollRight{
+    float: right;
+    background:url(../../images/calIcon.png) no-repeat -34px  7px;
+}
+.courseCalWrap .courseCalLeft .scroll #focusDate{
+    font-size:20px;
+    text-align: center;
+    color: #494f54;
+    padding-top:2px;
+    text-align: center;
+}
+.courseCalWrap table, td, th
+{
+    /* text-align:center;
+    vertical-align:center; */
+    text-align: right;
+}
+
+.courseCalWrap .courseCalLeft td{   
+    /* border:1px solid #c1d3df; */
+    position:relative;
+}
+
+.courseCalWrap .courseCalLeft td .tdDiv{
+     position: relative;
+}
+.courseCalWrap thead th{
+    height:25px;
+    font-size:12px;
+    background:#1976d2 url(../../images/line.png) no-repeat 0px top;
+    color:#063e6d;
+    border:0;
+    text-align: center;
+    color:#fff;
+}
+.courseCalWrap thead th.firstTr{
+    background:#1976d2;
+}
+.courseCalWrap table{
+    width:100%;
+    height:100%;
+}
+.courseCalWrap tbody td{
+    font-size:12px;
+
+    cursor:pointer;
+    padding:4px 4px 12% 0;
+    color:#4f566b;
+    /* height:130px; */
+
+}
+.courseCalWrap  .courseCalLeft tbody tr td b{
+    position: absolute;
+    right:4px;
+    top:0px;
+    padding-right:4px;
+    font-weight: normal;
+    font-size:14px;
+}
+.courseCalWrap  .courseCalLeft tbody tr td .of{
+    left:0px;
+    width:20px;
+    height:16px;
+}
+.courseCalWrap  .courseCalLeft .anchor{
+    
+    /* border:1px solid #28c445; */
+    border-width: 1px 1px 0px 0px; border-style:solid;border-color:#28c445;
+    /* color:#28c445; */
+    background:#e5feea;
+}
+
+.courseCalWrap  .courseCalLeft .anchor b{
+    width:24px;
+    height:24px;
+    display:inline-block;
+    position: absolute;
+    right:0px;
+    top:-4px;
+    color:#fff;
+    font-size:14px;
+    text-align:center;
+    background:url(../../images/calIcon.png) 0px -67px;
+}
+
+.courseCalWrap  .courseCalLeft .anchor1{
+    
+    border:1px solid #28c445;
+    background:#e5feea;
+
+}
+
+.courseCalWrap  .courseCalLeft .currentCourse .idCourseName{
+    width:70%;
+    left:20px;
+    background:none;
+}
+.courseCalWrap .courseCalLeft tbody td.on{
+    border:1px solid #28c445;
+    background:#e5feea;
+}
+.courseCalWrap .courseCalLeft tbody td.active{
+    background:#e5feea;
+}
+
+
+
+.courseCalWrap .everyDay{
+    color:#a1aac2;
+}
+.courseCalWrap #container{
+     
+    word-break: break-all; 
+    margin: 0px 0px 0px 0px;
+    background:#fff;
+    
+}
+.courseCalWrap .courseCalRight table, .courseCalWrap .courseCalRight td, .courseCalWrap .courseCalRight th
+{
+    text-align:center;
+    vertical-align:center;
+    border:0;
+}
+
+.courseCalWrap .courseCalRight thead th{
+    width:23px;
+    height:26px;
+    font-size:12px;
+    background:#f5f5f5;
+    color:#063e6d;
+    
+
+}
+.courseCalWrap .courseCalRight tbody td{
+    width:30px;
+    height:30px;
+    font-size:12px;
+    cursor:pointer;
+    padding:0px;
+    color:#494f54;
+    border:0!important;
+}
+.courseCalWrap .courseCalRight tbody td b{
+    font-weight: normal;
+}
+ .courseCalWrap .courseCalRight .anchor b{
+    width:22px;
+    height:22px;
+    display: block;
+    line-height: 22px;
+    margin:0 auto;
+    background:#5594ff;
+    border-radius:50%;
+    border:0;
+    color:#fff;
+    font-weight: normal;
+}
+.courseCalWrap .courseCalRight .focus{
+    background:#5594ff;
+    border-radius:50%;
+    border:0;
+    color:#fff;
+}
+.courseCalWrap .weekend{
+    background:#e0e0e0;
+    color:#e1e1e1;
+}
+.courseCalWrap .courseCalRight .everyDay{
+    background-color:#fff;
+    color:#bcbcbc;
+}
+.courseCalWrap .courseCalRight #littleContainer{
+    width:212px;
+/*     height:180px; */
+    word-break: break-all; 
+    margin: 0px 10px ;
+    
+    overflow:hidden;
+    background:#fff; 
+}
+.courseCalWrap .containerBottom{
+    width:720px;
+    height:60px;
+    border:1px solid #c1d3df;
+    border-top:0;
+    -webkit-border-radius:0 0 10px 10px;
+    -moz-border-radius:0 0 10px 10px;
+    -o-border-radius:0 0 10px 10px;
+    -ms-border-radius:0 0 10px 10px;
+    position: relative;
+    bottom:50px;
+}
+.courseCalWrap .courseCalRight .littleCal{
+    width:230px;
+    padding-bottom:6px;
+    background:#ffffff;
+    border:1px solid #e2e8ee;
+
+}
+.courseCalWrap .courseCalRight .littleScroll{
+    width: 200px;
+    height:30px;
+    text-align: center;
+    padding-left:25px;
+    padding-top:10px;
+    margin:0 auto;
+    overflow: hidden;
+
+}
+.courseCalWrap .courseCalRight .littleScroll span{
+    width:30px;
+    height:25px;
+    float: left;
+    cursor: pointer;
+    float: left;
+
+}
+.courseCalWrap .courseCalRight .littleScroll #littleFocusDate{
+    width:63%;
+    font-size:16px;
+    color: #494f54;
+    line-height: 24px;
+    text-align:center;
+}
+.courseCalWrap .courseCalRight .littleScroll .scrollRight{
+    margin-right: 0;
+    padding-top:6px;
+    float: right;
+}
+.courseCalWrap .courseCalRight .littleScroll .scrollLeft{
+    padding-top:6px;
+}
+.courseCalWrap .courseCalRight .myCourse{
+    width:230px;
+    border:1px solid #e2e8ee;
+    background:#fff;
+    margin-top:11px;
+    
+}
+.courseCalWrap .courseCalRight .myCourse h3{
+    height:30px;
+    text-align: center;
+    font-size:14px;
+    line-height: 30px;
+    color:#494f54;
+    border-bottom:1px solid #e2e8ee;
+}
+.courseCalWrap .courseCalRight .myCourse .myCourseList{
+    background:#fff;
+}
+.courseCalWrap .courseCalRight .myCourse .myCourseList li{
+    height:30px;
+    line-height: 30px;
+    padding-left:42px;
+    border-top:0;
+    cursor: pointer;
+    color: #494f54;
+
+}
+.courseCalWrap .courseCalRight .myCourse .myCourseList li.on{
+    color:#494f54;
+    /* background:url(../images/iconList.png) no-repeat 0 0; */
+}
+.courseCalWrap .courseCalRight .myCourse .myCourseList li.off{
+    color:#494f54;
+    border-bottom:0;
+}
+#container .currentCourse{
+    width:100%;
+    padding-top:24px;
+    position: absolute;
+    top:0;
+    padding-left:2px;
+    /* overflow:hidden; */
+    bottom:30px;
+}
+.myCourseList .courseNameTitle,.myCourse .courseNameTitle{
+    height:30px;
+    line-height: 30px;
+    background:#e7eaed;
+    padding-left:10px;
+    margin-bottom:5px;
+    color:#494f54;
+
+}
+.myCourseList  .courseNameTitle{
+    /* margin-top:5px; */
+}
+.currentCourse li{
+    padding-left:15px;
+    height: 20px;
+    /* color:#063e6d; */
+    position: relative;
+    left:1px;
+    top:1px;
+    /* background:url(../images/iconList1.png) no-repeat 0 2px; */
+}
+.liInfor{
+    width:285px;
+    height:134px;
+    background:url(../../images/liInforNew.png) no-repeat;
+    display: none;
+    position: absolute;
+    top:-55px;
+    right:-315px;
+    z-index:99;
+}
+.liInfor .name{
+    color:#5594ff;
+    font-weight: bold;
+}
+.liInfor .time{
+    color:#323232;
+    font-family: "微软雅黑";
+}
+.liInfor .teacher{
+    color:#5594ff;
+    font-size:14px;
+}
+/* .liInfor .onOff{
+    color:#47e103;
+} */
+.liInfor .of{
+    width:12px;
+    height:12px;
+    display:inline-block;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    -ms-border-radius:5px;
+    -moz-border-radius:5px;
+
+}
+
+.currentCourse .of{
+    width:12px;
+    height:12px;
+    display:inline-block;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    -ms-border-radius:5px;
+    -moz-border-radius:5px;
+
+}
+
+.xiasanjiao {
+    width: 100%;
+    height: 15px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: none;
+    z-index: 999;
+    background: #eaedf2;
+}
+
+.xiasanjiao .img{
+    width:18px;
+    height:16px;
+    position: absolute;
+    right:4px;
+    top:0px;
+    background:url(../../images/common/arrow.png) no-repeat right top;
+    background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+    -moz-background-size:100% 100%;
+    -o-background-size:100% 100%;
+    -ms-background-size:100% 100%;
+}

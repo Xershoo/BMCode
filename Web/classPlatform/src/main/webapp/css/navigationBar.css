@@ -1,0 +1,97 @@
+#u126_img {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 70px;
+	top: 10px;
+}
+
+.daohanglan {
+	background-color: #F2F2F2;
+	width: 200px;
+	border: 1px solid #E4E4E4;
+	position: absolute;
+	left: 200px;
+	top:100px;
+}
+
+.daohanglan  li {
+	list-style-type: none;
+	text-align: center;
+}
+
+.daohanglan  li {
+	list-style-type: none;
+	text-align: center;
+}
+
+.touxiang_navigationBar{
+	width: 200px;
+	height: 165px;
+}
+
+.touxiang_navigationBar div {
+	position: absolute;
+	top: 75px;
+	width: 200px;
+}
+
+#u165_img {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 115px;
+	top: 55px;;
+}
+
+.daohanglan1 li {
+	font-family: "微软雅黑 Regular","微软雅黑";
+font-weight: 400;
+font-style: normal;
+font-size: 15px;
+text-align: left;
+	height: 40px;
+	text-indent:2em;
+	cursor: pointer;
+}
+.daohanglan1 a{
+	color:#000000;
+	text-decoration:none;
+}
+#u167_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 60px;
+	height: 22px;
+}
+
+.laoshi a {
+	background: url(../images/c3-1-2courseteacher/button_toggle_u163.png)
+}
+
+.laoshi {
+	font-size: 12px;
+	color: #6B6B6B;
+}
+
+.yonghu {
+	font-family: "微软雅黑 Bold", "微软雅黑";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 13px;
+	color: #333;
+}
+
+.caifu {
+	font-family: "微软雅黑 Regular", "微软雅黑";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+	color: #333;
+	height:24px;
+}
+.caifu a{
+	line-height:24px;
+	margin-top:10px;
+	}

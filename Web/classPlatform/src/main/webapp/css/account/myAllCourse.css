@@ -1,0 +1,258 @@
+.all{
+	width: 100%;
+	height: 100%;
+	background:#f5f5f5;
+}
+.zhanwei20{
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+}
+.all1{
+	background:#FFFFFF;
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	font-size: 0;
+}
+.leftMenu{
+	float: left;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	width: 200px;
+}
+.myCourse{
+	cursor: pointer;
+	background: #54AFD8;
+	height: 54px;
+	width: 200px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.myCourse img{
+	float: left;
+	margin-top: 16px;
+	margin-left: 24px;
+}
+.myCourse font{
+	float: left;
+	font-size: 16px;
+	color: #FFFFFF;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.TeaData{
+	cursor: pointer;
+	height: 54px;
+	width: 200px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.TeaData img{
+	float: left;
+	margin-top: 18px;
+	margin-left: 24px;
+}
+.TeaData font{
+	float: left;
+	font-size: 16px;
+	color: #969696;
+	margin-top: 15px;
+	margin-left: 14px;
+}
+
+.myTreasure{
+	cursor: pointer;
+	height: 54px;
+	width: 200px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.myTreasure img{
+	float: left;
+	margin-top: 18px;
+	margin-left: 24px;
+}
+.myTreasure font{
+	float: left;
+	font-size: 16px;
+	color: #969696;
+	margin-top: 15px;
+	margin-left: 14px;
+}
+.personSet{
+	cursor: pointer;
+	height: 54px;
+	width: 200px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.personSet img{
+	float: left;
+	margin-top: 18px;
+	margin-left: 24px;
+}
+.personSet font{
+	float: left;
+	font-size: 16px;
+	color: #969696;
+	margin-top: 15px;
+	margin-left: 14px;
+}
+
+
+.rightContrnt{
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	border-left: 1px solid #d5d5d5;
+	width: 998px;
+}
+.topMenu{
+	height: 54px;
+	width: 998px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.topMenu ul li{
+	text-decoration:none; 
+	font-size: 16px;
+	color: #666666;
+	line-height: 54px;
+	margin-left: 50PX;
+	float: left;
+}
+
+#tclick{
+	text-decoration:none; 
+	font-size: 18px;
+	color: #333333;
+	line-height: 54px;
+	margin-left: 50PX;
+	float: left;
+}
+.midMenu{
+	height: 48px;
+	width: 998px;
+}
+
+.midMenu ul li{
+	text-decoration:none; 
+	font-size: 14px;
+	color: #666666;
+	text-align: center;
+	margin-left: 14PX;
+	margin-right: 20px;
+	margin-top: 14px;
+	float: left;
+}
+.xiaxian{
+	height: 24px;
+	color: #54AFD8;
+	border-bottom: 1px solid #54AFD8;
+}
+.noOrder{
+	font-size: 14px;
+	color: #666666;
+	margin-left: 14px;
+	margin-top: 4px;
+}
+.zhanwei400{
+	height: 400px;
+}
+
+.thOrder{
+	height: 50px;
+	background: #F7F7F7;
+	border-bottom: 1px solid #d5d5d5;
+	border-top: 1px solid #d5d5d5;
+}
+.thOrder1{
+	float: left;
+	margin-top: 16px;
+	margin-left: 44px;
+	font-size: 14px;
+	color: #666666;
+}
+.thOrder2{
+	float: left;
+	margin-top: 16px;
+	margin-left: 600px;
+	font-size: 14px;
+	color: #666666;
+}
+.thOrder3{
+	float: left;
+	margin-top: 16px;
+	margin-left: 166px;
+	font-size: 14px;
+	color: #666666;
+}
+
+.OrderMsg{
+	height: 196px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.zhanwei25{
+	height: 25px;
+}
+.OrderMsgIn{
+	height: 144px;
+}
+.OrderMsgIn1{
+	float: left;
+	margin-left: 22px;
+	border-radius:8px;
+	height: 142px;
+	width: 237px;
+}
+.OrderMsgIn1 img{
+	height: 144px;
+	width: 237px;
+}
+.OrderMsgIn2{
+	float: left;
+	margin-left: 26px;
+	height: 142px;
+	width: 326px;
+}
+.Otitle{
+	margin-top: 6px;
+	font-size: 24px;
+	color: #54AFD8;
+}
+.Oschedule{
+	margin-top: 8px;
+	margin-bottom: 12px;
+	font-size: 14px;
+	color: #999;
+}
+.Oprice{
+	font-size: 18px;
+	color: #5fb41b;
+}
+.OrderMsgIn3{
+	float: left;
+	margin-left: 14px;
+	border-radius:8px;
+	height: 142px;
+	width: 180px;
+}
+.Ostate{
+	font-size: 16px;
+	color: #666666;
+	margin-top: 58px;
+	text-align: center;
+}
+
+.OrderMsgIn4{
+	float: left;
+	margin-left: 6px;
+	border-radius:8px;
+	height: 142px;
+	width: 180px;
+}
+.Ooperate{
+	font-size: 16px;
+	color: #54AFD8;
+	margin-top: 58px;
+	text-align: center;
+	cursor: pointer;
+}

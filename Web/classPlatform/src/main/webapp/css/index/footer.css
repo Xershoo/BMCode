@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+.footer{
+    height:125px;
+    background:#eff3f3;
+    width:100%;
+    min-width:1300px;
+}
+.footer .intro{
+    color: #9fa2a2;
+    font-size: 12px;
+    font-family: SimSun;
+    height:15px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+/*------new  foot  css------*/
+.footerMain{
+	width:1196px;
+	height:100%;
+	margin:0 auto;
+}
+.mainLeft{
+	width:54px;
+	height:54px;
+	float:left;
+	margin:35px 95px 0 120px;
+}
+
+.mainLeft img{
+	width:54px;
+	height:54px;
+}
+
+.mainCenter{
+	width:642px;
+	height:40px;
+	float:left;
+	text-align:center;
+	margin-top:40px;
+}
+
+#businessCooper{
+	color:#42b8f6;
+	cursor:pointer;
+	font-weight:500;
+}

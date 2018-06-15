@@ -1,0 +1,596 @@
+@CHARSET "UTF-8";
+
+body{
+	text-align:center;
+}
+
+#teacher_main{
+	width:1200px;
+	height:auto;
+	overflow:hidden;
+	margin:0 auto;
+	margin-bottom:20px;
+	margin-top:15px;
+}
+
+/*-------------分割线----------------*/
+
+#right_data{
+	width:965px;
+	min-height:1200px;
+	float:right;
+	background:#fff;
+}
+
+#right_data_menu{
+	width:100%;
+	height:45px;
+	float:left;
+	border-bottom:1px solid #e5e5e5;
+	background:#f5f8fa;
+}
+
+.right_menu_word{
+	height:43px;
+	line-height:43px;
+	float:left;
+    font-family: '微软雅黑 Bold', '微软雅黑';
+    font-style: normal;
+    font-size: 16px;
+    cursor: pointer;
+    width:135px;
+}
+
+.four_word{
+	height:43px;
+	border-top:3px solid #51a4f6;
+	border-right:1px solid #e5e5e5;
+	font-weight: 700;
+	background:#fff;
+}
+
+#import_teacher_btn,#import_student_btn{
+	width:80px;
+	height:33px;
+	line-height:33px;
+	float:right;
+	margin:5px 30px 0 0;
+	cursor:pointer;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #ff9c00;
+}
+
+#import_logo{
+	width:24px;
+	height:24px;
+	float:left;
+	margin-top:2px;
+}
+
+.search_condition{
+	width:100%;
+	height:100px;
+	float:left;
+	background:#fff;
+}
+
+.condition_lable{
+	height:100px;
+	line-height:100px;
+	float:left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;   
+}
+#menu1_name_lable,#menu1_status_lable{
+	width:100px;
+	text-align:right;
+}
+
+.condition_input{
+	height:35px;
+	float:left;
+	margin-top:34px;
+}
+#search_teacher,#search_teacher_status,#search_student_name1,#search_student_status1,#search_student_name2,#search_student_status2{
+	width:200px;
+	height:30px;
+	line-height:30px;
+}
+
+#menu1_name_input,#menu1_status_select{
+	width:220px;
+}
+
+.searchBtn{
+	width:110px;
+	height:33px;
+	line-height:33px;
+	margin-top:34px;
+	border-radius:5px;
+	background:#51a4f6;
+	float:left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#menu2_name_lable,#menu2_status_lable,#menu2_time_lable{
+	width:75px;
+	text-align:right;
+}
+
+#menu2_name_input,#menu2_status_select{
+	width:150px;
+}
+
+#menu2_time_input{
+	width:300px;
+	height:30px;
+	line-height:30px;
+}
+
+#search_teacher1,#search_teacher_status1,#menu2_start_time,#menu2_end_time{
+	width:130px;
+	height:30px;
+	line-height:30px;
+}
+
+#menu3_name_lable,#menu3_time_lable,#menu4_name_lable,#menu4_time_lable{
+	width:100px;
+	text-align:right;
+}
+
+#menu3_name_input,#menu4_name_input{
+	width:240px;
+}
+#menu3_time_input,#menu4_time_input{
+	width:340px;
+}
+
+#search_teacher2,#search_teacher3{
+	width:220px;
+	height:30px;
+	line-height:30px;
+}
+#menu3_start_time,#menu3_end_time,#menu4_start_time,#menu4_end_time{
+	width:150px;
+	height:30px;
+	line-height:30px;
+}
+
+.data_list{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	float:left;
+}
+
+
+
+.data_table_head{
+	width:954px;
+	height:36px;
+	float:left;
+	background:#f5f4f2;
+	border:1px solid #e4e4e4;
+	font-family: '微软雅黑 Bold', '微软雅黑';
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size:13px;
+    margin-left:5px;
+}
+
+.head_word{
+	height:34px;
+	line-height:34px;
+	float:left;
+	border-right:1px solid #e4e4e4;
+}
+
+#teacher_name{
+	width:244px;
+}
+
+#school_name{
+	width:143px;
+}
+
+#faculty_name{
+	width:120px;
+}
+#subject_name{
+	width:100px;
+}
+#teacher_num{
+	width:90px;
+}
+#teacher_sex{
+	width:54px;
+}
+
+#teacher_status{
+	width:55px;
+}
+#teacher_opt1{
+	width:141px;
+	border:0;
+}
+
+.data_info{
+	width:954px;
+	height:137px;
+	float:left;
+	border-bottom:1px solid #e4e4e4;
+	border-left:1px solid #e4e4e4;
+	border-right:1px solid #e4e4e4;
+	margin-left:5px;
+}
+
+.info_name{
+	width:246px;
+	height:136px;
+	float:left;
+}
+.info_school{
+	width:143px;
+	height:136px;
+	line-height:136px;
+	float:left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+.info_faculty{
+	width:120px;
+	height:136px;
+	line-height:136px;
+	float:left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+.info_subject{
+	width:102px;
+	height:136px;
+	line-height:136px;
+	float:left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+.info_num{
+	width:90px;
+	height:136px;
+	line-height:136px;
+	float:left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+.info_sex{
+	width:56px;
+	height:136px;
+	line-height:136px;
+	float:left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+.info_status{
+	width:56px;
+	height:136px;
+	line-height:136px;
+	float:left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+.info_opt{
+	width:141px;
+	height:136px;
+	padding-top:40px;
+	float:left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.teacher_logo{
+	width:75px;
+	height:75px;
+	float:left;
+	margin-left:5px;
+	margin-top:30px;
+}
+.teacher_name_word{
+	width:162px;
+	height:30px;
+	line-height:30px;
+	float:right;
+	font-family: '微软雅黑 Bold', '微软雅黑';
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    font-size:13px;
+    margin-top:20px;
+}
+
+.letter_opt{
+	width:75px;
+	height:26px;
+	float:left;
+	background:#ffa800;
+	border-radius:5px;
+}
+
+.home_opt{
+	width:75px;
+	height:26px;
+	float:right;
+	background:#31a844;
+	border-radius:5px;
+}
+
+.homt_opt_new{
+	float:left;
+	margin-left:15px;
+}
+
+.word_img{
+	height:11px;
+	line-height:11px;
+	float:left;
+	margin-top:7px;
+	margin-left:5px;
+}
+
+.desc_word{
+	width:50px;
+	height:26px;
+	line-height:26px;
+	float:left;
+	margin-left:4px;
+	cursor:pointer;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    text-align: left;
+    color:#fff;
+}
+.info_opt p{
+	 cursor: pointer;
+	 color:blue;
+}
+
+#menu2_data_list{
+	display:none;
+}
+
+#teacher_infor,.width_new{
+	width:343px;
+}
+#sign_time{
+	width:142px;
+}
+#info_time{
+	width:144px;
+}
+#order_count,#student_count,#info_order{
+	width:70px;
+}
+#info_student{
+	width:71px;
+}
+#income,#assess_count{
+	width:109px;
+}
+#info_income,#info_assess{
+	width:110px;
+}
+#teacher_opt2{
+	width:105px;
+	border:0;
+}
+#info_opt2{
+	width:106px;
+	border:0;
+	color:blue;
+}
+.menu2_data_common{
+	height:136px;
+	line-height:136px;
+	float:left;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+.desc_width_new{
+	width:255px;
+}
+
+#menu3_data_list{
+	display:none;
+}
+
+#teacher_infor2,.width_new2{
+	width:450px;
+}
+#register_time,#apply_time{
+	width:140px;
+}
+#apply_register_time,#apply_apply_time{
+	width:141px;
+}
+#apply_status{
+	width:104px;
+}
+#apply_apply_status{
+	width:105px;
+}
+#teacher_opt3{
+	width:116px;
+	border:0px;
+}
+.desc_width_new2{
+	width:360px;
+}
+#info_opt3{
+	width:117px;
+	text-align:center;
+	color:blue;
+}
+
+#menu4_data_list{
+	display:none;
+}
+
+/*-------------弹出窗口-------------*/
+.dialog_item{
+	margin-top:10px;
+	width:100%;
+	height:40px;
+	float:left;
+}
+
+/*--------------学生管理页面样式-----------------*/
+#student_name{
+	width:245px;
+}
+#student_school{
+	width:140px;
+}
+.in_student_school{
+	width:141px;
+}
+#student_faculty,#student_subject{
+	width:100px;
+}
+.in_student_subject,.in_student_faculty{
+	width:101px;
+}
+#student_class,#student_num{
+	width:70px;
+}
+.in_student_class,.in_student_num{
+	width:71px;
+}
+#student_sex{
+	width:55px;
+}
+.in_student_sex{
+	width:56px;
+}
+#student_status,.in_student_status{
+	width:59px;
+}
+#student_opt1{
+	width:107px;
+	border:0px;
+}
+.in_student_opt1{
+	width:108px;
+	border:0px;
+	line-height:25px;
+	padding-top:40px;
+}
+.in_student_opt1 p{
+	color:blue;
+}
+
+.item_left{
+	width:130px;
+	height:40px;
+	line-height:40px;
+	text-align:right;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    float:left;
+}
+.item_right{
+	width:260px;
+	height:40px;
+	text-align:left;
+	float:left;
+	margin-left:20px;
+}
+#myFiles{
+	width:250px;
+	margin-top:8px;
+}
+.ui-dialog-title{
+	font-family: '微软雅黑 Regular', '微软雅黑';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+}
+
+/*-------------over-------------*/
+#student_infor,.stu_width_new{
+	width:322px;
+}
+#buy_course_count,#out_buy_course_count{
+	width:130px;
+}
+#buy_money_count,#last_buy_time,#last_class_time,#out_buy_money_count,#out_last_buy_time,#out_last_class_time{
+	width:124px;
+}
+#student_opt2{
+	width:125px;
+	border:0px;
+}
+#out_student_opt2{
+	width:125px;
+	text-align:center;
+	color:red;
+}
+.stu_desc_width_new{
+	width:235px;
+}
+/*--------------over-----------------*/
+
+
+.page{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	float:left;
+	text-align:center;
+	background:#fff;
+}
+
+.headImg{
+	width:75px;
+	height:75px;
+	border-radius:50%;
+}
+
+#searchFailInfo{
+	line-height:138px;
+	font-size:16px;
+	font-weight:bold;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+}
+
+p{
+	cursor: pointer;
+}
