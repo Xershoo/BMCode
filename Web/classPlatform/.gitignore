@@ -11,7 +11,9 @@ buildNumber.properties
 .mvn/timing.properties
 .classpath
 .project
-classPlatform.iml
+*.iml
+.idea
+.settings
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
 ### Java template
@@ -39,6 +41,3 @@ classPlatform.iml
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-将删除 .gitignore
-将删除 .idea/
-将删除 classPlatform.iml
