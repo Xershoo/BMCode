@@ -31,13 +31,24 @@
             //全部课程
             $(document).ready(function () {
 
-                $.getJSON("/course/dataList", function (data, status) {
+                $.getJSON("<%=path%>/student/course/list?page=1&start=1&on=true&rows=10", function (data, status) {
 
-                    alert("Data:" + data.status + ", state:" + status);
+
+                    if (status === "success" && data.success && data.result.list.length > 0) {
+                        alert("data.list:" + data.result.list.length + ",status:" + status);
+
+                    }else {
+                        //TODO：数据家在失败或者没有数据
+                    }
 
 
                 });
             });
+
+            function queryCourseList(type) {
+
+
+            }
 
 
             var lastTab = $(".xiaxian");
@@ -71,8 +82,6 @@
             <font class="thOrder2">状态</font>
             <font class="thOrder3">操作</font>
         </div>
-        <div class="noOrder" style="display: none"><font>用户无相关订单！！！</font></div>
-        <div class="zhanwei400" style="display: none"></div>
 
         <!--一条订单 -->
         <div class="OrderMsg">
@@ -97,6 +106,9 @@
                 </div>
             </div>
         </div>
+
+        <div class="noOrder" style="display: none"><font>用户无相关订单！！！</font></div>
+        <div class="zhanwei400"></div>
     </div>
 
 
