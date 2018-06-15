@@ -3,6 +3,7 @@
  */
 
 var teacherCount = 0;
+var keyWord = "";
 
 $(function(){
 	ajaxGetAllTeacherCount();
@@ -27,6 +28,48 @@ function ajaxGetAllTeacherCount(){
 	});
 }
 
+function showTeacherPageList(jsonTeacherListObj) {
+	if(jsonTeacherListObj.length <= 0){
+		return;
+	}
+	
+	var html = '';
+	$.each(jsonTeacherListObj, function (i, item) {
+		html += '<div><div class="photoKuang"><div class="photo"><img src="';
+		if(item.largeHeadimge == null || item.largeHeadimge == "" || item.largeHeadimge.indexOf("null") > 0) {
+			if(item.sex != 1) {
+				html += '/images/teacher/female_teacher.png';
+			} else {
+				html += '/images/teacher/male_teacher.png';
+			}
+		}else {
+			html += item.largeHeadimge;
+		}
+		
+		html +='"/></div><div class="teaName">';
+		html += item.realName + '老师</div>';
+		
+		html += '<div class="teaPerson" onclick="goToTeacherPage(\''+item.teacherUid+'\')">个人主页</div></div>';
+		
+	});
+			
+	$("#teacherList").html(html);
+	
+	var numPage = jsonTeacherListObj.length/12;
+	if(numPage>5) {
+		numPage = 5;
+	}
+	
+	var  htmlPage = '<ul><div class="tolpageli"><</div><li class="tolpageli2"><div><span> 1 </span></div></li>';
+	for(var i=1;i<=numPage;i++){
+		htmlPage += '<li><div class=""><span> ' + i + ' </span></div></li>';
+	}
+	
+	htmlPage += '<div class="tolpageli">></div></ul>';
+	$("#tolpage").html(htmlPage);
+}
+
+
 function ajaxGetAllTeacher(){
 	var pageNum = Math.ceil(teacherCount/12);
 	var pageSize = 0;
@@ -42,30 +85,7 @@ function ajaxGetAllTeacher(){
 			success:function(data){
 				if(data.status == 0){
 					var jsonObj = data.result.list;
-					if(jsonObj.length > 0){
-						var html = '';
-							$.each(jsonObj, function (i, item) {
-								html += '<div><div class="photoKuang"><div class="photo"><img src="';
-								if(item.largeHeadimge == null || item.largeHeadimge == "" || item.largeHeadimge.indexOf("null") > 0) {
-									if(item.sex != 1) {
-										html += '/images/teacher/female_teacher.png';
-									} else {
-										html += '/images/teacher/male_teacher.png';
-									}
-								}else {
-									html += item.largeHeadimge;
-								}
-								
-								html +='"/></div><div class="teaName">';
-								html += item.realName + '老师</div>';
-								
-								html += '<div class="teaPerson" onclick="goToTeacherPage(\''+item.teacherUid+'\')">个人主页</div></div>';
-								
-							});
-							
-							$("#teacherList").html(html);
-					}
-				
+					showTeacherPageList(jsonObj);
 				}
 			}
 		});
@@ -93,29 +113,11 @@ function ajaxGetAllTeacher(){
 }
 
 function callBackTeacherData(data){
-var result = data;
+	var result = data;
 	
 	if(result.status == 0){
 		var jsonObj = result.result.list;
-		if(jsonObj.length > 0){
-			var html = '';
-				$.each(jsonObj, function (i, item) {
-					html += '<div class="teacher_intro">';
-					if(item.largeHeadimge == null || item.largeHeadimge == "" || item.largeHeadimge.indexOf("null") > 0){
-						html += '<div class="teacher_img"><img src="images/course/creatcourse.png" onclick="goToTeacherPage(\''+item.teacherUid+'\')"></div>';
-					}else{
-						html += '<div class="teacher_img"><img src="'+item.largeHeadimge+'" onclick="goToTeacherPage(\''+item.teacherUid+'\')"></div>';
-					}
-					html += '<div class="information">'
-							+ '<div class="teacher_name">'+item.realName+'（'+item.nickName+'）<span><img src="../images/index/letter.png"></span></div>'
-							+ '<div class="teacher_tech">专业度：0级 |  教龄：'+item.teachYears+'年</div>'
-							+ '<div class="class_price"><span>￥<span>0元</span></span>起</div>'
-							+ '</div>'
-							+ '</div>';
-				});
-				$("#teacherList").html(html);
-		}
-	
+		showTeacherPageList(jsonObj);
 	}
 }
 

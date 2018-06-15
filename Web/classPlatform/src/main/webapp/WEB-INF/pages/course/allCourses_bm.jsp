@@ -14,9 +14,12 @@
 <link rel="stylesheet" href="<%=request.getContextPath()%>/css/index/head_bm.css"/>
 <link rel="stylesheet" href="<%=request.getContextPath()%>/css/index/footer_bm.css" />
 <link rel="stylesheet" href="<%=request.getContextPath()%>/css/course/allCourseDtl_bm.css" />
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/common/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/common.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/course/allCoursesDtl_bm.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/common/My97DatePicker/WdatePicker.js"></script>
 <script type="text/javascript" src="<%=request.getContextPath()%>/js/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="<%=request.getContextPath()%>/js/index/index_bm.js" ></script>
-<script type="text/javascript" src="<%=request.getContextPath()%>/js/common.js" ></script>
 <link rel="shortcut icon" href="<%=request.getContextPath()%>/images/favicon.png" type="image/x-icon" />
 </head>
 <body>

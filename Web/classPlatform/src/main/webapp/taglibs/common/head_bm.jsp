@@ -59,7 +59,7 @@
 					<font>|</font>
 				</span>
 				<span>
-					<a href="index.html"><font>退出登录</font></a>
+					<a href="/logout"><font>退出登录</font></a>
 				</span>
 				<span>
 					<font>|</font>

@@ -85,7 +85,7 @@ $(function() {
     		url += '&endTime='+endTimes;
     	}
     	location.href = url ;
-    	}  
+    }  
     
     getCoursesCondition();
     
