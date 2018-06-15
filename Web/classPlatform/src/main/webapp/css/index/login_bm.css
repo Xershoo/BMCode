@@ -1,3 +1,8 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
 body{font-family:"Microsoft Yahei"}
 a{ 
 text-decoration:none; 

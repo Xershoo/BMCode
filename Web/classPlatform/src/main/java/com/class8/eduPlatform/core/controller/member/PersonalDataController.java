@@ -85,18 +85,19 @@ public class PersonalDataController  extends BaseController {
 	IEduUserService eduUserService;
 
 	@RequestMapping(value = "/toSetPaySafety")
-	public String toSetPaySafety() {
-		
+	public String toSetPaySafety(HttpServletRequest request) {
+		request.setAttribute("curPageName", "我的财富");
 		return PAY_SAFE_SET;
 	}
 	@RequestMapping(value = "/toAccount")
-	public String toAccount() {
-		
+	public String toAccount(HttpServletRequest request) {
+		request.setAttribute("curPageName", "个人设置");
 		return ACCOUNT_SAFE_SET;
 	}
 	
 	@RequestMapping(value="/myAccount")
-	public String myAccount(){
+	public String myAccount(HttpServletRequest request){
+		request.setAttribute("curPageName", "我的财富");
 		return MY_ACCOUNT;
 	}
 	

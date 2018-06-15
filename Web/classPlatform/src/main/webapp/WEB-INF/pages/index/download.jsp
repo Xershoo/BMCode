@@ -13,8 +13,6 @@
 <link rel="stylesheet" href="<%=request.getContextPath()%>/css/index/footer.css">
 <link rel="stylesheet" href="<%=request.getContextPath()%>/css/common/jquery-ui-1.8.18.custom.css">
 <link rel="stylesheet" href="<%=request.getContextPath()%>/css/index/download.css">
-
-
 <script type="text/javascript" src="<%=request.getContextPath()%>/js/common/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="<%=request.getContextPath()%>/js/common.js"></script>
 <script type="text/javascript" src="<%=request.getContextPath()%>/js/index/head.js"></script>

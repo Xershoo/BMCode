@@ -837,7 +837,8 @@ public class TeacherController extends BaseController {
 	}
 	
 	@RequestMapping(value="/course/manage",method=RequestMethod.GET)
-	public String manageCourse(){
+	public String manageCourse(HttpServletRequest request){
+		request.setAttribute("curPageName", "我的课程");
 		return COURSE_MANAGE;
 	}
 	
@@ -1182,8 +1183,8 @@ public class TeacherController extends BaseController {
 	}
 	
 	@RequestMapping(value = "/toDocManage")
-	public String docManage() {
-		
+	public String docManage(HttpServletRequest request) {
+		request.setAttribute("curPageName", "教学资料库");
 		return DOCUMENT_MANAGE;
 	}
 	

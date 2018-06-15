@@ -58,8 +58,6 @@
 	display:block;
 }
 </style>
-
-
 </head>
 <body>
 	<%@ include file="/taglibs/common/head.jsp"%>

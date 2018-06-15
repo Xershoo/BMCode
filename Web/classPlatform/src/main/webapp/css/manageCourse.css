@@ -179,6 +179,7 @@ body {
 #gk_titlet {
 	width: 755px;
 	border-bottom: 1px solid #E4E4E4;
+	float:right;
 }
 
 .gk_title1 {
@@ -214,15 +215,17 @@ body {
 	cursor: pointer;
 }
 
-.title2 {
-	float: right;
-	width: 9%;
+.cc_title {
+	margin-left:660px;
+	float:left;
 	height: 45px;
+	width: 80px;
 	line-height: 40px;
 	font-size: 14px;
+	cursor:pointer;
 }
 
-.title2 span {
+.cc_title span {
 	font-family: '微软雅黑 Regular', '微软雅黑';
 	font-style: normal;
 	color: #FF9C00;

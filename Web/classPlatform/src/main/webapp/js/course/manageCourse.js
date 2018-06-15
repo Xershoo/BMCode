@@ -1580,6 +1580,7 @@ function changeType(flag){
 					location.href = getRoot() + "/index";
 				}else if(data.status == 1){
 					alert("请先认证老师");
+					 window.location.href= getRootPath() + '/teacher/techCertification';
 				}else if(data.status == 0){
 					 window.location.href= getRootPath() + '/teacher/course/create';
 					

@@ -58,7 +58,7 @@
 								class="r_v_btn al_btn" style="display: none" disabled>
 						</div>
 					</div>
-					
+					<!-- 
 					<div class="pn_high">
 						<img src="<%=request.getContextPath()%>/images/piano_certificate/unpass_other.png" id="otherVerify">
 						<div class="pn_high_info">钢琴等级认证</div>
@@ -70,6 +70,7 @@
 						</div>
 						<div class="piano_level">钢琴等级</div>
 					</div>
+					 -->
 				</div>		
 			</div>
 			<!-- piano other identification -->

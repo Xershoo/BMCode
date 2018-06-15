@@ -92,8 +92,8 @@ public class AuthTeacherController  extends BaseController {
 		return upload;
 	}
 	@RequestMapping(value = "/techCertification",method=RequestMethod.GET)
-	public String techCertification() {
-		
+	public String techCertification(HttpServletRequest request) {
+		request.setAttribute("curPageName", "身份认证");
 		return TECH_CERTIFICATION;
 	}
 	@ResponseBody

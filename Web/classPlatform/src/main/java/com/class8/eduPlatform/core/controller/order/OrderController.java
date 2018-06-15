@@ -107,8 +107,8 @@ public class OrderController extends BaseController {
 		return TEACHER_ORDER;
 	}
 	@RequestMapping(value = "/toShowTradeRecord")
-	public String showTradeRecord() {
-		
+	public String showTradeRecord(HttpServletRequest request) {
+		request.setAttribute("curPageName", "我的财富");
 		return SHOW_TRADE_RECORD;
 	}
 	
