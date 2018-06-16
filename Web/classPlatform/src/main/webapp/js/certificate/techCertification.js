@@ -499,3 +499,11 @@ function getAuthCertificates(){
 		}
 	})
 }
+
+function cancelSubmit() {
+	$("#t_main").show();
+	$("#idenfyDtl").hide();
+	$("#idenfyEdu").hide();
+	$("#idenfyTech").hide();
+	$("#idenfyOther").hide();
+}

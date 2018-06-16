@@ -2019,6 +2019,21 @@ border:none;opacity:0;filter:alpha(opacity=0);font-size:14px;}
 	color:#42b8f6;
 	font-weight:700;
 }
+
+.pn_auth{
+	width:135px;
+	height:45px;
+	float:left;
+	text-align: center;
+	margin-left:10px;
+	background: #fff;
+}
+
+.pn_auth:hover{
+	color:#42b8f6;
+	font-weight:700;
+}
+
 .pn_fashion{
 	width:110px;
 	height:45px;
@@ -2027,6 +2042,7 @@ border:none;opacity:0;filter:alpha(opacity=0);font-size:14px;}
 	text-align: center;
 	margin-left:10px;
 }
+
 .pn_menu_set{
 	font-weight:700;
 	border-bottom:3px solid #42b8f6;

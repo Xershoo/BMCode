@@ -36,10 +36,6 @@
 						class="infost"></span>
 				</p>
 			</div>
-			<!-- 			<div class="st_img"> -->
-			<!-- 				<img alt="" src="images/bd_mail.png" class="st_poi" width="140px" height="140px"> -->
-			<!-- 				<p>学生身份</p> -->
-			<!-- 			</div> -->
 		</div>
 	</div>
 </div>

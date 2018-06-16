@@ -12,8 +12,10 @@ body {
 .zhanghu {
 	width: 963px;
 	height: 899px;
-	float: right;
+	float: right; 
+	background-color : #ffffff;
 	background-color: #ffffff;
+	border: 1px solid #E4E4E4;
 }
 
 .zhanghu1 {

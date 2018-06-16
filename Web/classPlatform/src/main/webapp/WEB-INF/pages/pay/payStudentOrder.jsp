@@ -22,7 +22,10 @@
 <body>
 <%@ include file="/taglibs/common/head.jsp"%>
 <div class="pay_content">
+<!--  
 <div class="pay_order">支付订单</div>
+-->
+
 <div class="content" id="pay_content" >
 <div class="order_detail">
 <div class="order_detail_title2"></div>

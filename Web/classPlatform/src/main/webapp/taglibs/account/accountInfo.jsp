@@ -1,10 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <div class="u_myData">
-	<!-- <div class="m_r_content">
-		<p class="m_r_fs">账号安全</p>
-		<span class="u_h2">安全第一，切记「防人」之心不可无~~</span>
-	</div> -->
 	<!-- change pwd begin -->
 	<h3><img alt="" src="../images/account/tips.png" width="15px"
 			height="15px"><span class="tips_img">修改密码</span></h3>
@@ -43,8 +39,6 @@
 			<input type="button" id="change_mobile" value="去修改" class="chg_btn" style="display:none;">
 		</div>
 	</div>
-	<!-- bind mobile over -->
-	<!-- security problem begin -->
 	<h3><img alt="" src="../images/account/tips.png" width="15px"
 			height="15px"><span class="tips_img">密保问题</span></h3>
 	<div class="m_r_tab" id="setOrChgEncry">

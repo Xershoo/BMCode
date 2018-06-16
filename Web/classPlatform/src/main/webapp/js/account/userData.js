@@ -319,6 +319,7 @@ $(function() {
 		$("#menu6_data").hide();
 		$("#menu7_data").hide();
 		$("#menu8_data").hide();
+		$("#menu9_data").hide();
 		$(".u_myDataWrap #changeEncryptedTab").remove();
 		getStudentInfos();
 	})
@@ -335,6 +336,7 @@ $(function() {
 		$("#menu6_data").hide();
 		$("#menu7_data").hide();
 		$("#menu8_data").hide();
+		$("#menu9_data").hide();
 		$(".u_myDataWrap #changeEncryptedTab").remove();
 		getSafetyInfos();
 	});
@@ -351,6 +353,7 @@ $(function() {
 		$("#menu6_data").hide();
 		$("#menu7_data").hide();
 		$("#menu8_data").show();
+		$("#menu9_data").hide();
 		$(".u_myDataWrap #changeEncryptedTab").remove();
 //		getSafetyInfos();
 		getBasicDatas();
@@ -358,6 +361,28 @@ $(function() {
 			$(".piano-image").css("background","#fff");
 			$("#pianoPhotoUrls").attr("src",pianoPhotoUrl);
 		}
+	})
+	
+	$("#identityAuth").on("click", function() {
+		$(this).siblings().removeClass("common_link");
+		$(this).addClass("pn_menu_set");
+		$(this).siblings().removeClass("pn_menu_set");
+		
+		$("#menu1_data").hide();
+		$("#menu2_data").hide();
+		$("#menu3_data").hide();
+		$("#menu4_data").hide();
+		$("#menu5_data").hide();
+		$("#menu6_data").hide();
+		$("#menu7_data").hide();
+		$("#menu8_data").hide();
+		$("#menu9_data").show();
+		
+		$(".u_myDataWrap #changeEncryptedTab").remove();
+
+//		getSafetyInfos();
+		
+		getBasicDatas();
 	})
 	
 	$("#chgPwd").on("click", function() {
@@ -369,6 +394,7 @@ $(function() {
 		$("#menu6_data").hide();
 		$("#menu7_data").hide();
 		$("#menu8_data").hide();
+		$("#menu9_data").hide();
 		$(".u_myDataWrap #changeEncryptedTab").remove();
 	})
 
@@ -381,6 +407,7 @@ $(function() {
 		$("#menu5_data").hide();
 		$("#menu7_data").hide();
 		$("#menu8_data").hide();
+		$("#menu9_data").hide();
 		$(".u_myDataWrap #changeEncryptedTab").remove();
 		selectChange2();
 	})
@@ -412,6 +439,7 @@ $(function() {
 		$("#menu5_data").hide();
 		$("#menu7_data").hide();
 		$("#menu8_data").hide();
+		$("#menu9_data").hide();
 		$(".u_myDataWrap #changeEncryptedTab").remove();
 	})
 	
@@ -461,6 +489,7 @@ $(function() {
 					$("#menu5_data").hide();
 					$("#menu6_data").hide();
 					$("#menu8_data").hide();
+					$("#menu9_data").hide();
 					$(".u_myDataWrap #changeEncryptedTab").remove();
 					quest1 = question1;
 					quest2 = question2;
@@ -652,6 +681,7 @@ $(function() {
 						$("#menu6_data").hide();
 						$("#menu7_data").hide();
 						$("#menu8_data").hide();
+						$("#menu9_data").hide();
 						$(".u_myDataWrap #changeEncryptedTab").remove();
 						var sessionId = "";
 						$("#changeOrBindMobile #changeMobile").remove();
@@ -1191,6 +1221,7 @@ $(function() {
 						$("#menu6_data").hide();
 						$("#menu7_data").hide();
 						$("#menu8_data").hide();
+						$("#menu9_data").hide();
 						$(".u_myDataWrap #changeEncryptedTab").remove();
 						var url = getRootPath()
 								+ "/persondata/listpersonaldata";
@@ -1215,6 +1246,7 @@ $(function() {
 											$("#menu5_data").hide();
 											$("#menu7_data").hide();
 											$("#menu8_data").hide();
+											$("#menu9_data").hide();
 											showChangeEncrypted(uid,
 													qus.strQuestion1,
 													qus.strQuestion2,
@@ -1228,6 +1260,7 @@ $(function() {
 											$("#menu5_data").hide();
 											$("#menu7_data").hide();
 											$("#menu8_data").hide();
+											$("#menu9_data").hide();
 										}
 									}
 								});
@@ -2896,6 +2929,7 @@ function showChangeEncrypted(uid, strQuestion1, strQuestion2, strQuestion3) {
 										$("#menu5_data").hide();
 										$("#menu7_data").hide();
 										$("#menu8_data").hide();
+										$("#menu9_data").hide();
 										selectChange2();
 										// $(".tips_img").html("更换密保问题");
 									} else {
