@@ -73,11 +73,11 @@ import com.sun.org.apache.xpath.internal.operations.And;
 @RequestMapping("/persondata")
 public class PersonalDataController  extends BaseController {
 
-	public static final String PAY_SAFE_SET = "/pay/paySafeSet_bm";
+	public static final String PAY_SAFE_SET = "/pay/paySafeSet";
 	
 	public static final String ACCOUNT_SAFE_SET = "/account/accountCentral";
 	
-	public static final String MY_ACCOUNT = "/myAccount_bm";
+	public static final String MY_ACCOUNT = "/myAccount";
 	
 	@Autowired
 	IEduPayService	iEduPayService;

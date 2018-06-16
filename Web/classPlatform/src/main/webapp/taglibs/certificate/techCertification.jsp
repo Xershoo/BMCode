@@ -13,10 +13,6 @@
 				<img alt="" src="<%=request.getContextPath()%>/images/piano_certificate/id_teach.gif" class="c_tips">老师认证
 			</div>
 			<div class="th_content">
-				<%-- <p class="r_v_ti">
-					<img src="<%=request.getContextPath()%>/images/piano_certificate/pass_id.gif" class="tp_img">身份认证 <font
-						color="red"> ( * 必须认证)</font>
-				</p> --%>
 				<div class="r_v_photo">
 					<img src="<%=request.getContextPath()%>/images/piano_certificate/unpass_id.png" class="th_back" id="idVerify">
 				</div>
@@ -58,95 +54,11 @@
 								class="r_v_btn al_btn" style="display: none" disabled>
 						</div>
 					</div>
-					<!-- 
-					<div class="pn_high">
-						<img src="<%=request.getContextPath()%>/images/piano_certificate/unpass_other.png" id="otherVerify">
-						<div class="pn_high_info">钢琴等级认证</div>
-						<div class="pn_high_info pass_high">（认证通过）</div>
-						<div class="pn_idfy">
-							<input type="button" id="identifyOther" value="去认证" class="r_v_btn">
-							<input type="button" id="alIdentifyOther" value="已认证"
-								class="r_v_btn al_btn" style="display: none" disabled>
-						</div>
-						<div class="piano_level">钢琴等级</div>
-					</div>
-					 -->
 				</div>		
 			</div>
-			<!-- piano other identification -->
-			<%-- <div class="th_content">
-				<p class="r_v_ti">
-					<img src="<%=request.getContextPath()%>/images/account/tips.png" class="tp_img">学历认证 <span
-						class="r_v_choose">( 可选认证 )</span>
-				</p>
-				<div class="r_v_photo">
-					<img src="<%=request.getContextPath()%>/images/certificate/th_back.png" class="th_back"
-						width="50px" height="50px" id="eduVerify">
-				</div>
-				<div class="r_v_idfy">
-					<p class="r_v_undefy">
-						最高学历认证（<span class="th_iden">未认证</span>）
-					</p>
-					<p class="r_v_info">通过身份证认证真实的个人身份</p>
-				</div>
-				<div class="r_v_idfy th_btn">
-					<input type="button" id="identifyEdu" value="去认证" class="r_v_btn">
-					<input type="button" id="alIdentifyEdu" value="已认证"
-						class="r_v_btn al_btn" style="display: none" disabled>
-				</div>
-			</div> --%>
-
-			<%-- <div class="th_content">
-				<p class="r_v_ti">
-					<img src="<%=request.getContextPath()%>/images/account/tips.png" class="tp_img">教师证认证 <span
-						class="r_v_choose">( 可选认证 )</span>
-				</p>
-				<div class="r_v_photo">
-					<img src="<%=request.getContextPath()%>/images/certificate/th_back.png" class="th_back"
-						width="50px" height="50px" id="techVerify">
-				</div>
-				<div class="r_v_idfy">
-					<p class="r_v_undefy">
-						教师证认证（<span class="th_iden">未认证</span>）
-					</p>
-					<p class="r_v_info">通过教师证认证更专业的教学资质</p>
-				</div>
-				<div class="r_v_idfy th_btn">
-					<input type="button" id="identifyTech" value="去认证" class="r_v_btn">
-					<input type="button" id="alIdentifyTech" value="已认证"
-						class="r_v_btn al_btn" style="display: none" disabled>
-				</div>
-			</div> --%>
-
-			<%-- <div class="th_content">
-				<p class="r_v_ti">
-					<img src="<%=request.getContextPath()%>/images/account/tips.png" class="tp_img">其他认证 <span
-						class="r_v_choose">( 可选认证 )</span>
-				</p>
-				<div class="r_v_photo">
-					<img src="<%=request.getContextPath()%>/images/certificate/th_back.png" class="th_back"
-						width="50px" height="50px" id="otherVerify">
-				</div>
-				<div class="r_v_idfy">
-					<p class="r_v_undefy">
-						其他资质/专业认证（<span class="th_iden">未认证</span>）
-					</p>
-					<p class="r_v_info">通过其他专业考级证书的认证，提高教学权威</p>
-				</div>
-				<div class="r_v_idfy th_btn">
-					<input type="button" id="identifyOther" value="去认证" class="r_v_btn">
-					<input type="button" id="alIdentifyOther" value="已认证"
-						class="r_v_btn al_btn" style="display: none" disabled>
-				</div>
-			</div> --%>
 		</div>
 
 		<div class="idenfy_dtl" id="idenfyDtl" style="display: none;">
-<!-- 			<div class="r_v_line"> -->
-<!-- 				<p class="r_v_tech">老师认证</p> -->
-<%-- 				<span class="c_tips"><img src="<%=request.getContextPath()%>/images/account/tips.png" --%>
-<!-- 					class="tp_img">认证资历，树立教学「权威」~</span> -->
-<!-- 			</div> -->
 			<div class="r_v_line add_line">
 				<img alt="" src="<%=request.getContextPath()%>/images/piano_certificate/id_teach.gif" class="c_tips">老师认证
 			</div>
@@ -175,13 +87,12 @@
 						</tr>
 						<tr>
 							<th><font color="red" class="th_must">*</font>手持身份证：</th>
-							<td class="special_pt"><img alt=""
-								src="<%=request.getContextPath()%>/images/certificate/file_up.png" id="img1" width="190px"
-								height="150px"> <a href="javascript:;" class="th_file_up">上传图片
-									<input type="file" id="chooseFile1" name="myFiles"
-									accept="image/*">
-							</a> <img alt="" src="<%=request.getContextPath()%>/images/certificate/hand_take.png"
-								class="r_v_imgsp"></td>
+							<td class="special_pt"><img alt="" src="<%=request.getContextPath()%>/images/certificate/file_up.png" id="img1" width="190px" height="150px"> 
+								<a href="javascript:;" class="th_file_up">上传图片 
+									<input type="file" id="chooseFile1" name="myFiles" accept="image/*">
+								</a> 
+								<img alt="" src="<%=request.getContextPath()%>/images/certificate/hand_take.png" class="r_v_imgsp">
+							</td>
 						</tr>
 						<tr>
 							<th>&nbsp;</th>
@@ -197,12 +108,12 @@
 						</tr>
 						<tr>
 							<th><font color="red" class="th_must">*</font>身份证正面：</th>
-							<td class="special_pt"><img alt=""
-								src="<%=request.getContextPath()%>/images/certificate/file_up.png" id="img2" width="190px"
-								height="150px"> <a href="javascript:;" class="th_file_up">上传图片
-									<input type="file" id="chooseFile2" name="myFiles"
-									accept="image/*">
-							</a> <img alt="" src="<%=request.getContextPath()%>/images/certificate/front.png" class="r_v_imgsp"></td>
+							<td class="special_pt"><img alt="" src="<%=request.getContextPath()%>/images/certificate/file_up.png" id="img1" width="190px" height="150px"> 
+								<a href="javascript:;" class="th_file_up">上传图片 
+									<input type="file" id="chooseFile2" name="myFiles" accept="image/*">
+								</a> 
+								<img alt="" src="<%=request.getContextPath()%>/images/certificate/front.png" class="r_v_imgsp">
+							</td>
 						</tr>
 						<tr>
 							<th>&nbsp;</th>
@@ -217,12 +128,12 @@
 						</tr>
 						<tr>
 							<th><font color="red" class="th_must">*</font>身份证反面：</th>
-							<td class="special_pt"><img alt=""
-								src="<%=request.getContextPath()%>/images/certificate/file_up.png" id="img3" width="190px"
-								height="150px"> <a href="javascript:;" class="th_file_up">上传图片
-									<input type="file" id="chooseFile3" name="myFiles"
-									accept="image/*">
-							</a> <img alt="" src="<%=request.getContextPath()%>/images/certificate/back.png" class="r_v_imgsp"></td>
+							<td class="special_pt"><img alt="" src="<%=request.getContextPath()%>/images/certificate/file_up.png" id="img1" width="190px" height="150px"> 
+								<a href="javascript:;" class="th_file_up">上传图片 
+									<input type="file" id="chooseFile3" name="myFiles" accept="image/*">
+								</a> 
+								<img alt="" src="<%=request.getContextPath()%>/images/certificate/back.png" class="r_v_imgsp">
+							</td>
 						</tr>
 						<tr>
 							<th>&nbsp;</th>
@@ -249,12 +160,7 @@
 
 		<!-- 学历证书  		 -->
 		<div class="idenfy_edu" id="idenfyEdu" style="display: none;">
-			<!-- 				<div class="r_v_line"></div> -->
-<!-- 			<div class="r_v_line"> -->
-<!-- 				<p class="r_v_tech">老师认证</p> -->
-<%-- 				<span class="c_tips"><img src="<%=request.getContextPath()%>/images/account/tips.png" --%>
-<!-- 					class="tp_img">认证资历，树立教学「权威」~</span> -->
-<!-- 			</div> -->
+			
 			<div class="r_v_line add_line">
 				<img alt="" src="<%=request.getContextPath()%>/images/piano_certificate/id_teach.gif" class="c_tips">老师认证
 			</div>
@@ -314,10 +220,11 @@
 							<td class="r_v_text1" colspan="2">支持 jpg、jpeg、png格式的图片</td>
 						</tr>
 						<tr>
-							<td colspan="3"><input type="submit" id="submitEduCard"
-								class="r_s_edu" value="提  交" onClick="submitEduCer(1);">
-								<input type="button" id="cancelEduCard" class="r_c_edu"
-								value="取  消" onClick="javascript:history.go(-1);"></td>
+							<th>&nbsp;</th>
+							<td colspan="3">
+								<input type="submit" id="submitEduCard" class="r_s_edu" value="提  交" onClick="submitEduCer(1);">
+								<input type="button" id="cancelEduCard" class="r_c_edu" value="取  消" onClick="javascript:history.go(-1);">
+							</td>
 						</tr>
 					</table>
 				</div>
@@ -326,11 +233,6 @@
 		<!-- 学历证书		 -->
 		<!-- 教师认证		 -->
 		<div class="idenfy_edu" id="idenfyTech" style="display: none;">
-<!-- 			<div class="r_v_line"> -->
-<!-- 				<p class="r_v_tech">老师认证</p> -->
-<%-- 				<span class="c_tips"><img src="<%=request.getContextPath()%>/images/account/tips.png" --%>
-<!-- 					class="tp_img">认证资历，树立教学「权威」~</span> -->
-<!-- 			</div> -->
 			<div class="r_v_line add_line">
 				<img alt="" src="<%=request.getContextPath()%>/images/piano_certificate/id_teach.gif" class="c_tips">老师认证
 			</div>
@@ -342,7 +244,6 @@
 					教师证资质认证将会增强生对你的专业信任，另外认证过程中填写材料信息，只用于认证专业能力，不会用于其他地方！</div>
 
 				<div class="r_w_card" id="idenfyCard">
-
 					<table class="r_w_edu">
 						<tr>
 							<th>教师证：</th>
@@ -372,10 +273,11 @@
 							<td class="r_v_text1" colspan="2">支持 jpg、jpeg、png格式的图片</td>
 						</tr>
 						<tr>
-							<td colspan="3"><input type="submit" id="submitTechCard"
-								class="r_s_edu" value="提交" onClick="submitEduCer(2);"> <input
-								type="button" id="cancelTechCard" class="r_c_edu" value="取消"
-								onClick="javascript:history.go(-1);"></td>
+							<th>&nbsp;</th>
+							<td colspan="3">
+								<input type="submit" id="submitTechCard" class="r_s_edu" value="提交" onClick="submitEduCer(2);"> 
+								<input type="button" id="cancelTechCard" class="r_c_edu" value="取消" onClick="javascript:history.go(-1);">
+							</td>
 						</tr>
 					</table>
 				</div>
@@ -384,11 +286,6 @@
 		<!-- 教师认证		 -->
 		<!-- 其它认证		 -->
 		<div class="idenfy_edu" id="idenfyOther" style="display: none;">
-<!-- 			<div class="r_v_line"> -->
-<!-- 				<p class="r_v_tech">老师认证</p> -->
-<%-- 				<span class="c_tips"><img src="<%=request.getContextPath()%>/images/account/tips.png" --%>
-<!-- 					class="tp_img">认证资历，树立教学「权威」~</span> -->
-<!-- 			</div> -->
 			<div class="r_v_line add_line">
 				<img alt="" src="<%=request.getContextPath()%>/images/piano_certificate/id_teach.gif" class="c_tips">老师认证
 			</div>
@@ -445,10 +342,10 @@
 							<td class="r_v_text1" colspan="2">支持 jpg、jpeg、png格式的图片</td>
 						</tr>
 						<tr>
-							<td colspan="3"><input type="submit" id="submitOtherCard"
-								class="r_s_edu" value="提交" onClick="submitEduCer(3);"> <input
-								type="button" id="cancelOtherCard" class="r_c_edu" value="取消"
-								onClick="javascript:history.go(-1);"></td>
+							<td colspan="3">
+								<input type="submit" id="submitOtherCard" class="r_s_edu" value="提交" onClick="submitEduCer(3);"> 
+								<input type="button" id="cancelOtherCard" class="r_c_edu" value="取消" onClick="javascript:history.go(-1);">
+							</td>
 						</tr>
 					</table>
 				</div>
@@ -457,10 +354,4 @@
 
 	</div>
 	<div class="add_with_line"></div>
-	<!-- 其它认证		 -->
-
-<!-- 	<div> -->
-<%-- 		<input type="hidden" value="<%=request.getAttribute("status")%>" --%>
-<!-- 			id="status" name="status"> -->
-<!-- 	</div> -->
 </form>

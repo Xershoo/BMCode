@@ -63,7 +63,7 @@ import com.class8.user.webservice.intf.IEduUserService;
 public class OrderController extends BaseController {
 	public static final String STUDENT_ORDER = "/order/studentOrder";
 	public static final String TEACHER_ORDER = "/order/manageOrder";
-	public static final String SHOW_TRADE_RECORD = "/pay/showTradeRecord_bm";
+	public static final String SHOW_TRADE_RECORD = "/pay/showTradeRecord";
 	
 	@Autowired
 	IEduPayService iEduPayService;
@@ -88,12 +88,14 @@ public class OrderController extends BaseController {
 	}
 	//学生订单页面
 	@RequestMapping(value="/studentOrder")
-	public  String studentOrder(){
+	public  String studentOrder(HttpServletRequest request){
 		JSONObject jsonObject  = new JSONObject(); 
 		Subject subject = SecurityUtils.getSubject();  
         if (!subject.isAuthenticated()) {  
         	return "/index";
         }
+        
+        request.setAttribute("curPageNum", "我的订单");
 		return STUDENT_ORDER;
 	}
 	//老师订单页面
@@ -168,10 +170,13 @@ public class OrderController extends BaseController {
 			mav.addObject("price",price);
 			mav.addObject("schoolName",schoolName);
 			mav.addObject("teacherName",teacherName);
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 			mav.addObject("orders",null);
 		}
+		
+		request.setAttribute("curPageName", "订单支付");
 		return mav;
 	}
 	
