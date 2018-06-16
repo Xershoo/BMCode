@@ -77,7 +77,7 @@ public class PersonalDataController  extends BaseController {
 	
 	public static final String ACCOUNT_SAFE_SET = "/account/accountCentral";
 	
-	public static final String MY_ACCOUNT = "/myAccount";
+	public static final String MY_ACCOUNT = "/myAccount_bm";
 	
 	@Autowired
 	IEduPayService	iEduPayService;
