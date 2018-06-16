@@ -32,16 +32,17 @@
 <!-- <div id="zhezhao" style="background-color:#000;position:fixed;left:0;top:0;width:100%;height:100%;z-index:99999;display:none" ></div> -->
 	<!-- 左侧菜单 -->
 	<jsp:include page="/taglibs/common/wealthMenu_bm.jsp">
-		<jsp:param value="my_account" name="module"/>
+		<jsp:param value="wealth" name="module"/>
 	</jsp:include>
 	<!-- over -->
 	<div class="zhanghu" >
 		<%--<div class="zhanghu1">我的账户<span id="tips">财富中心，方便管理你的小金库~</span></div>--%>
 			<div class="pn_menu">
 				<div class="m_r_content">
-					<div class="pn_basic" id="basic_info" onclick="location.href='<%=request.getContextPath()%>/persondata/myAccount'">我的账户</div>
-					<div class="pn_safety" id="account_info" onclick="location.href='<%=request.getContextPath()%>/order/toShowTradeRecord'">交易记录</div>
-					<div class="pn_fashion" id="personalPortrait" onclick="location.href='<%=request.getContextPath()%>/persondata/toSetPaySafety'">支付安全设置</div>
+					<div class="pn_fashion" id="basic_info" onclick="location.href='<%=request.getContextPath()%>/persondata/myAccount'">我的账户</div>
+					<div class="pn_fashion" id="account_info" onclick="location.href='<%=request.getContextPath()%>/order/toShowTradeRecord'">交易记录</div>
+					<div class="pn_fashion" id="personalPortrait" onclick="location.href='<%=request.getContextPath()%>/persondata/toSetPaySafety'">支付安全</div>
+					<div class="pn_fashion"  >我的订单</div>
 				</div>
 			</div>
 		<div class="zhanghuyue" id="zhanghu">
