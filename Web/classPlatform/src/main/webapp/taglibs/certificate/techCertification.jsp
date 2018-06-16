@@ -1,17 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<form action="<%=request.getContextPath()%>/teacher/authtoteacher" method="post" id="form"
-	enctype="multipart/form-data" name="form"
-	onSubmit="return checkForm();">
-	<div class="t_all">
-		<jsp:include page="/taglibs/common/teacherMenu.jsp">
-		<jsp:param value="teacher_auth" name="module"/>
-	</jsp:include>
+<div class="u_myData">
+	<form action="<%=request.getContextPath()%>/teacher/authtoteacher" method="post" id="form"
+		enctype="multipart/form-data" name="form"
+		onSubmit="return checkForm();">
+	
 
 		<div class="t_main" id="t_main">
-			<div class="r_v_line add_line">
-				<img alt="" src="<%=request.getContextPath()%>/images/piano_certificate/id_teach.gif" class="c_tips">老师认证
-			</div>
+			
 			<div class="th_content">
 				<div class="r_v_photo">
 					<img src="<%=request.getContextPath()%>/images/piano_certificate/unpass_id.png" class="th_back" id="idVerify">
@@ -59,14 +55,8 @@
 		</div>
 
 		<div class="idenfy_dtl" id="idenfyDtl" style="display: none;">
-			<div class="r_v_line add_line">
-				<img alt="" src="<%=request.getContextPath()%>/images/piano_certificate/id_teach.gif" class="c_tips">老师认证
-			</div>
+			
 			<div>
-				<p class="r_v_ti add_p">
-					<img src="<%=request.getContextPath()%>/images/account/tips.png" class="tp_img">身份认证 <font
-						color="red"> ( * 必须认证)</font>
-				</p>
 				<div class="r_v_warn add_p">
 					身份认证将会增强学生对你的信任度，另外认证过程中填写的身份证号与等材料信息，只用于认证身份，不会用于其他地方！</div>
 
@@ -147,10 +137,10 @@
 							</td>
 						</tr>
 						<tr>
-							<td colspan="3"><input type="submit" id="submitIdCard"
-								class="r_s_card" value="提  交"> <input type="button"
-								id="cancelIdCard" class="r_c_card" value="取  消"
-								onClick="javascript:history.go(-1);"></td>
+							<td colspan="3">
+								<input type="submit" id="submitIdCard" class="r_s_card" value="提  交"> 
+								<input type="button" id="cancelIdCard" class="r_c_card" value="取  消"  onClick="cancelSubmit();">
+							</td>
 						</tr>
 					</table>
 				</div>
@@ -160,14 +150,7 @@
 
 		<!-- 学历证书  		 -->
 		<div class="idenfy_edu" id="idenfyEdu" style="display: none;">
-			
-			<div class="r_v_line add_line">
-				<img alt="" src="<%=request.getContextPath()%>/images/piano_certificate/id_teach.gif" class="c_tips">老师认证
-			</div>
 			<div>
-				<p class="r_v_ti add_p">
-					<img src="<%=request.getContextPath()%>/images/account/tips.png" class="tp_img">学历学位认证
-				</p>
 				<div class="r_v_warn add_p">
 					学历认证将会提高学生对你的信任度，另外认证过程中填写材料信息，只用于认证专业能力，不会用于其他地方！</div>
 
@@ -223,7 +206,7 @@
 							<th>&nbsp;</th>
 							<td colspan="3">
 								<input type="submit" id="submitEduCard" class="r_s_edu" value="提  交" onClick="submitEduCer(1);">
-								<input type="button" id="cancelEduCard" class="r_c_edu" value="取  消" onClick="javascript:history.go(-1);">
+								<input type="button" id="cancelEduCard" class="r_c_edu" value="取  消" onClick="cancelSubmit();">
 							</td>
 						</tr>
 					</table>
@@ -233,13 +216,7 @@
 		<!-- 学历证书		 -->
 		<!-- 教师认证		 -->
 		<div class="idenfy_edu" id="idenfyTech" style="display: none;">
-			<div class="r_v_line add_line">
-				<img alt="" src="<%=request.getContextPath()%>/images/piano_certificate/id_teach.gif" class="c_tips">老师认证
-			</div>
 			<div>
-				<p class="r_v_ti add_p">
-					<img src="<%=request.getContextPath()%>/images/account/tips.png" class="tp_img">教师证认证
-				</p>
 				<div class="r_v_warn add_p">
 					教师证资质认证将会增强生对你的专业信任，另外认证过程中填写材料信息，只用于认证专业能力，不会用于其他地方！</div>
 
@@ -276,7 +253,7 @@
 							<th>&nbsp;</th>
 							<td colspan="3">
 								<input type="submit" id="submitTechCard" class="r_s_edu" value="提交" onClick="submitEduCer(2);"> 
-								<input type="button" id="cancelTechCard" class="r_c_edu" value="取消" onClick="javascript:history.go(-1);">
+								<input type="button" id="cancelTechCard" class="r_c_edu" value="取消" onClick="cancelSubmit();">
 							</td>
 						</tr>
 					</table>
@@ -286,13 +263,17 @@
 		<!-- 教师认证		 -->
 		<!-- 其它认证		 -->
 		<div class="idenfy_edu" id="idenfyOther" style="display: none;">
+			<!--
 			<div class="r_v_line add_line">
 				<img alt="" src="<%=request.getContextPath()%>/images/piano_certificate/id_teach.gif" class="c_tips">老师认证
 			</div>
+			 -->
 			<div>
+				<!-- 
 				<p class="r_v_ti add_p">
 					<img src="<%=request.getContextPath()%>/images/account/tips.png" class="tp_img">学士学位认证
 				</p>
+				 -->
 				<div class="r_v_warn add_p">
 					专业认证将会提升学生对你的认可度，另外认证过程中填写材料信息，只用于认证专业能力，不会用于其他地方！</div>
 
@@ -344,14 +325,14 @@
 						<tr>
 							<td colspan="3">
 								<input type="submit" id="submitOtherCard" class="r_s_edu" value="提交" onClick="submitEduCer(3);"> 
-								<input type="button" id="cancelOtherCard" class="r_c_edu" value="取消" onClick="javascript:history.go(-1);">
+								<input type="button" id="cancelOtherCard" class="r_c_edu" value="取消" onClick="cancelSubmit();">
 							</td>
 						</tr>
 					</table>
 				</div>
 			</div>
 		</div>
-
 	</div>
 	<div class="add_with_line"></div>
 </form>
+</div>

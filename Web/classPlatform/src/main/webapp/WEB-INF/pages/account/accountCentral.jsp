@@ -27,6 +27,8 @@
 	href="<%=request.getContextPath()%>/css/common/tinyDialog.min.css">
 <link rel="stylesheet"
 	href="<%=request.getContextPath()%>/css/common/dialog.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/certificate/techCertification.css">
+		
 <link rel="stylesheet" href="<%=request.getContextPath()%>/css/cropper.css" type="text/css" />
 
 
@@ -50,6 +52,8 @@
 	src="<%=request.getContextPath()%>/js/index/head.js"></script>
 <script type="text/javascript"
 	src="<%=request.getContextPath()%>/js/common/menu.js"></script>
+<script type="text/javascript"
+	src="<%=request.getContextPath()%>/js/certificate/techCertification.js"></script>
 <style type="text/css">
 .ui-widget{
 	font-family:'微软雅黑 Regular','微软雅黑';
