@@ -8,16 +8,16 @@
 		<jsp:param value="personalSet" name="module"/>
 	</jsp:include>
 
+
 		<div class="t_main" id="t_main">
 			<%--<div class="r_v_line add_line">--%>
 				<%--<img alt="" src="<%=request.getContextPath()%>/images/piano_certificate/id_teach.gif" class="c_tips">老师认证--%>
 			<%--</div>--%>
 				<div class="pn_menu">
 					<div class="m_r_content">
-						<div class="pn_basic" id="basic_info">基本信息</div>
+						<div onClick="location.href='<%=request.getContextPath()%>/persondata/toAccount'" class="pn_basic">基本信息</div>
 						<div class="pn_safety" id="account_info">账号安全</div>
 						<div class="pn_fashion" id="personalPortrait">形象照</div>
-
 						<div style="color: #42b8f6; font-weight: 700;border-bottom: 3px solid #42b8f6;" class="pn_fashion" onClick="location.href='<%=request.getContextPath()%>/teacher/techCertification'">我的认证</div>
 					</div>
 				</div>

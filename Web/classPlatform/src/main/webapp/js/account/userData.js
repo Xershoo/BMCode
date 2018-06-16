@@ -337,7 +337,7 @@ $(function() {
 		$("#menu8_data").hide();
 		$(".u_myDataWrap #changeEncryptedTab").remove();
 		getSafetyInfos();
-	})
+	});
 	
 	$("#personalPortrait").on("click", function() {
 		$(this).siblings().removeClass("common_link");

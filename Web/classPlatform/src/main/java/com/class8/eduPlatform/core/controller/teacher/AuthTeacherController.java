@@ -78,7 +78,7 @@ import com.wanmei.sns.util.DateUtils;
 @RequestMapping("/teacher")
 public class AuthTeacherController  extends BaseController {
 	
-	public static final String TECH_CERTIFICATION = "/certificate/myCertificate";	
+	public static final String TECH_CERTIFICATION = "/certificate/myCertificate_bm";
 	
 	@Autowired
 	private IEduUserService eduUserService;

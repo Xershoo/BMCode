@@ -17,9 +17,9 @@
 			<div class="pn_menu">
 				<div class="m_r_content">
 					<div class="pn_fashion" id="basic_info" onclick="location.href='<%=request.getContextPath()%>/persondata/myAccount'">我的账户</div>
-					<div class="pn_fashion" id="account_info" onclick="location.href='<%=request.getContextPath()%>/order/toShowTradeRecord'">交易记录</div>
+					<div style="color: #42b8f6; font-weight: 700;border-bottom: 3px solid #42b8f6;"  class="pn_fashion" id="account_info" onclick="location.href='<%=request.getContextPath()%>/order/toShowTradeRecord'">交易记录</div>
 					<div class="pn_fashion" id="personalPortrait" onclick="location.href='<%=request.getContextPath()%>/persondata/toSetPaySafety'">支付安全</div>
-					<div class="pn_fashion"  >我的订单</div>
+					<div class="pn_fashion" onClick="location.href='<%=request.getContextPath()%>/order/studentOrder'" >我的订单</div>
 				</div>
 			</div>
 		<div id="trade_menu">

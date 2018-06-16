@@ -61,7 +61,7 @@ import com.class8.user.webservice.intf.IEduUserService;
 @Controller
 @RequestMapping("/order")
 public class OrderController extends BaseController {
-	public static final String STUDENT_ORDER = "/order/studentOrder";
+	public static final String STUDENT_ORDER = "/order/studentOrder_bm";
 	public static final String TEACHER_ORDER = "/order/manageOrder";
 	public static final String SHOW_TRADE_RECORD = "/pay/showTradeRecord_bm";
 	

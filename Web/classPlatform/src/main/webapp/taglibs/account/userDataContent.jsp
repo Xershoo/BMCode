@@ -16,9 +16,10 @@
 			<div class="pn_basic" id="basic_info">基本信息</div>
 			<div class="pn_safety" id="account_info">账号安全</div>
 			<div class="pn_fashion" id="personalPortrait">形象照</div>
+			<div class="pn_fashion" onClick="location.href='<%=request.getContextPath()%>/teacher/techCertification'">我的认证</div>
 		</div>
 	</div>
-	
+
 	<%@ include file="/taglibs/common/accountMenu.jsp" %>
 	<div id="menu1_data" style="display: none;">
 		<%@ include file="/taglibs/account/basicInfo.jsp"%>
