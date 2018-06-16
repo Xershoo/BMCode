@@ -13,6 +13,8 @@
 	href="<%=request.getContextPath()%>/css/navigationBar.css">
 <link rel="stylesheet"
 	href="<%=request.getContextPath()%>/css/account.css">
+	<link rel="stylesheet"
+		  href="<%=request.getContextPath()%>/css/common/wealthContent_bm.css">
 	<link rel="stylesheet" href="<%=request.getContextPath()%>/css/common/wealthMenu_bm.css">
 	<link rel="stylesheet" href="<%=request.getContextPath()%>/css/index/head.css">
 	<link rel="stylesheet" href="<%=request.getContextPath()%>/css/index/footer.css">
@@ -34,8 +36,14 @@
 	</jsp:include>
 	<!-- over -->
 	<div class="zhanghu" >
-		<div class="zhanghu1">我的账户<span id="tips">财富中心，方便管理你的小金库~</span></div>
-
+		<%--<div class="zhanghu1">我的账户<span id="tips">财富中心，方便管理你的小金库~</span></div>--%>
+			<div class="pn_menu">
+				<div class="m_r_content">
+					<div class="pn_basic" id="basic_info" onclick="location.href='<%=request.getContextPath()%>/persondata/myAccount'">我的账户</div>
+					<div class="pn_safety" id="account_info" onclick="location.href='<%=request.getContextPath()%>/order/toShowTradeRecord'">交易记录</div>
+					<div class="pn_fashion" id="personalPortrait" onclick="location.href='<%=request.getContextPath()%>/persondata/toSetPaySafety'">支付安全设置</div>
+				</div>
+			</div>
 		<div class="zhanghuyue" id="zhanghu">
 			<div class="zhanghu2">
 <!-- 				<span>小心旁人瞄你的[</span><a>小金库</a></a><span>]呦~</span> -->
