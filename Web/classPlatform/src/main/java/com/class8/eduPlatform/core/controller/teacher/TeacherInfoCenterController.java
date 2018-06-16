@@ -56,6 +56,7 @@ public class TeacherInfoCenterController {
 		//老师学生的总数
 		int countStudent = userService.countOfTeacherStudent(teacherUid);
 		model.addAttribute("countStudent", countStudent);
+		model.addAttribute("curPageName", "老师详情");
 		return CENTER;
 	}
 	

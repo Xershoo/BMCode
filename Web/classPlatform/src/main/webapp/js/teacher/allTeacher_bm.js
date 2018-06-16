@@ -49,6 +49,28 @@ function showTeacherPageList(jsonTeacherListObj) {
 		html +='"/></div><div class="teaName">';
 		html += item.realName + '老师</div>';
 		
+		if(item.teachYears > 0) {
+			html +='"<div class="teaYear">';
+			html += item.teachYears + '年教学经验</div>';
+		}
+		
+		if( item.signature != null && item.signature != "" && item.signature.indexOf("null") < 0) {
+			var arrSig = item.signature.split("\n");
+			$.each(arrSig, function (i, sigStr) {
+				html +='"<div class="teaSchool">';
+				html += sigStr + '</div>';
+			});
+		}
+		
+		if( item.description != null && item.description != "" && item.description.indexOf("null") < 0) {
+			var arrDes = item.description.split("\n");
+			$.each(arrDes, function (i, desStr) {
+				html +='"<div class="teaSchool">';
+				html += desStr + '</div>';
+			});
+		}
+		
+		
 		html += '<div class="teaPerson" onclick="goToTeacherPage(\''+item.teacherUid+'\')">个人主页</div></div>';
 		
 	});

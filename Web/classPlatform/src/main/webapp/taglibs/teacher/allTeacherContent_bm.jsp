@@ -15,7 +15,7 @@
 	        	<div class="content" >
 	        		<div id="teacherList">
 				        <!-- 单个老师 -->
-				        <!--  -->
+				        <!--
 				        <div class="photoKuang">
 		        			<div class="photo"><img src="<%=request.getContextPath()%>/images/head/touxiang.png"/></div>
 		        			<div class="teaName">水龙岩老师</div>

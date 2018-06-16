@@ -23,10 +23,6 @@
 	margin-left: 654px;
 }
 
-#font2{
-	margin-left: 20px;
-}
-
 #topBlackRight{
 	float: right;
 }
@@ -130,7 +126,7 @@ text-decoration:none;
 	cursor: pointer;
 }
 .font2{
-	margin-left: 0px;
+	margin-left: 20px;
 }
 
 
@@ -142,7 +138,6 @@ text-decoration:none;
 	margin-top: 3px;
 	margin-left: 632px;
 	cursor: pointer;
-
 }
 
 .headPhoto img{

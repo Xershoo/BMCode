@@ -3,7 +3,7 @@
 	padding:0px;
 }
 
-body{font-family:"Microsoft Yahei"}
+body{font-family:"Microsoft Yahei";min-width: 1400px;}
 #login{
 	margin-top:2px;
 	margin-left: 564px;
