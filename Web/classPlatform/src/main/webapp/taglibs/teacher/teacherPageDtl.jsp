@@ -14,38 +14,48 @@
 <div class="th_page">
 	<!-- top -->
 	<div class="th_top">
-			<c:if test="${empty teacher.avatarUrl}">
-				<c:choose>
-					<c:when test="${teacher.sex == 1}">
-						<img alt="" src="<%=request.getContextPath()%>/images/teacher/male_teacher.png" title="${teacher.nickName}老师头像" class="head_img">
-					</c:when>
-					<c:otherwise>
-						<img alt="" src="<%=request.getContextPath()%>/images/teacher/female_teacher.png" title="${teacher.nickName}老师头像" class="head_img">
-					</c:otherwise>
-				</c:choose>
-			</c:if>
-			<c:if test="${not empty teacher.avatarUrl}">
-				<img alt="" src="${teacher.avatarUrl}" title="${teacher.nickName}老师头像" class="head_img">
-			</c:if>
-			<c:if test="${teacher.uid == user.uid}"> 
- 					<img alt="" src="<%=request.getContextPath()%>/images/teacher/pen.png" class="pen" title="修改资料" onclick="location.href='<%=request.getContextPath()%>/persondata/toAccount'">
- 			</c:if>
-			
-			<div class="th_other">
-			<div class="t_real">
-				${teacher.realName}
-			</div>
-			<c:if test="${teacher.uid != user.uid}"> 
+		<c:if test="${empty teacher.avatarUrl}">
+			<c:choose>
+				<c:when test="${teacher.sex == 1}">
+					<img alt=""
+						src="<%=request.getContextPath()%>/images/teacher/male_teacher.png"
+						title="${teacher.nickName}老师头像" class="head_img">
+				</c:when>
+				<c:otherwise>
+					<img alt=""
+						src="<%=request.getContextPath()%>/images/teacher/female_teacher.png"
+						title="${teacher.nickName}老师头像" class="head_img">
+				</c:otherwise>
+			</c:choose>
+		</c:if>
+		<c:if test="${not empty teacher.avatarUrl}">
+			<img alt="" src="${teacher.avatarUrl}"
+				title="${teacher.nickName}老师头像" class="head_img">
+		</c:if>
+		<c:if test="${teacher.uid == user.uid}">
+			<img alt=""
+				src="<%=request.getContextPath()%>/images/teacher/pen.png"
+				class="pen" title="修改资料"
+				onclick="location.href='<%=request.getContextPath()%>/persondata/toAccount'">
+		</c:if>
+
+		<div class="th_other">
+			<div class="t_real">${teacher.realName}</div>
+			<c:if test="${teacher.uid != user.uid}">
 				<div class="t_msg">
-					<div id="directMsg" onclick="location.href='<%=request.getContextPath()%>/message/message?type=3'">
-						<img alt="" src="<%=request.getContextPath()%>/images/teacher/mail.png" title="私信她咯" class="msg_img"> 私信
+					<div id="directMsg"
+						onclick="location.href='<%=request.getContextPath()%>/message/message?type=3'">
+						<img alt=""
+							src="<%=request.getContextPath()%>/images/teacher/mail.png"
+							title="私信她咯" class="msg_img"> 私信
 					</div>
 				</div>
 			</c:if>
-			</div>
-			<div class="own_campus">
-				<a href="javascript:void(0);" onclick="location.href='<%=request.getContextPath()%>/infocenter/school/${authSchoolInfo.id}'">${authSchoolInfo.name}</a>
-			</div>
+		</div>
+		<div class="own_campus">
+			<a href="javascript:void(0);"
+				onclick="location.href='<%=request.getContextPath()%>/infocenter/school/${authSchoolInfo.id}'">${authSchoolInfo.name}</a>
+		</div>
 	</div>
 
 	<div class="navigate">
